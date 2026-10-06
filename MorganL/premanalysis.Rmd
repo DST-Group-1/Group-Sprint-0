@@ -1,0 +1,1441 @@
+The author doesn't explicitly state a research question but based on his datasets and wrangling, sequence of analyses and confidence intervals generated, he seems to be answering: why were more goals scored in the 2023–24 Premier League season, and was the increase associated with longer added time and more goals being scored after 90 minutes?
+
+I perform the same data wrangling and analyses as well as extending the investigation to see if any other match characteristics can be associated with the change, and how might a changing scoring environment affect bookmaker goal-market probabilities and predictions for future seasons?
+
+This will be especially relevant to markets such as over/under 2.5 goals and both teams to score.
+
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+MatchData_2021_22 <- read_csv("~/Data Science Toolbox/21-22.csv")
+MatchData_2022_23 <- read_csv("~/Data Science Toolbox/22-23.csv")
+MatchData_2023_24 <- read_csv("~/Data Science Toolbox/23-24.csv")
+```
+
+```{r}
+MatchEvents_2021 <- read_csv("~/Data Science Toolbox/2021-22_match id home away and event type.csv") %>%
+  mutate(Season = "2021-22")
+
+MatchEvents_2022 <- read_csv("~/Data Science Toolbox/2022-23_match id home away and event type.csv") %>%
+  mutate(Season = "2022-23")
+
+MatchEvents_2023 <- read_csv("~/Data Science Toolbox/2023-24_match id home away and event type.csv") %>%
+  mutate(Season = "2023-24")
+
+```
+
+```{r}
+# Add season column and calculate total goals per match
+
+MatchData_2021_22 <- MatchData_2021_22 %>%
+  mutate(
+    season = "2021-22",
+    total_goals = home_team_goals + away_team_goals
+  )
+
+MatchData_2022_23 <- MatchData_2022_23 %>%
+  mutate(
+    season = "2022-23",
+    total_goals = home_team_goals + away_team_goals
+  )
+
+MatchData_2023_24 <- MatchData_2023_24 %>%
+  mutate(
+    season = "2023-24",
+    total_goals = home_team_goals + away_team_goals
+  )
+```
+
+```{r}
+# Combine match data for all three seasons
+combined_matchdata <- bind_rows(
+  MatchData_2021_22,
+  MatchData_2022_23,
+  MatchData_2023_24
+)
+
+# Combine match-event data for all three seasons
+combined_matchevents <- bind_rows(
+  MatchEvents_2021,
+  MatchEvents_2022,
+  MatchEvents_2023
+)
+```
+
+```{r}
+dim(combined_matchdata)
+dim(combined_matchevents)
+
+table(combined_matchdata$season)
+table(combined_matchevents$Season)
+```
+
+```{r}
+# Check variable types in match data
+
+class(combined_matchdata$`45+`)
+class(combined_matchdata$`90+`)
+class(combined_matchdata$Match_Id)
+
+class(combined_matchdata$match_date)
+
+class(combined_matchdata$home_team_goals)
+class(combined_matchdata$away_team_goals)
+class(combined_matchdata$attendance)
+```
+
+```{r}
+combined_matchdata$match_date <- as.Date(combined_matchdata$match_date)
+```
+
+```{r}
+#combined_matchdata <- combined_matchdata %>%
+#  mutate(attendance = parse_number(attendance))
+```
+
+Here I found that in the original authors dataset there were character strings in the attendance column, he ran code that removed it but I removed it manually from the excel sheet, although this column wasn't used in any analysis anyway.
+
+```{r}
+class(combined_matchdata$match_date)
+class(combined_matchdata$attendance)
+```
+```{r}
+sum(is.na(combined_matchdata$attendance))
+```
+
+```{r}
+sum(is.na(MatchData_2021_22$attendance))
+sum(is.na(MatchData_2022_23$attendance))
+sum(is.na(MatchData_2023_24$attendance))
+```
+
+
+
+```{r}
+class(combined_matchevents$Match_Id)
+class(combined_matchevents$Home_Away)
+class(combined_matchevents$Event_Minute)
+class(combined_matchevents$Event_Type)
+
+unique(combined_matchevents$Event_Type)
+```
+
+```{r}
+combined_matchevents <- combined_matchevents %>%
+  mutate(
+    Event_Type = if_else(
+      Event_Type == "Second Yellow Card (Red Card)",
+      "Red Card",
+      Event_Type
+    )
+  )
+unique(combined_matchevents$Event_Type)
+```
+
+```{r}
+combined_matchdata <- combined_matchdata %>%
+  group_by(season) %>%
+  arrange(Match_Id) %>%
+  mutate(cumulative_goals = cumsum(total_goals)) %>%
+  ungroup()
+```
+
+```{r}
+ggplot(
+  combined_matchdata,
+  aes(x = Match_Id, y = cumulative_goals, colour = season)
+) +
+  geom_line() +
+  scale_colour_manual(
+    values = c(
+      "2021-22" = "blue",
+      "2022-23" = "green",
+      "2023-24" = "red"
+    )
+  ) +
+  labs(
+    title = "Cumulative Goals by Season",
+    x = "Match ID",
+    y = "Cumulative Goals",
+    colour = "Season"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+total_goals_per_season <- combined_matchevents %>%
+  filter(Event_Type %in% c(
+    "Goal",
+    "Own Goal",
+    "label.penalty.scored"
+  )) %>%
+  group_by(Season) %>%
+  summarise(Total_Goals = n())
+
+total_goals_per_season
+```
+
+```{r}
+combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    Total_Goals = sum(total_goals)
+  )
+```
+
+```{r}
+ggplot(total_goals_per_season,
+       aes(x = Season, y = Total_Goals, fill = Season)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Total Goals per Season",
+    x = "Season",
+    y = "Total Goals"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+goal_summary <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    mean_goals = mean(total_goals),
+    sd_goals = sd(total_goals),
+    median_goals = median(total_goals)
+  )
+
+goal_summary
+```
+```{r}
+added_time_summary <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    mean_45_added = mean(`45+`),
+    sd_45_added = sd(`45+`),
+    mean_90_added = mean(`90+`),
+    sd_90_added = sd(`90+`)
+  )
+
+added_time_summary
+```
+
+```{r}
+ggplot(combined_matchdata,
+       aes(x = `45+`, fill = season)) +
+  geom_histogram(
+    position = "identity",
+    alpha = 0.5,
+    binwidth = 1
+  ) +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Distribution of First Half Added Time",
+    x = "First Half Added Time (Minutes)",
+    y = "Frequency",
+    fill = "Season"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+ggplot(combined_matchdata,
+       aes(x = `90+`, fill = season)) +
+  geom_histogram(
+    position = "identity",
+    alpha = 0.5,
+    binwidth = 1
+  ) +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Distribution of Second Half Added Time",
+    x = "Second Half Added Time (Minutes)",
+    y = "Frequency",
+    fill = "Season"
+  ) +
+  theme_minimal()
+```
+
+How many goals were recorded after minute 90 in each season?
+```{r}
+goals_after_90_per_match <- combined_matchevents %>%
+  filter(
+    Event_Type %in% c(
+      "Goal",
+      "Own Goal",
+      "label.penalty.scored"
+    ),
+    Event_Minute > 90
+  ) %>%
+  group_by(Season, Match_Id) %>%
+  summarise(goals_after_90 = n())
+
+goals_after_90
+head(goals_after_90_per_match)
+```
+```{r}
+ggplot(
+  goals_after_90_per_match,
+  aes(x = Season, y = goals_after_90, fill = Season)
+) +
+  geom_boxplot() +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Goals Scored After 90 Minutes",
+    x = "Season",
+    y = "Goals After 90 Minutes"
+  ) +
+  theme_minimal()
+```
+
+not a meanignful plot so we create a bar graph instead
+```{r}
+late_goal_percentage <- combined_matchevents %>%
+  filter(
+    Event_Type %in% c(
+      "Goal",
+      "Own Goal",
+      "label.penalty.scored"
+    ),
+    Event_Minute > 90
+  ) %>%
+  group_by(Season) %>%
+  summarise(
+    matches_with_late_goal = n_distinct(Match_Id),
+    percentage = 100 * matches_with_late_goal / 380
+  )
+
+late_goal_percentage
+```
+
+```{r}
+ggplot(
+  late_goal_percentage,
+  aes(x = Season, y = percentage, fill = Season)
+) +
+  geom_col() +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Percentage of Matches with a Goal After 90 Minutes",
+    x = "Season",
+    y = "Percentage of Matches (%)"
+  ) +
+  theme_minimal()
+```
+Among matches where a post-90 goal occurred, how many post-90 goals occurred on average?
+```{r}
+late_goal_summary <- goals_after_90_per_match %>%
+  group_by(Season) %>%
+  summarise(
+    mean_goals_after_90 = mean(goals_after_90),
+    sd_goals_after_90 = sd(goals_after_90)
+  )
+
+late_goal_summary
+```
+```{r}
+goals_after_90_all_matches <- combined_matchdata %>%
+  select(season, Match_Id) %>%
+  left_join(
+    goals_after_90_per_match,
+    by = c("season" = "Season", "Match_Id" = "Match_Id")
+  ) %>%
+  mutate(
+    goals_after_90 = replace_na(goals_after_90, 0)
+  )
+```
+
+```{r}
+late_goal_summary_all <- goals_after_90_all_matches %>%
+  group_by(season) %>%
+  summarise(
+    mean_goals_after_90 = mean(goals_after_90),
+    sd_goals_after_90 = sd(goals_after_90)
+  )
+
+late_goal_summary_all
+```
+
+```{r}
+late_goal_summary_all <- goals_after_90_all_matches %>%
+  group_by(season) %>%
+  summarise(
+    mean_goals_after_90 = mean(goals_after_90),
+    sd_goals_after_90 = sd(goals_after_90)
+  )
+
+late_goal_summary_all
+```
+
+```{r}
+cards_per_season <- combined_matchevents %>%
+  filter(Event_Type %in% c(
+    "Yellow Card",
+    "Red Card"
+  )) %>%
+  group_by(Season, Event_Type) %>%
+  summarise(
+    Total_Cards = n()
+  )
+
+cards_per_season
+```
+
+
+```{r}
+ggplot(
+  cards_per_season,
+  aes(x = Season, y = Total_Cards, fill = Event_Type)
+) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = c(
+    "Yellow Card" = "yellow",
+    "Red Card" = "red"
+  )) +
+  labs(
+    title = "Yellow and Red Cards by Season",
+    x = "Season",
+    y = "Number of Cards",
+    fill = "Card Type"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+Red_Cards_per_season <- combined_matchevents %>%
+  filter(Event_Type == "Red Card")
+
+ggplot(Red_Cards_per_season, aes(x = Season, fill = Event_Type)) +
+  geom_bar() +
+  labs(
+    title = "Distribution of Red Cards by Season",
+    x = "Season",
+    y = "Number of Cards"
+  ) +
+  theme_minimal() +
+  scale_fill_manual(values = c("Red Card" = "red")) +
+  theme(legend.position = "left")
+```
+
+```{r}
+Yellow_Cards_per_season <- combined_matchevents %>%
+  filter(Event_Type == "Yellow Card")
+
+ggplot(Yellow_Cards_per_season, aes(x = Season, fill = Event_Type)) +
+  geom_bar() +
+  labs(
+    title = "Distribution of Yellow Cards by Season",
+    x = "Season",
+    y = "Number of Cards"
+  ) +
+  theme_minimal() +
+  scale_fill_manual(values = c("Yellow Card" = "yellow")) +
+  theme(legend.position = "left")
+```
+
+```{r}
+Goals_2023_24 <- combined_matchevents %>%
+  filter(
+    Season == "2023-24" &
+    Event_Type %in% c(
+      "Goal",
+      "Own Goal",
+      "label.penalty.scored"
+    )
+  )
+```
+
+```{r}
+ggplot(Goals_2023_24, aes(x = Event_Minute)) +
+  geom_histogram(
+    binwidth = 1,
+    fill = "red",
+    color = "black"
+  ) +
+  labs(
+    title = "Distribution of Goals Scored per Minute (2023-24 Season)",
+    x = "Match Minute",
+    y = "Count of Goals"
+  ) +
+  theme_minimal()
+```
+
+
+```{r}
+Goals_after_90_2023_24 <- combined_matchevents %>%
+  filter(
+    Season == "2023-24" &
+    Event_Minute > 90 &
+    Event_Type %in% c(
+      "Goal",
+      "Own Goal",
+      "label.penalty.scored"
+    )
+  )
+```
+
+```{r}
+ggplot(Goals_after_90_2023_24, aes(x = Event_Minute)) +
+  geom_histogram(
+    binwidth = 1,
+    fill = "red",
+    color = "black"
+  ) +
+  labs(
+    title = "Distribution of Goals Scored After 90 Minutes (2023-24 Season)",
+    x = "Extra Time Minute",
+    y = "Count of Goals"
+  ) +
+  theme_minimal() +
+  scale_x_continuous(
+    breaks = seq(
+      91,
+      max(Goals_after_90_2023_24$Event_Minute),
+      by = 5
+    )
+  )
+```
+
+
+```{r}
+Substitution_after_90 <- combined_matchevents %>%
+  filter(
+    Event_Type == "Substitution" &
+    Event_Minute > 90 &
+    Season %in% c("2022-23", "2023-24")
+  )
+```
+
+```{r}
+ggplot(Substitution_after_90, aes(x = Season, fill = Season)) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Distribution of Substitutions After 90 Minutes by Season",
+    x = "Season",
+    y = "Number of Substitutions (After 90 Minutes)"
+  ) +
+  theme_minimal() +
+  scale_fill_manual(values = c(
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  theme(legend.position = "left")
+```
+
+
+```{r}
+combined_matchdata <- combined_matchdata %>%
+  mutate(
+    total_playing_time = 90 + `45+` + `90+`
+  )
+
+names(combined_matchdata)
+```
+
+```{r}
+playing_time_summary <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    mean_playing_time = mean(total_playing_time),
+    sd_playing_time = sd(total_playing_time)
+  )
+
+playing_time_summary
+```
+
+```{r}
+ggplot(
+  playing_time_summary,
+  aes(x = season, y = mean_playing_time, fill = season)
+) +
+  geom_col() +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    x = "Season",
+    y = "Mean Match Duration (minutes)"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+summary_table_count <- combined_matchevents %>%
+  group_by(Match_Id, Season) %>%
+  summarise(
+    goal_count = sum(
+      Event_Type %in% c(
+        "Goal",
+        "label.penalty.scored",
+        "Own Goal"
+      )
+    ),
+    red_card_count = sum(Event_Type == "Red Card"),
+    yellow_card_count = sum(Event_Type == "Yellow Card"),
+    substitution_count = sum(Event_Type == "Substitution")
+  )
+
+head(summary_table_count)
+```
+
+
+```{r}
+summary_table_count_90 <- combined_matchevents %>%
+  filter(Event_Minute > 90) %>%
+  group_by(Match_Id, Season) %>%
+  summarise(
+    goal_count = sum(
+      Event_Type %in% c(
+        "Goal",
+        "label.penalty.scored",
+        "Own Goal"
+      )
+    ),
+    red_card_count = sum(Event_Type == "Red Card"),
+    yellow_card_count = sum(Event_Type == "Yellow Card"),
+    substitution_count = sum(Event_Type == "Substitution")
+  )
+```
+
+```{r}
+dim(summary_table_count)
+table(summary_table_count_90$Season)
+```
+
+
+```{r}
+all_matches <- combined_matchevents %>%
+  distinct(Match_Id, Season)
+
+summary_count_90_complete <- combined_matchevents %>%
+  filter(Event_Minute > 90) %>%
+  group_by(Match_Id, Season) %>%
+  summarise(
+    goal_count = sum(
+      Event_Type %in% c(
+        "Goal",
+        "label.penalty.scored",
+        "Own Goal"
+      )
+    ),
+    red_card_count = sum(Event_Type == "Red Card"),
+    yellow_card_count = sum(Event_Type == "Yellow Card"),
+    substitution_count = sum(Event_Type == "Substitution"),
+    .groups = "drop"
+  ) %>%
+  right_join(
+    all_matches,
+    by = c("Match_Id", "Season")
+  ) %>%
+  replace_na(list(
+    goal_count = 0,
+    red_card_count = 0,
+    yellow_card_count = 0,
+    substitution_count = 0
+  )) %>%
+  arrange(Season, Match_Id)
+```
+
+```{r}
+dim(summary_count_90_complete)
+
+table(summary_count_90_complete$Season)
+```
+
+
+```{r}
+summary_by_match <- combined_matchevents %>%
+  group_by(Match_Id, Season) %>%
+  summarise(
+    goal_count = sum(
+      Event_Type %in% c(
+        "Goal",
+        "label.penalty.scored",
+        "Own Goal"
+      )
+    ),
+    card_count = sum(
+      Event_Type %in% c(
+        "Red Card",
+        "Yellow Card"
+      )
+    ),
+    substitution_count = sum(Event_Type == "Substitution"),
+    .groups = "drop"
+  )
+```
+
+```{r}
+combined_summary_2122 <- summary_by_match %>%
+  filter(Season %in% c("2021-22", "2022-23"))
+
+combined_summary_2223 <- summary_by_match %>%
+  filter(Season %in% c("2022-23", "2023-24"))
+```
+
+```{r}
+dim(combined_summary_2122)
+dim(combined_summary_2223)
+```
+
+```{r}
+Mean_of_goals_2021_2022 <- mean(combined_summary_2122$goal_count)
+
+Std_of_goals_2021_2022 <- sd(combined_summary_2122$goal_count)
+
+Mean_of_goals_2021_2022
+Std_of_goals_2021_2022
+```
+
+95% CI
+```{r}
+CI_of_21_23 <- t.test(
+  combined_summary_2122$goal_count,
+  conf.level = 0.95
+)
+
+CI_of_21_23
+```
+
+
+```{r}
+Mean_of_goals_2023_24 <- mean(
+  summary_by_match$goal_count[
+    summary_by_match$Season == "2023-24"
+  ]
+)
+
+Mean_of_goals_2023_24
+```
+above CI
+
+```{r}
+late_goals_21_23 <- summary_count_90_complete %>%
+  filter(Season %in% c("2021-22", "2022-23"))
+
+mean(late_goals_21_23$goal_count)
+sd(late_goals_21_23$goal_count)
+```
+
+
+```{r}
+late_goals_23_24 <- summary_count_90_complete %>%
+  filter(Season == "2023-24")
+
+mean(late_goals_23_24$goal_count)
+sd(late_goals_23_24$goal_count)
+```
+
+
+
+
+```{r}
+install.packages("BSDA")
+library(BSDA)
+```
+
+```{r}
+X_value_goals_after_90_23 <- late_goals_23_24$goal_count
+Y_value_goals_after_90_23 <- late_goals_21_23$goal_count
+```
+
+
+```{r}
+z.test(
+  x = X_value_goals_after_90_23,
+  y = Y_value_goals_after_90_23,
+  mu = 0,
+  sigma.x = 0.5215199,
+  sigma.y = 0.3904923,
+  alternative = "greater"
+)
+```
+since variance isn't known a better test than z-test is Welch's two-sample t-test
+
+```{r}
+t.test(
+  X_value_goals_after_90_23,
+  Y_value_goals_after_90_23,
+  alternative = "greater"
+)
+```
+so we reproduced his result but with a more appropriate test!
+
+pooled mean and sd for cards 21/22 and 22/23
+```{r}
+cards_21_23 <- summary_by_match %>%
+  filter(Season %in% c("2021-22", "2022-23"))
+
+mean(cards_21_23$card_count)
+sd(cards_21_23$card_count)
+
+t.test(
+  cards_21_23$card_count,
+  conf.level = 0.95
+)
+```
+
+
+```{r}
+cards_23_24 <- summary_by_match %>%
+  filter(Season == "2023-24")
+
+mean(cards_23_24$card_count)
+sd(cards_23_24$card_count)
+```
+
+```{r}
+subs_23_24 <- summary_by_match %>%
+  filter(Season == "2023-24")
+
+mean(subs_23_24$substitution_count)
+sd(subs_23_24$substitution_count)
+```
+
+
+```{r}
+subs_22_23 <- summary_by_match %>%
+  filter(Season == "2022-23")
+
+mean(subs_22_23$substitution_count)
+sd(subs_22_23$substitution_count)
+```
+
+CI
+```{r}
+t.test(
+  subs_22_23$substitution_count,
+  conf.level = 0.95
+)
+```
+
+mean and SD of post-90 substitutions for 22/23 and 23/24
+```{r}
+subs_90_23_24 <- summary_count_90_complete %>%
+  filter(Season == "2023-24")
+
+mean(subs_90_23_24$substitution_count)
+sd(subs_90_23_24$substitution_count)
+```
+
+```{r}
+subs_90_22_23 <- summary_count_90_complete %>%
+  filter(Season == "2022-23")
+
+mean(subs_90_22_23$substitution_count)
+sd(subs_90_22_23$substitution_count)
+```
+
+
+```{r}
+t.test(
+  subs_90_22_23$substitution_count,
+  conf.level = 0.95
+)
+```
+
+further plots: all three season late goal distribution
+```{r}
+goals_after_90_all <- combined_matchevents %>%
+  filter(
+    Event_Minute > 90,
+    Event_Type %in% c(
+      "Goal",
+      "Own Goal",
+      "label.penalty.scored"
+    )
+  )
+
+ggplot(
+  goals_after_90_all,
+  aes(x = Event_Minute, fill = Season)
+) +
+  geom_histogram(
+    binwidth = 1,
+    position = "dodge",
+    color = "black"
+  ) +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Distribution of Goals Scored After 90 Minutes by Season",
+    x = "Match Minute",
+    y = "Number of Goals",
+    fill = "Season"
+  ) +
+  theme_minimal()
+```
+
+
+```{r}
+ggplot(
+  goals_after_90_all,
+  aes(x = Event_Minute, fill = Season)
+) +
+  geom_histogram(
+    binwidth = 1,
+    color = "black",
+    show.legend = FALSE
+  ) +
+  facet_wrap(~ Season, ncol = 1) +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Distribution of Goals Scored After 90 Minutes by Season",
+    x = "Match Minute",
+    y = "Number of Goals"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+late_goal_rate <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    total_added_minutes = sum(`90+`)
+  ) %>%
+  left_join(
+    goals_after_90 %>%
+      rename(season = Season),
+    by = "season"
+  ) %>%
+  mutate(
+    goals_per_added_minute = goals_after_90 / total_added_minutes,
+    goals_per_100_added_minutes = 100 * goals_per_added_minute
+  )
+
+late_goal_rate
+```
+
+
+```{r}
+ggplot(
+  late_goal_rate,
+  aes(
+    x = season,
+    y = goals_per_100_added_minutes,
+    fill = season
+  )
+) +
+  geom_col() +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Post-90 Goals per 100 Minutes of Added Time",
+    x = "Season",
+    y = "Goals per 100 Added Minutes"
+  ) +
+  theme_minimal()
+```
+
+correlation heatmap
+```{r}
+correlation_data <- combined_matchdata %>%
+  select(
+    Match_Id,
+    season,
+    total_goals,
+    `45+`,
+    `90+`
+  ) %>%
+  left_join(
+    summary_table_count %>%
+      ungroup() %>%
+      select(
+        Match_Id,
+        Season,
+        yellow_card_count,
+        red_card_count,
+        substitution_count
+      ),
+    by = c(
+      "Match_Id" = "Match_Id",
+      "season" = "Season"
+    )
+  ) %>%
+  left_join(
+    summary_count_90_complete %>%
+      select(
+        Match_Id,
+        Season,
+        goal_count,
+        yellow_card_count,
+        red_card_count,
+        substitution_count
+      ) %>%
+      rename(
+        goals_after_90 = goal_count,
+        yellow_cards_after_90 = yellow_card_count,
+        red_cards_after_90 = red_card_count,
+        subs_after_90 = substitution_count
+      ),
+    by = c(
+      "Match_Id" = "Match_Id",
+      "season" = "Season"
+    )
+  )
+```
+
+lots of discretevariables so spearman correlation not pearson
+```{r}
+cor_matrix <- correlation_data %>%
+  select(
+    total_goals,
+    `45+`,
+    `90+`,
+    yellow_card_count,
+    red_card_count,
+    substitution_count,
+    goals_after_90,
+    yellow_cards_after_90,
+    red_cards_after_90,
+    subs_after_90
+  ) %>%
+  cor(
+    use = "complete.obs",
+    method = "spearman"
+  )
+
+round(cor_matrix, 2)
+```
+The correlation analysis found only weak-to-moderate relationships between added time, cards, substitutions and scoring, suggesting that the rise in goals in 23/24 cannot be attributed to one simple match-level factor
+
+```{r}
+ggplot(
+  correlation_data,
+  aes(
+    x = `90+`,
+    y = goals_after_90,
+    colour = season
+  )
+) +
+  geom_jitter(
+    width = 0.15,
+    height = 0.05,
+    alpha = 0.5
+  ) +
+  scale_colour_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Second-Half Added Time and Post-90 Goals",
+    x = "Second-Half Added Time (Minutes)",
+    y = "Goals After 90 Minutes",
+    colour = "Season"
+  ) +
+  theme_minimal()
+```
+
+relating back to the bookmaker question: proportion of matches going Over 2.5 goals in each season
+```{r}
+over_25_summary <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    matches = n(),
+    over_25 = sum(total_goals > 2.5),
+    over_25_percentage = 100 * over_25 / matches
+  )
+
+over_25_summary
+```
+
+```{r}
+ggplot(
+  over_25_summary,
+  aes(x = season, y = over_25_percentage, fill = season)
+) +
+  geom_col() +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Percentage of Premier League Matches Over 2.5 Goals",
+    x = "Season",
+    y = "Matches Over 2.5 Goals (%)"
+  ) +
+  theme_minimal()
+```
+
+both teams to score
+```{r}
+btts_summary <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    total_matches = n(),
+    btts_matches = sum(
+      home_team_goals > 0 &
+      away_team_goals > 0
+    ),
+    btts_percentage = 100 * btts_matches / total_matches
+  )
+
+btts_summary
+```
+
+```{r}
+ggplot(
+  btts_summary,
+  aes(x = season, y = btts_percentage, fill = season)
+) +
+  geom_col() +
+  scale_fill_manual(values = c(
+    "2021-22" = "blue",
+    "2022-23" = "green",
+    "2023-24" = "red"
+  )) +
+  labs(
+    title = "Percentage of Premier League Matches Where Both Teams Scored",
+    x = "Season",
+    y = "Both Teams to Score (%)"
+  ) +
+  theme_minimal()
+```
+We note that both teams to score rose in line with ovreall scoring increase, suggesting that the change wasn't just caused by one-sided high-scoring matches
+From a betting perspective, this is a clear increase in frequency of the BTTS outcome and would be relevant when estimating BTTS market for future seasons
+
+```{r}
+betting_summary <- combined_matchdata %>%
+  group_by(season) %>%
+  summarise(
+    Over_2_5 = 100 * mean(total_goals > 2.5),
+    BTTS = 100 * mean(
+      home_team_goals > 0 &
+      away_team_goals > 0
+    )
+  )
+
+betting_summary
+```
+
+```{r}
+betting_summary_long <- betting_summary %>%
+  pivot_longer(
+    cols = c(Over_2_5, BTTS),
+    names_to = "Market",
+    values_to = "Percentage"
+  )
+```
+
+```{r}
+ggplot(
+  betting_summary_long,
+  aes(x = season, y = Percentage, fill = Market)
+) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Over 2.5 Goals and Both Teams to Score by Season",
+    x = "Season",
+    y = "Percentage of Matches (%)",
+    fill = "Betting Market"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+betting_summary_long <- betting_summary_long %>%
+  mutate(
+    Market = recode(
+      Market,
+      "Over_2_5" = "Over 2.5 Goals",
+      "BTTS" = "Both Teams to Score"
+    )
+  )
+```
+
+
+The longer match durations observed in 2023–24 appear to have contributed to the rise in scoring, post-90 goals became substantially more common, both in total and across individual matches. However, longer added time cannot fully explain the higher-scoring season: only around one-third of the increase in goals from 2022–23 to 2023–24 occurred after the 90th minute. The simultaneous rise in Over 2.5 and BTTS outcomes therefore suggests a broader change in the scoring environment, rather than an effect driven solely by longer matches.
+
+From a betting perspective, such a change would be relevant to markets including Over 2.5 Goals and Both Teams to Score. Predictive models or bookmaker probabilities based primarily on older seasons may underestimate these outcomes if changes in the underlying scoring environment persist. However, with only three seasons of event-level data, the analysis identifies an important shift rather than establishing that the change will continue into future seasons.
+
+extending to future seasons
+```{r}
+raw_2021_22 <- read_csv("2122.csv")
+raw_2022_23 <- read_csv("2223.csv")
+raw_2023_24 <- read_csv("2324.csv")
+raw_2024_25 <- read_csv("2425.csv")
+raw_2025_26 <- read_csv("2526.csv")
+```
+
+reading betting odds from raw football-data.com sheets
+```{r}
+odds2024_25 <- raw_2024_25 %>%
+  transmute(
+    season = "2024-25",
+    home_team = HomeTeam,
+    away_team = AwayTeam,
+    home_team_goals = FTHG,
+    away_team_goals = FTAG,
+    total_goals = FTHG + FTAG,
+    over_25_odds = `B365>2.5`,
+    under_25_odds = `B365<2.5`
+  )
+
+odds2025_26 <- raw_2025_26 %>%
+  transmute(
+    season = "2025-26",
+    home_team = HomeTeam,
+    away_team = AwayTeam,
+    home_team_goals = FTHG,
+    away_team_goals = FTAG,
+    total_goals = FTHG + FTAG,
+    over_25_odds = `B365>2.5`,
+    under_25_odds = `B365<2.5`
+  )
+
+odds2021_22 <- raw_2021_22 %>%
+  transmute(
+    season = "2021-22",
+    home_team = HomeTeam,
+    away_team = AwayTeam,
+    home_team_goals = FTHG,
+    away_team_goals = FTAG,
+    total_goals = FTHG + FTAG,
+    over_25_odds = `B365>2.5`,
+    under_25_odds = `B365<2.5`
+  )
+
+odds2022_23 <- raw_2022_23 %>%
+  transmute(
+    season = "2022-23",
+    home_team = HomeTeam,
+    away_team = AwayTeam,
+    home_team_goals = FTHG,
+    away_team_goals = FTAG,
+    total_goals = FTHG + FTAG,
+    over_25_odds = `B365>2.5`,
+    under_25_odds = `B365<2.5`
+  )
+
+odds2023_24 <- raw_2023_24 %>%
+  transmute(
+    season = "2023-24",
+    home_team = HomeTeam,
+    away_team = AwayTeam,
+    home_team_goals = FTHG,
+    away_team_goals = FTAG,
+    total_goals = FTHG + FTAG,
+    over_25_odds = `B365>2.5`,
+    under_25_odds = `B365<2.5`
+  )
+```
+
+```{r}
+all_match_odds <- bind_rows(
+  odds2021_22,
+  odds2022_23,
+  odds2023_24,
+  odds2024_25,
+  odds2025_26)
+```
+
+```{r}
+dim(all_match_odds)
+table(all_match_odds$season)
+```
+
+```{r}
+all_match_odds <- all_match_odds %>%
+  mutate(
+    over_25 = total_goals > 2.5,
+    btts = home_team_goals > 0 & away_team_goals > 0,
+    implied_over = 1 / over_25_odds,
+    implied_under = 1 / under_25_odds,
+    market_prob_over_25 =
+      implied_over / (implied_over + implied_under)
+  )
+
+season_odds_summary <- all_match_odds %>%
+  group_by(season) %>%
+  summarise(
+    mean_goals = mean(total_goals),
+    over_25_percentage = 100 * mean(over_25),
+    btts_percentage = 100 * mean(btts),
+    market_over_25_percentage =
+      100 * mean(market_prob_over_25, na.rm = TRUE)
+  )
+
+season_odds_summary
+```
+
+```{r}
+ggplot(season_odds_summary, aes(x = season, group = 1)) +
+  geom_line(
+    aes(y = over_25_percentage, colour = "Actual Over 2.5"),
+    linewidth = 1
+  ) +
+  geom_point(
+    aes(y = over_25_percentage, colour = "Actual Over 2.5"),
+    size = 3
+  ) +
+  geom_line(
+    aes(y = market_over_25_percentage, colour = "Market Implied"),
+    linewidth = 1
+  ) +
+  geom_point(
+    aes(y = market_over_25_percentage, colour = "Market Implied"),
+    size = 3
+  ) +
+  labs(
+    title = "Actual vs Bookmaker-Implied Over 2.5 Probability",
+    x = "Season",
+    y = "Percentage (%)",
+    colour = ""
+  ) +
+  theme_minimal()
+```
+
+```{r}
+season_odds_summary <- season_odds_summary %>%
+  mutate(
+    market_error =
+      over_25_percentage - market_over_25_percentage
+  )
+
+season_odds_summary
+```
+
+```{r}
+betting_summary_long <- season_odds_summary %>%
+  select(season, over_25_percentage, btts_percentage) %>%
+  pivot_longer(
+    cols = c(over_25_percentage, btts_percentage),
+    names_to = "Market",
+    values_to = "Percentage"
+  ) %>%
+  mutate(
+    Market = recode(
+      Market,
+      "over_25_percentage" = "Over 2.5 Goals",
+      "btts_percentage" = "Both Teams to Score"
+    )
+  )
+```
+
+```{r}
+ggplot(
+  betting_summary_long,
+  aes(x = season, y = Percentage, fill = Market)
+) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Over 2.5 Goals and Both Teams to Score by Season",
+    x = "Season",
+    y = "Percentage of Matches (%)",
+    fill = "Betting Market"
+  ) +
+  theme_minimal()
+```
+
+Extending the analysis to 2024–25 and 2025–26 using the Football-Data match files showed that both Over 2.5 and BTTS outcomes peaked in 2023–24 before falling back in the next two seasons. This suggests that 2023–24 was an unusually high-scoring season rather than clear evidence of a permanently shifted scoring environment.
+
+This supports the idea that longer match durations in 2023–24 were related to the increase in scoring, but they do not appear to explain a lasting structural change across all later seasons.
+
+The Premier League supply their own match length data: 
+2021–22: 97:29
+2022–23: 98:27
+2023–24: 101:36
+2024–25: 99:43
+2025–26: 100:20
+
+ref: https://www.premierleague.com/en/news/4271974? https://www.premierleague.com/en/news/4580269/why-more-late-goals-are-being-scored-in-2025-26-premier-league-season?
+
+this tells us that matches didn't keep getting longer, 23/24 was unusually long, which is consistent with the goals scored stats pattern we have found (over 2.5 goals being highest in this season as well). This is consistent with the hypothesis that longer matches explain general rise in scoring, but this is still only an association, and in 25/26 we see match length increase from the drop in the previous season, but a drop in percentage of matches with over 2.5 goals. We can say that there is some evidence in favour of the original hypothesis being investigated, longer matches contributed to the exceptional number of late goals in 23/24. Unfortunately due to the event data the original author used not being readily available for 24/25 and 25/26 seasons, we could not extend the analyses further.
+
+It is worth stating that the datasets used were suitable for the investigation into correlation between post90 goals and increased stoppage time, although it is unclear where the datasets came from, and extensions into later seasons would have been helpful.
+
+extend analysis of total goals scored
+```{r}
+total_goals_summary <- all_match_odds %>%
+  group_by(season) %>%
+  summarise(
+    total_goals_scored = sum(total_goals),
+    mean_goals_per_match = mean(total_goals)
+  )
+
+total_goals_summary
+```
+```{r}
+ggplot(
+  total_goals_summary,
+  aes(x = season, y = total_goals_scored)
+) +
+  geom_col() +
+  labs(
+    title = "Total Premier League Goals Scored by Season",
+    x = "Season",
+    y = "Total Goals Scored"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+season_summary <- all_match_odds %>%
+  group_by(season) %>%
+  summarise(
+    total_goals = sum(total_goals),
+    mean_goals = mean(total_goals),
+    over_25_percentage = 100 * mean(over_25),
+    btts_percentage = 100 * mean(btts),
+    market_over_25_percentage =
+      100 * mean(market_prob_over_25, na.rm = TRUE)
+  )
+
+season_summary
+```
+```{r}
+season_summary <- all_match_odds %>%
+  group_by(season) %>%
+  summarise(
+    total_goals = sum(total_goals),
+    mean_goals = round(mean(total_goals), 2),
+    over_25_percentage = round(100 * mean(over_25), 1),
+    btts_percentage = round(100 * mean(btts), 1),
+    market_over_25_percentage =
+      round(100 * mean(market_prob_over_25, na.rm = TRUE), 1)
+  )
+
+season_summary
+```
+
+```{r}
+
+```
+
