@@ -1,0 +1,381 @@
+Match_Id,match_date,attendance,home_team,away_team,home_team_goals,away_team_goals,home_team_goals_half_time,away_team_goals_half_time,45+,90+
+1,13/08/2021,16479,Brentford,Arsenal,2,0,1,0,1,5
+2,14/08/2021,16910,Burnley,Brighton,1,2,1,0,3,4
+3,14/08/2021,38965,Chelsea,Crystal Palace,3,0,2,0,1,2
+4,14/08/2021,38487,Everton,Southampton,3,1,0,1,1,3
+5,14/08/2021,31983,Leicester,Wolves,1,0,1,0,2,3
+6,14/08/2021,72732,Man Utd,Leeds,5,1,1,0,1,3
+7,15/08/2021,50673,Newcastle,West Ham,2,4,2,1,2,4
+8,14/08/2021,27023,Norwich,Liverpool,0,3,0,1,1,2
+9,15/08/2021,58262,Spurs,Man City,1,0,0,0,1,4
+10,14/08/2021,20051,Watford,Aston Villa,3,2,2,0,2,6
+11,22/08/2021,58729,Arsenal,Chelsea,0,2,0,2,2,3
+12,21/08/2021,41964,Aston Villa,Newcastle,2,0,1,0,3,6
+13,21/08/2021,29485,Brighton,Watford,2,0,2,0,2,3
+14,21/08/2021,23091,Crystal Palace,Brentford,0,0,0,0,3,4
+15,21/08/2021,36293,Leeds,Everton,2,2,1,1,6,4
+16,21/08/2021,52591,Liverpool,Burnley,2,0,1,0,2,4
+17,21/08/2021,51437,Man City,Norwich,5,0,2,0,1,3
+18,22/08/2021,29485,Southampton,Man Utd,1,1,1,0,2,5
+19,23/08/2021,59901,West Ham,Leicester,4,1,1,0,4,3
+20,22/08/2021,,Wolves,Spurs,0,1,0,1,5,3
+21,28/08/2021,42045,Aston Villa,Brentford,1,1,1,1,1,8
+22,28/08/2021,30548,Brighton,Everton,0,2,0,1,3,5
+23,29/08/2021,18665,Burnley,Leeds,1,1,0,0,1,3
+24,28/08/2021,,Liverpool,Chelsea,1,1,1,1,3,3
+25,28/08/2021,52276,Man City,Arsenal,5,0,3,0,3,3
+26,28/08/2021,44017,Newcastle,Southampton,2,2,0,0,1,3
+27,28/08/2021,26765,Norwich,Leicester,1,2,1,1,5,5
+28,29/08/2021,57672,Spurs,Watford,1,0,1,0,1,4
+29,28/08/2021,,West Ham,Crystal Palace,2,2,1,0,2,4
+30,29/08/2021,30621,Wolves,Man Utd,0,1,0,0,1,5
+31,11/09/2021,59337,Arsenal,Norwich,1,0,0,0,1,4
+32,11/09/2021,16518,Brentford,Brighton,0,1,0,0,4,4
+33,11/09/2021,,Chelsea,Aston Villa,3,0,1,0,2,4
+34,11/09/2021,22740,Crystal Palace,Spurs,3,0,0,0,1,3
+35,13/09/2021,38354,Everton,Burnley,3,1,0,0,1,4
+36,12/09/2021,36507,Leeds,Liverpool,0,3,0,1,2,8
+37,11/09/2021,32087,Leicester,Man City,0,1,0,0,2,3
+38,11/09/2021,72732,Man Utd,Newcastle,4,1,1,0,2,3
+39,11/09/2021,,Southampton,West Ham,0,0,0,0,1,5
+40,11/09/2021,20019,Watford,Wolves,0,2,0,0,1,4
+41,18/09/2021,41888,Aston Villa,Everton,3,0,0,0,2,3
+42,19/09/2021,,Brighton,Leicester,2,1,1,0,2,5
+43,18/09/2021,21944,Burnley,Arsenal,0,1,0,1,2,4
+44,18/09/2021,52985,Liverpool,Crystal Palace,3,0,1,0,1,3
+45,18/09/2021,52698,Man City,Southampton,0,0,0,0,0,2
+46,17/09/2021,50407,Newcastle,Leeds,1,1,1,1,3,4
+47,18/09/2021,26649,Norwich,Watford,1,3,1,1,2,4
+48,19/09/2021,60059,Spurs,Chelsea,0,3,0,0,2,4
+49,19/09/2021,59958,West Ham,Man Utd,1,2,1,1,2,3
+50,18/09/2021,29724,Wolves,Brentford,0,2,0,2,3,6
+51,26/09/2021,59919,Arsenal,Spurs,3,1,3,0,2,5
+52,25/09/2021,,Brentford,Liverpool,3,3,1,1,3,5
+53,25/09/2021,40036,Chelsea,Man City,0,1,0,0,2,4
+54,27/09/2021,22975,Crystal Palace,Brighton,1,1,1,0,1,5
+55,25/09/2021,38821,Everton,Norwich,2,0,1,0,2,5
+56,25/09/2021,36417,Leeds,West Ham,1,2,1,0,3,5
+57,25/09/2021,31650,Leicester,Burnley,2,2,1,2,1,4
+58,25/09/2021,72922,Man Utd,Aston Villa,0,1,0,0,4,5
+59,26/09/2021,28002,Southampton,Wolves,0,1,0,0,1,6
+60,25/09/2021,20650,Watford,Newcastle,1,1,0,1,4,4
+61,02/10/2021,31266,Brighton,Arsenal,0,0,0,0,1,3
+62,02/10/2021,17427,Burnley,Norwich,0,0,0,0,4,2
+63,02/10/2021,40109,Chelsea,Southampton,3,1,1,0,3,5
+64,03/10/2021,22445,Crystal Palace,Leicester,2,2,0,2,2,5
+65,02/10/2021,36261,Leeds,Watford,1,0,1,0,2,4
+66,03/10/2021,53102,Liverpool,Man City,2,2,0,0,1,4
+67,02/10/2021,73128,Man Utd,Everton,1,1,1,0,2,4
+68,03/10/2021,53076,Spurs,Aston Villa,2,1,1,0,1,5
+69,03/10/2021,49940,West Ham,Brentford,1,2,0,1,0,5
+70,02/10/2021,30483,Wolves,Newcastle,2,1,1,1,4,4
+71,18/10/2021,59475,Arsenal,Crystal Palace,2,2,1,0,3,4
+72,16/10/2021,41951,Aston Villa,Wolves,2,3,0,0,3,4
+73,16/10/2021,16940,Brentford,Chelsea,0,1,0,1,2,4
+74,17/10/2021,,Everton,West Ham,0,1,0,0,1,4
+75,16/10/2021,32219,Leicester,Man Utd,4,2,1,1,3,5
+76,16/10/2021,52711,Man City,Burnley,2,0,1,0,2,3
+77,17/10/2021,52214,Newcastle,Spurs,2,3,1,3,7,4
+78,16/10/2021,26777,Norwich,Brighton,0,0,0,0,3,3
+79,16/10/2021,30506,Southampton,Leeds,1,0,0,0,1,5
+80,16/10/2021,21085,Watford,Liverpool,0,5,0,2,0,1
+81,22/10/2021,59496,Arsenal,Aston Villa,3,1,2,0,2,4
+82,24/10/2021,16814,Brentford,Leicester,1,2,0,1,2,7
+83,23/10/2021,31215,Brighton,Man City,1,4,0,3,2,5
+84,23/10/2021,40113,Chelsea,Norwich,7,0,3,0,1,3
+85,23/10/2021,24609,Crystal Palace,Newcastle,1,1,0,0,2,5
+86,23/10/2021,38834,Everton,Watford,2,5,1,1,4,4
+87,23/10/2021,36475,Leeds,Wolves,1,1,0,1,1,6
+88,24/10/2021,73088,Man Utd,Liverpool,0,5,0,4,3,3
+89,23/10/2021,29145,Southampton,Burnley,2,2,1,1,2,4
+90,24/10/2021,59924,West Ham,Spurs,1,0,0,0,1,3
+91,31/10/2021,41874,Aston Villa,West Ham,1,4,1,2,2,4
+92,30/10/2021,18821,Burnley,Brentford,3,1,3,0,2,3
+93,30/10/2021,32209,Leicester,Arsenal,0,2,0,2,2,5
+94,30/10/2021,53197,Liverpool,Brighton,2,2,2,1,2,4
+95,30/10/2021,53014,Man City,Crystal Palace,0,2,0,1,2,5
+96,30/10/2021,52208,Newcastle,Chelsea,0,3,0,0,3,3
+97,31/10/2021,26913,Norwich,Leeds,1,2,0,0,1,5
+98,30/10/2021,,Spurs,Man Utd,0,3,0,1,1,3
+99,30/10/2021,20869,Watford,Southampton,0,1,0,1,2,4
+100,01/11/2021,30617,Wolves,Everton,2,1,2,0,2,5
+101,07/11/2021,59833,Arsenal,Watford,1,0,0,0,3,6
+102,06/11/2021,16837,Brentford,Norwich,1,2,0,2,3,6
+103,06/11/2021,31267,Brighton,Newcastle,1,1,1,0,3,5
+104,06/11/2021,39798,Chelsea,Burnley,1,1,1,0,2,4
+105,06/11/2021,24390,Crystal Palace,Wolves,2,0,0,0,2,5
+106,07/11/2021,39059,Everton,Spurs,0,0,0,0,0,4
+107,07/11/2021,36478,Leeds,Leicester,1,1,1,1,2,3
+108,06/11/2021,73086,Man Utd,Man City,0,2,0,2,1,4
+109,05/11/2021,30178,Southampton,Aston Villa,1,0,1,0,1,7
+110,07/11/2021,59909,West Ham,Liverpool,3,2,1,1,6,4
+111,20/11/2021,41925,Aston Villa,Brighton,2,0,0,0,2,4
+112,20/11/2021,18028,Burnley,Crystal Palace,3,3,2,3,2,3
+113,20/11/2021,32192,Leicester,Chelsea,0,3,0,2,2,3
+114,20/11/2021,53092,Liverpool,Arsenal,4,0,1,0,1,3
+115,21/11/2021,,Man City,Everton,3,0,1,0,3,3
+116,20/11/2021,52131,Newcastle,Brentford,3,3,2,2,3,4
+117,20/11/2021,26885,Norwich,Southampton,2,1,1,1,1,4
+118,21/11/2021,58989,Spurs,Leeds,2,1,0,1,2,4
+119,20/11/2021,21087,Watford,Man Utd,4,1,2,0,3,5
+120,20/11/2021,30667,Wolves,West Ham,1,0,0,0,0,4
+121,27/11/2021,,Arsenal,Newcastle,2,0,0,0,4,4
+122,28/11/2021,16957,Brentford,Everton,1,0,1,0,2,5
+123,27/11/2021,31166,Brighton,Leeds,0,0,0,0,2,3
+124,23/02/2022,19488,Burnley,Spurs,1,0,0,0,1,3
+125,28/11/2021,40041,Chelsea,Man Utd,1,1,0,0,0,5
+126,27/11/2021,25203,Crystal Palace,Aston Villa,1,2,0,1,3,6
+127,28/11/2021,32020,Leicester,Watford,4,2,3,1,2,7
+128,27/11/2021,53040,Liverpool,Southampton,4,0,3,0,2,2
+129,28/11/2021,53245,Man City,West Ham,2,1,1,0,1,4
+130,27/11/2021,26911,Norwich,Wolves,0,0,0,0,2,3
+131,01/12/2021,41400,Aston Villa,Man City,1,2,0,2,2,4
+132,01/12/2021,39641,Everton,Liverpool,1,4,1,2,3,3
+133,30/11/2021,35558,Leeds,Crystal Palace,1,0,0,0,2,5
+134,02/12/2021,73123,Man Utd,Arsenal,3,2,1,1,4,5
+135,01/12/2021,20388,Watford,Chelsea,1,2,1,1,5,6
+136,01/12/2021,59626,West Ham,Brighton,1,1,1,0,4,6
+137,01/12/2021,30328,Wolves,Burnley,0,0,0,0,2,4
+138,30/11/2021,50757,Newcastle,Norwich,1,1,0,0,2,6
+139,01/12/2021,26951,Southampton,Leicester,2,2,2,1,1,5
+140,02/12/2021,54202,Spurs,Brentford,2,0,1,0,2,3
+141,05/12/2021,41572,Aston Villa,Leicester,2,1,1,1,2,4
+142,06/12/2021,38906,Everton,Arsenal,2,1,0,1,2,6
+143,05/12/2021,35639,Leeds,Brentford,2,2,1,0,3,5
+144,05/12/2021,73172,Man Utd,Crystal Palace,1,0,0,0,1,5
+145,04/12/2021,51948,Newcastle,Burnley,1,0,1,0,4,4
+146,04/12/2021,28706,Southampton,Brighton,1,1,1,0,1,10
+147,05/12/2021,57088,Spurs,Norwich,3,0,1,0,3,4
+148,04/12/2021,20673,Watford,Man City,1,3,0,2,2,4
+149,04/12/2021,59942,West Ham,Chelsea,3,2,1,2,2,4
+150,04/12/2021,30729,Wolves,Liverpool,0,1,0,0,3,5
+151,11/12/2021,59653,Arsenal,Southampton,3,0,2,0,3,3
+152,10/12/2021,16861,Brentford,Watford,2,1,0,1,1,5
+153,16/03/2022,31144,Brighton,Spurs,0,2,0,1,2,4
+154,12/12/2021,18065,Burnley,West Ham,0,0,0,0,3,3
+155,11/12/2021,39959,Chelsea,Leeds,3,2,1,1,2,5
+156,12/12/2021,24066,Crystal Palace,Everton,3,1,1,0,2,5
+157,12/12/2021,31959,Leicester,Newcastle,4,0,1,0,2,3
+158,11/12/2021,,Liverpool,Aston Villa,1,0,0,0,2,4
+159,11/12/2021,52613,Man City,Wolves,1,0,0,0,7,4
+160,11/12/2021,27066,Norwich,Man Utd,0,1,0,0,1,5
+161,15/12/2021,59777,Arsenal,West Ham,2,0,0,0,1,5
+162,19/01/2022,17094,Brentford,Man Utd,1,3,0,0,2,4
+163,15/12/2021,30362,Brighton,Wolves,0,1,0,1,3,11
+164,05/02/2022,19527,Burnley,Watford,0,0,0,0,1,2
+165,15/12/2021,22861,Crystal Palace,Southampton,2,2,1,2,2,5
+166,19/01/2022,31986,Leicester,Spurs,2,3,1,1,2,5
+167,14/12/2021,26836,Norwich,Aston Villa,0,2,0,1,4,5
+168,16/12/2021,39933,Chelsea,Everton,1,1,0,0,2,5
+169,16/12/2021,52951,Liverpool,Newcastle,3,1,2,1,2,4
+170,14/12/2021,52401,Man City,Leeds,7,0,3,0,3,3
+171,19/05/2022,40468,Aston Villa,Burnley,1,1,0,1,1,4
+172,20/04/2022,39153,Everton,Leicester,1,1,0,1,1,5
+173,18/12/2021,36166,Leeds,Arsenal,1,4,0,3,3,3
+174,15/02/2022,73012,Man Utd,Brighton,2,0,0,0,0,6
+175,19/12/2021,52127,Newcastle,Man City,0,4,0,2,1,2
+176,11/01/2022,,Southampton,Brentford,4,1,2,1,3,5
+177,19/12/2021,45421,Spurs,Liverpool,2,2,1,1,3,6
+178,23/02/2022,20012,Watford,Crystal Palace,1,4,1,2,3,3
+179,12/01/2022,59775,West Ham,Norwich,2,0,1,0,3,3
+180,19/12/2021,30631,Wolves,Chelsea,0,0,0,0,4,3
+181,26/12/2021,41907,Aston Villa,Chelsea,1,3,1,1,1,4
+182,26/12/2021,30141,Brighton,Brentford,2,0,2,0,4,3
+183,06/04/2022,19830,Burnley,Everton,3,2,1,2,3,4
+184,23/02/2022,53018,Liverpool,Leeds,6,0,3,0,2,2
+185,26/12/2021,53226,Man City,Leicester,6,3,4,0,2,3
+186,27/12/2021,52178,Newcastle,Man Utd,1,1,1,0,4,6
+187,26/12/2021,26940,Norwich,Arsenal,0,5,0,2,2,2
+188,26/12/2021,40539,Spurs,Crystal Palace,3,0,2,0,2,2
+189,26/12/2021,41027,West Ham,Southampton,2,3,0,1,2,6
+190,10/03/2022,29658,Wolves,Watford,4,0,3,0,1,2
+191,24/02/2022,59888,Arsenal,Wolves,2,1,0,1,2,6
+192,29/12/2021,17009,Brentford,Man City,0,1,0,1,1,3
+193,29/12/2021,40080,Chelsea,Brighton,1,1,1,0,4,4
+194,28/12/2021,24433,Crystal Palace,Norwich,3,0,3,0,5,3
+195,17/03/2022,39068,Everton,Newcastle,1,0,0,0,1,14
+196,10/03/2022,36400,Leeds,Aston Villa,0,3,0,1,1,5
+197,28/12/2021,32230,Leicester,Liverpool,1,0,0,0,1,5
+198,30/12/2021,73121,Man Utd,Burnley,3,1,3,1,2,3
+199,28/12/2021,31304,Southampton,Spurs,1,1,1,1,3,5
+200,28/12/2021,20073,Watford,West Ham,1,4,1,2,2,5
+201,01/01/2022,,Arsenal,Man City,1,2,1,0,2,6
+202,02/01/2022,16876,Brentford,Aston Villa,2,1,1,1,2,5
+203,02/01/2022,40072,Chelsea,Liverpool,2,2,2,2,4,4
+204,01/01/2022,24351,Crystal Palace,West Ham,2,3,0,3,2,4
+205,02/01/2022,38203,Everton,Brighton,2,3,0,2,3,4
+206,02/01/2022,36083,Leeds,Burnley,3,1,1,0,2,5
+207,11/05/2022,30892,Leicester,Norwich,3,0,0,0,2,1
+208,03/01/2022,73045,Man Utd,Wolves,0,1,0,0,2,5
+209,10/03/2022,31016,Southampton,Newcastle,1,2,1,1,3,6
+210,01/01/2022,20391,Watford,Spurs,0,1,0,0,1,8
+211,15/01/2022,41968,Aston Villa,Man Utd,2,2,0,1,3,4
+212,14/01/2022,30675,Brighton,Crystal Palace,1,1,0,0,3,4
+213,01/03/2022,17825,Burnley,Leicester,0,2,0,0,2,3
+214,16/01/2022,52824,Liverpool,Brentford,3,0,1,0,1,2
+215,15/01/2022,53319,Man City,Chelsea,1,0,0,0,1,3
+216,15/01/2022,52223,Newcastle,Watford,1,1,0,0,2,4
+217,15/01/2022,26629,Norwich,Everton,2,1,2,0,1,7
+218,12/05/2022,62027,Spurs,Arsenal,3,0,2,0,2,2
+219,16/01/2022,59951,West Ham,Leeds,2,3,1,2,4,4
+220,15/01/2022,30057,Wolves,Southampton,3,1,1,0,4,6
+221,23/01/2022,59255,Arsenal,Burnley,0,0,0,0,2,4
+222,22/01/2022,16982,Brentford,Wolves,1,2,0,0,19,7
+223,23/01/2022,40020,Chelsea,Spurs,2,0,0,0,3,5
+224,23/01/2022,25002,Crystal Palace,Liverpool,1,3,0,2,1,6
+225,22/01/2022,38203,Everton,Aston Villa,0,1,0,1,2,5
+226,22/01/2022,36405,Leeds,Newcastle,0,1,0,0,5,5
+227,23/01/2022,31231,Leicester,Brighton,1,1,0,0,1,3
+228,22/01/2022,73130,Man Utd,West Ham,1,0,0,0,0,3
+229,22/01/2022,31178,Southampton,Man City,1,1,1,0,2,6
+230,21/01/2022,20782,Watford,Norwich,0,3,0,0,2,15
+231,09/02/2022,41927,Aston Villa,Leeds,3,3,3,2,3,8
+232,18/01/2022,30880,Brighton,Chelsea,1,1,0,1,1,4
+233,08/02/2022,21233,Burnley,Man Utd,1,1,0,1,2,4
+234,09/02/2022,26652,Norwich,Crystal Palace,1,1,1,0,2,3
+235,08/02/2022,59581,West Ham,Watford,1,0,0,0,1,3
+236,10/02/2022,31523,Wolves,Arsenal,0,1,0,1,3,5
+237,10/02/2022,53050,Liverpool,Leicester,2,0,1,0,2,3
+238,09/02/2022,51658,Man City,Brentford,2,0,1,0,2,3
+239,08/02/2022,52186,Newcastle,Everton,3,1,1,1,3,4
+240,09/02/2022,54012,Spurs,Southampton,2,3,1,1,1,6
+241,12/02/2022,16958,Brentford,Crystal Palace,0,0,0,0,1,4
+242,13/02/2022,21239,Burnley,Liverpool,0,1,0,1,2,3
+243,20/04/2022,32249,Chelsea,Arsenal,2,4,2,2,2,4
+244,12/02/2022,39150,Everton,Leeds,3,0,2,0,2,3
+245,13/02/2022,32061,Leicester,West Ham,2,2,1,1,3,4
+246,12/02/2022,,Man Utd,Southampton,1,1,1,0,2,5
+247,13/02/2022,52207,Newcastle,Aston Villa,1,0,1,0,5,7
+248,12/02/2022,27010,Norwich,Man City,0,4,0,1,1,3
+249,13/02/2022,56452,Spurs,Wolves,0,2,0,2,2,5
+250,12/02/2022,20795,Watford,Brighton,0,2,0,1,1,2
+251,19/02/2022,60015,Arsenal,Brentford,2,1,0,0,4,3
+252,19/02/2022,41936,Aston Villa,Watford,0,1,0,0,1,6
+253,19/02/2022,29921,Brighton,Burnley,0,3,0,2,2,4
+254,19/02/2022,25109,Crystal Palace,Chelsea,0,1,0,0,3,4
+255,20/02/2022,36715,Leeds,Man Utd,2,4,0,2,6,5
+256,19/02/2022,53135,Liverpool,Norwich,3,1,0,0,1,3
+257,19/02/2022,53201,Man City,Spurs,2,3,1,1,2,7
+258,19/02/2022,31312,Southampton,Everton,2,0,0,0,1,4
+259,19/02/2022,59949,West Ham,Newcastle,1,1,1,1,2,5
+260,20/02/2022,31497,Wolves,Leicester,2,1,1,1,2,4
+261,16/03/2022,59968,Arsenal,Liverpool,0,2,0,0,0,3
+262,26/02/2022,17039,Brentford,Newcastle,0,2,0,2,3,5
+263,26/02/2022,31475,Brighton,Aston Villa,0,2,0,1,2,3
+264,19/05/2022,,Chelsea,Leicester,1,1,1,1,1,4
+265,26/02/2022,24203,Crystal Palace,Burnley,1,1,1,0,1,5
+266,26/02/2022,39105,Everton,Man City,0,1,0,0,2,5
+267,26/02/2022,36599,Leeds,Spurs,0,4,0,3,1,3
+268,26/02/2022,73152,Man Utd,Watford,0,0,0,0,1,3
+269,25/02/2022,31182,Southampton,Norwich,2,0,1,0,1,3
+270,27/02/2022,59946,West Ham,Wolves,1,0,0,0,3,3
+271,05/03/2022,41855,Aston Villa,Southampton,4,0,2,0,1,3
+272,05/03/2022,19439,Burnley,Chelsea,0,4,0,0,1,2
+273,05/03/2022,32236,Leicester,Leeds,1,0,0,0,1,4
+274,05/03/2022,53059,Liverpool,West Ham,1,0,1,0,1,5
+275,06/03/2022,53165,Man City,Man Utd,4,1,2,1,3,2
+276,05/03/2022,52214,Newcastle,Brighton,2,1,2,0,3,4
+277,05/03/2022,26887,Norwich,Brentford,1,3,0,1,2,8
+278,07/03/2022,,Spurs,Everton,5,0,3,0,2,3
+279,06/03/2022,21142,Watford,Arsenal,2,3,1,2,2,5
+280,05/03/2022,31395,Wolves,Crystal Palace,0,2,0,2,4,4
+281,13/03/2022,60111,Arsenal,Leicester,2,0,1,0,1,5
+282,12/03/2022,16984,Brentford,Burnley,2,0,0,0,1,3
+283,12/03/2022,31474,Brighton,Liverpool,0,2,0,1,2,5
+284,13/03/2022,40026,Chelsea,Newcastle,1,0,0,0,2,4
+285,14/03/2022,25309,Crystal Palace,Man City,0,0,0,0,2,5
+286,13/03/2022,39112,Everton,Wolves,0,1,0,0,3,4
+287,13/03/2022,,Leeds,Norwich,2,1,1,0,2,6
+288,12/03/2022,73458,Man Utd,Spurs,3,2,2,1,2,4
+289,13/03/2022,28863,Southampton,Watford,1,2,1,2,2,7
+290,13/03/2022,59957,West Ham,Aston Villa,2,1,0,0,4,6
+291,19/03/2022,41956,Aston Villa,Arsenal,0,1,0,1,3,4
+292,21/04/2022,,Burnley,Southampton,2,0,2,0,2,5
+293,20/03/2022,31830,Leicester,Brentford,2,1,2,0,1,4
+294,19/04/2022,52686,Liverpool,Man Utd,4,0,2,0,1,3
+295,20/04/2022,52226,Man City,Brighton,3,0,0,0,2,3
+296,20/04/2022,51938,Newcastle,Crystal Palace,1,0,1,0,2,3
+297,10/03/2022,26722,Norwich,Chelsea,1,3,0,2,1,3
+298,20/03/2022,58685,Spurs,West Ham,3,1,2,1,2,5
+299,11/05/2022,20653,Watford,Everton,0,0,0,0,0,4
+300,18/03/2022,31842,Wolves,Leeds,2,3,2,0,8,8
+301,02/04/2022,31245,Brighton,Norwich,0,0,0,0,1,4
+302,02/04/2022,20388,Burnley,Man City,0,2,0,2,1,2
+303,02/04/2022,39061,Chelsea,Brentford,1,4,0,0,2,4
+304,04/04/2022,25149,Crystal Palace,Arsenal,3,0,2,0,1,3
+305,02/04/2022,36580,Leeds,Southampton,1,1,1,0,1,5
+306,02/04/2022,,Liverpool,Watford,2,0,1,0,2,4
+307,02/04/2022,73444,Man Utd,Leicester,1,1,0,0,3,5
+308,03/04/2022,57553,Spurs,Newcastle,5,1,1,1,2,3
+309,03/04/2022,59953,West Ham,Everton,2,1,1,0,2,4
+310,02/04/2022,31012,Wolves,Aston Villa,2,1,2,0,5,4
+311,09/04/2022,60112,Arsenal,Brighton,1,2,0,1,2,6
+312,09/04/2022,41949,Aston Villa,Spurs,0,4,0,1,5,4
+313,10/04/2022,17032,Brentford,West Ham,2,0,0,0,3,3
+314,09/04/2022,39080,Everton,Man Utd,1,0,1,0,1,5
+315,10/04/2022,31896,Leicester,Crystal Palace,2,1,2,0,2,4
+316,10/04/2022,53197,Man City,Liverpool,2,2,2,1,2,4
+317,08/04/2022,52164,Newcastle,Wolves,1,0,0,0,3,4
+318,10/04/2022,26361,Norwich,Burnley,2,0,1,0,2,5
+319,09/04/2022,31359,Southampton,Chelsea,0,6,0,4,2,2
+320,09/04/2022,20957,Watford,Leeds,0,3,0,1,2,2
+321,10/05/2022,41919,Aston Villa,Liverpool,1,2,1,1,3,4
+322,19/05/2022,38448,Everton,Crystal Palace,3,2,0,2,4,7
+323,11/05/2022,36549,Leeds,Chelsea,0,3,0,1,6,3
+324,16/04/2022,73381,Man Utd,Norwich,3,2,2,1,2,5
+325,17/04/2022,52104,Newcastle,Leicester,2,1,1,1,5,4
+326,16/04/2022,31465,Southampton,Arsenal,1,0,1,0,2,5
+327,16/04/2022,58685,Spurs,Brighton,0,1,0,0,2,5
+328,16/04/2022,20747,Watford,Brentford,1,2,0,1,2,5
+329,17/04/2022,59958,West Ham,Burnley,1,1,0,1,9,3
+330,11/05/2022,,Wolves,Man City,1,5,1,3,2,3
+331,23/04/2022,60223,Arsenal,Man Utd,3,1,2,1,5,4
+332,23/04/2022,17072,Brentford,Spurs,0,0,0,0,1,3
+333,24/04/2022,31335,Brighton,Southampton,2,2,2,1,5,4
+334,24/04/2022,19246,Burnley,Wolves,1,0,0,0,1,4
+335,24/04/2022,32231,Chelsea,West Ham,1,0,0,0,3,4
+336,25/04/2022,25357,Crystal Palace,Leeds,0,0,0,0,1,3
+337,23/04/2022,32185,Leicester,Aston Villa,0,0,0,0,2,7
+338,24/04/2022,,Liverpool,Everton,2,0,0,0,2,3
+339,23/04/2022,53013,Man City,Watford,5,1,3,1,2,3
+340,23/04/2022,26910,Norwich,Newcastle,0,3,0,2,2,3
+341,30/04/2022,40290,Aston Villa,Norwich,2,0,1,0,4,5
+342,01/05/2022,39256,Everton,Chelsea,1,0,0,0,2,7
+343,30/04/2022,35771,Leeds,Man City,0,4,0,1,4,3
+344,02/05/2022,73482,Man Utd,Brentford,3,0,1,0,1,2
+345,30/04/2022,52281,Newcastle,Liverpool,0,1,0,1,2,4
+346,30/04/2022,31359,Southampton,Crystal Palace,1,2,1,0,3,4
+347,01/05/2022,59482,Spurs,Leicester,3,1,1,0,1,3
+348,30/04/2022,20738,Watford,Burnley,1,2,1,0,1,3
+349,01/05/2022,59959,West Ham,Arsenal,1,2,1,1,1,4
+350,30/04/2022,31243,Wolves,Brighton,0,3,0,1,3,3
+351,08/05/2022,60108,Arsenal,Leeds,2,1,2,0,4,3
+352,07/05/2022,17051,Brentford,Southampton,3,0,2,0,2,3
+353,07/05/2022,31637,Brighton,Man Utd,4,0,1,0,2,3
+354,07/05/2022,20891,Burnley,Aston Villa,1,3,0,2,2,3
+355,07/05/2022,32190,Chelsea,Wolves,2,2,0,0,3,6
+356,07/05/2022,24622,Crystal Palace,Watford,1,0,1,0,3,4
+357,08/05/2022,32001,Leicester,Everton,1,2,1,2,3,3
+358,07/05/2022,53177,Liverpool,Spurs,1,1,0,0,1,5
+359,08/05/2022,,Man City,Newcastle,5,0,2,0,2,2
+360,08/05/2022,26428,Norwich,West Ham,0,4,0,3,3,3
+361,15/05/2022,41136,Aston Villa,Crystal Palace,1,1,0,0,1,5
+362,15/05/2022,38819,Everton,Brentford,2,3,2,1,3,4
+363,15/05/2022,36638,Leeds,Brighton,1,1,0,1,2,6
+364,28/04/2022,73564,Man Utd,Chelsea,1,1,0,0,0,3
+365,16/05/2022,52274,Newcastle,Arsenal,2,0,0,0,1,6
+366,17/05/2022,31588,Southampton,Liverpool,1,2,1,1,2,3
+367,15/05/2022,61729,Spurs,Burnley,1,0,1,0,4,4
+368,15/05/2022,20257,Watford,Leicester,1,5,1,2,4,2
+369,15/05/2022,59972,West Ham,Man City,2,2,2,0,1,4
+370,15/05/2022,31219,Wolves,Norwich,1,1,0,1,1,4
+371,22/05/2022,60201,Arsenal,Everton,5,1,2,1,3,3
+372,22/05/2022,16957,Brentford,Leeds,1,2,0,0,2,5
+373,22/05/2022,31604,Brighton,West Ham,3,1,0,1,1,3
+374,22/05/2022,21361,Burnley,Newcastle,1,2,0,1,5,4
+375,22/05/2022,32089,Chelsea,Watford,2,1,1,0,0,3
+376,22/05/2022,25434,Crystal Palace,Man Utd,1,0,1,0,1,4
+377,22/05/2022,32003,Leicester,Southampton,4,1,0,0,0,7
+378,22/05/2022,53097,Liverpool,Wolves,3,1,1,1,4,4
+379,22/05/2022,53395,Man City,Aston Villa,3,2,0,1,4,4
+380,22/05/2022,27022,Norwich,Spurs,0,5,0,2,0,1

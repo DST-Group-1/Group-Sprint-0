@@ -1,0 +1,5966 @@
+Match_Id,Home_Away,Event_Minute,Event_Type
+1,away,4,Goal
+1,away,23,Substitution
+1,away,36,Goal
+1,home,61,Substitution
+1,home,61,Substitution
+1,home,74,Substitution
+1,away,75,Goal
+1,away,79,Substitution
+1,away,79,Substitution
+1,away,80,Substitution
+1,home,91,Substitution
+1,home,91,Substitution
+1,home,94,Red Card
+1,away,95,Substitution
+2,home,26,Goal
+2,away,28,Yellow Card
+2,home,32,Goal
+2,home,50,Yellow Card
+2,home,50,Substitution
+2,away,71,Substitution
+2,away,72,Substitution
+2,home,74,Substitution
+2,away,80,Substitution
+2,away,81,Yellow Card
+2,away,82,Goal
+2,home,86,Substitution
+2,away,90,Substitution
+2,away,90,Substitution
+2,home,92,Yellow Card
+3,away,39,Yellow Card
+3,away,49,Yellow Card
+3,away,51,Goal
+3,home,60,Substitution
+3,home,60,Substitution
+3,home,67,Substitution
+3,home,75,Substitution
+3,home,75,Substitution
+3,away,78,Substitution
+3,home,82,Goal
+3,away,86,Substitution
+3,away,87,Yellow Card
+3,away,94,Yellow Card
+3,away,94,Substitution
+3,home,97,Yellow Card
+4,home,7,Yellow Card
+4,home,36,Goal
+4,home,43,Yellow Card
+4,away,51,Yellow Card
+4,away,59,Yellow Card
+4,away,64,Substitution
+4,away,64,Substitution
+4,home,71,label.penalty.scored
+4,home,74,Substitution
+4,home,74,Substitution
+4,away,76,Substitution
+4,home,78,Substitution
+4,home,79,Substitution
+4,away,81,label.penalty.scored
+4,home,85,Goal
+4,home,88,Substitution
+4,away,88,Substitution
+4,away,88,Substitution
+4,home,95,Goal
+5,away,30,Yellow Card
+5,away,45,Substitution
+5,away,58,Substitution
+5,away,58,Substitution
+5,home,72,Substitution
+5,away,73,Goal
+5,home,83,Substitution
+5,away,87,Yellow Card
+6,home,6,Goal
+6,away,6,Yellow Card
+6,away,11,Goal
+6,home,16,Goal
+6,away,31,Substitution
+6,away,32,Yellow Card
+6,home,54,Yellow Card
+6,away,54,Yellow Card
+6,away,45,Substitution
+6,away,48,Yellow Card
+6,home,53,Yellow Card
+6,home,58,Goal
+6,away,64,Substitution
+6,home,67,Yellow Card
+6,home,68,Substitution
+6,home,68,Substitution
+6,home,77,Goal
+6,home,85,Substitution
+6,home,86,Substitution
+6,away,87,Substitution
+6,away,87,Substitution
+6,home,91,Goal
+6,home,92,Yellow Card
+6,home,92,Substitution
+7,home,16,Yellow Card
+7,away,49,Goal
+7,home,57,Yellow Card
+7,home,80,Substitution
+7,home,80,Substitution
+7,home,80,Substitution
+7,home,86,Yellow Card
+7,home,87,Substitution
+7,home,87,Substitution
+7,away,92,Substitution
+8,away,11,Goal
+8,away,14,Substitution
+8,away,26,Yellow Card
+8,home,27,label.penalty.scored
+8,home,36,Goal
+8,away,36,Yellow Card
+8,away,36,Yellow Card
+8,away,44,Yellow Card
+8,away,49,Goal
+8,home,49,Substitution
+8,home,62,Yellow Card
+8,home,72,Substitution
+8,home,72,Substitution
+8,home,72,Substitution
+8,away,75,Substitution
+8,away,75,Substitution
+8,home,84,Substitution
+9,home,4,Yellow Card
+9,away,18,Goal
+9,home,32,Yellow Card
+9,away,32,Yellow Card
+9,home,37,Goal
+9,away,66,Substitution
+9,away,66,Substitution
+9,away,68,Yellow Card
+9,home,76,Substitution
+9,away,77,Substitution
+9,away,77,Substitution
+9,home,81,Substitution
+9,home,81,Substitution
+9,home,85,Yellow Card
+9,away,89,Yellow Card
+9,home,90,Substitution
+10,home,17,Yellow Card
+10,away,27,Yellow Card
+10,away,35,Yellow Card
+10,home,44,Yellow Card
+10,home,45,Substitution
+10,away,63,Substitution
+10,home,68,Substitution
+10,home,68,Substitution
+10,away,69,Yellow Card
+10,home,76,Goal
+10,home,77,Substitution
+10,away,77,Substitution
+10,away,77,Substitution
+10,home,88,Substitution
+10,away,88,Substitution
+11,home,14,Yellow Card
+11,home,18,Goal
+11,home,24,label.penalty.scored
+11,away,24,Yellow Card
+11,home,33,Yellow Card
+11,away,38,Substitution
+11,away,49,Yellow Card
+11,away,54,Yellow Card
+11,away,45,Substitution
+11,away,50,Substitution
+11,home,51,Goal
+11,home,63,Substitution
+11,home,64,Substitution
+11,home,64,Substitution
+11,home,74,Substitution
+11,home,75,Goal
+11,home,85,Substitution
+11,away,86,Yellow Card
+11,home,89,Yellow Card
+11,away,98,Substitution
+12,home,27,Yellow Card
+12,away,54,label.penalty.scored
+12,away,60,Yellow Card
+12,away,67,Second Yellow Card (Red Card)
+12,away,70,Substitution
+12,home,74,Substitution
+12,away,79,Substitution
+12,home,83,Substitution
+12,away,89,Substitution
+12,away,89,Substitution
+12,home,91,Yellow Card
+12,away,94,Yellow Card
+13,away,41,Yellow Card
+13,away,44,Goal
+13,home,48,Yellow Card
+13,away,61,Yellow Card
+13,home,64,Yellow Card
+13,home,64,Second Yellow Card (Red Card)
+13,away,66,label.penalty.scored
+13,home,67,Substitution
+13,home,67,Substitution
+13,home,67,Substitution
+13,away,71,Substitution
+13,away,78,Substitution
+13,away,79,Substitution
+13,away,79,Substitution
+13,home,85,Yellow Card
+13,home,86,Substitution
+13,home,86,Substitution
+13,away,89,Substitution
+13,away,92,Goal
+14,away,3,Goal
+14,home,9,Yellow Card
+14,away,16,Yellow Card
+14,away,26,Yellow Card
+14,home,28,Goal
+14,away,35,Yellow Card
+14,home,36,Goal
+14,home,58,Red Card
+14,home,62,Goal
+14,home,62,Substitution
+14,away,63,Substitution
+14,away,63,Substitution
+14,home,75,Substitution
+14,home,76,Substitution
+14,away,76,Substitution
+14,away,76,Substitution
+14,away,84,Substitution
+14,home,86,Substitution
+14,home,86,Substitution
+15,home,21,Substitution
+15,home,36,Yellow Card
+15,away,47,Goal
+15,home,59,Yellow Card
+15,home,62,Substitution
+15,away,66,Yellow Card
+15,home,69,Substitution
+15,away,74,Substitution
+15,away,74,Substitution
+15,away,80,Substitution
+15,home,84,Goal
+15,away,85,Goal
+15,home,92,Yellow Card
+15,home,93,Yellow Card
+15,away,93,Substitution
+15,away,94,Yellow Card
+16,away,23,Yellow Card
+16,home,31,Goal
+16,away,34,Yellow Card
+16,home,46,Yellow Card
+16,away,53,Yellow Card
+16,away,56,Substitution
+16,away,56,Substitution
+16,away,58,Yellow Card
+16,away,66,Substitution
+16,away,66,Substitution
+16,away,71,Yellow Card
+16,away,86,Substitution
+17,home,3,Goal
+17,home,36,Yellow Card
+17,home,44,Yellow Card
+17,away,47,Yellow Card
+17,away,45,Substitution
+17,away,48,Goal
+17,away,58,Substitution
+17,home,69,Substitution
+17,home,69,Substitution
+17,away,72,Yellow Card
+17,away,74,Substitution
+17,away,82,Substitution
+17,home,84,Substitution
+17,away,86,Yellow Card
+17,home,89,Goal
+17,home,91,Substitution
+17,home,91,Substitution
+18,away,33,Yellow Card
+18,away,38,Yellow Card
+18,away,39,Yellow Card
+18,home,49,Goal
+18,home,63,Yellow Card
+18,away,66,Substitution
+18,away,66,Substitution
+18,away,66,Substitution
+18,home,70,Substitution
+18,home,70,Substitution
+18,home,76,Substitution
+18,home,83,Own Goal
+18,away,85,Substitution
+18,away,85,Substitution
+18,home,88,Substitution
+18,home,88,Substitution
+19,home,7,Goal
+19,home,13,Yellow Card
+19,away,28,Goal
+19,home,35,Yellow Card
+19,away,36,Yellow Card
+19,away,40,Yellow Card
+19,home,45,Yellow Card
+19,away,45,Substitution
+19,home,53,Goal
+19,away,61,Substitution
+19,home,67,Second Yellow Card (Red Card)
+19,home,69,Substitution
+19,away,71,Yellow Card
+19,away,75,Substitution
+19,home,76,Substitution
+19,home,81,Substitution
+19,away,83,Substitution
+19,home,95,label.penalty.scored
+20,away,8,Yellow Card
+20,away,15,Goal
+20,home,17,Yellow Card
+20,away,18,Yellow Card
+20,away,19,Yellow Card
+20,away,46,Goal
+20,away,51,Goal
+20,home,55,Substitution
+20,away,55,Goal
+20,home,56,Substitution
+20,away,57,Substitution
+20,away,57,Substitution
+20,away,60,Yellow Card
+20,home,61,Goal
+20,home,63,Yellow Card
+20,away,64,Yellow Card
+20,away,67,Substitution
+20,home,71,Substitution
+20,home,76,Yellow Card
+20,away,81,Substitution
+20,away,81,Substitution
+20,home,86,Substitution
+20,home,88,Yellow Card
+20,home,95,Second Yellow Card (Red Card)
+20,away,95,Yellow Card
+21,away,1,Goal
+21,away,19,Yellow Card
+21,home,45,Substitution
+21,away,50,Yellow Card
+21,home,56,Substitution
+21,home,56,Substitution
+21,away,63,Substitution
+21,away,66,Yellow Card
+21,home,70,label.penalty.scored
+21,away,70,Substitution
+21,away,71,Substitution
+21,home,72,Goal
+21,away,73,Yellow Card
+21,away,83,Second Yellow Card (Red Card)
+21,home,84,Substitution
+21,away,87,Goal
+21,away,89,Substitution
+21,home,91,Substitution
+21,away,100,Yellow Card
+22,away,17,Goal
+22,home,46,Yellow Card
+22,home,45,Substitution
+22,away,53,Yellow Card
+22,away,54,Yellow Card
+22,away,59,Substitution
+22,home,60,Substitution
+22,home,60,Substitution
+22,away,60,Substitution
+22,away,63,Goal
+22,away,71,Yellow Card
+22,home,73,Substitution
+22,away,73,Substitution
+22,away,74,Substitution
+22,away,82,Substitution
+22,home,86,Substitution
+23,home,18,Goal
+23,home,71,Substitution
+23,away,71,Substitution
+23,away,71,Substitution
+23,away,76,Goal
+23,home,80,Substitution
+24,away,19,Goal
+24,away,24,Yellow Card
+24,away,39,Substitution
+24,away,46,Yellow Card
+24,away,58,Goal
+24,home,60,Substitution
+24,home,60,Substitution
+24,away,63,Goal
+24,home,72,Substitution
+24,home,72,Substitution
+24,away,79,Substitution
+24,home,81,Goal
+24,away,84,Substitution
+24,away,85,Substitution
+24,home,88,Yellow Card
+24,away,89,Yellow Card
+25,away,8,Goal
+25,away,20,Goal
+25,home,39,Yellow Card
+25,home,48,Yellow Card
+25,home,45,Substitution
+25,home,47,Goal
+25,away,61,Goal
+25,home,68,Substitution
+25,home,68,Substitution
+25,away,73,Substitution
+25,home,81,Substitution
+25,home,81,Substitution
+25,away,81,Substitution
+25,away,86,Substitution
+25,away,86,Substitution
+26,home,17,Goal
+26,away,27,Yellow Card
+26,away,30,Yellow Card
+26,home,68,Goal
+26,away,70,Substitution
+26,away,70,Substitution
+26,home,73,Yellow Card
+26,home,75,Goal
+26,away,77,Substitution
+26,away,77,Substitution
+26,away,77,Substitution
+26,away,78,Yellow Card
+26,home,83,Substitution
+26,home,86,Substitution
+26,home,90,Yellow Card
+26,home,92,Substitution
+27,away,29,Yellow Card
+27,away,40,Yellow Card
+27,away,45,Substitution
+27,away,51,Yellow Card
+27,home,53,Yellow Card
+27,home,62,Yellow Card
+27,home,66,Substitution
+27,away,68,Yellow Card
+27,away,74,Substitution
+27,away,85,Substitution
+27,away,85,Substitution
+27,away,87,Goal
+27,home,90,Yellow Card
+27,home,91,Substitution
+27,home,91,Substitution
+28,away,2,Goal
+28,away,4,Goal
+28,home,17,Goal
+28,away,44,Yellow Card
+28,away,47,Yellow Card
+28,home,45,Substitution
+28,home,52,Goal
+28,away,57,Substitution
+28,home,58,Yellow Card
+28,home,60,Substitution
+28,away,62,Yellow Card
+28,away,67,Red Card
+28,away,70,Substitution
+28,home,76,label.penalty.scored
+28,away,81,Substitution
+28,away,81,Substitution
+28,home,82,Yellow Card
+28,home,85,Substitution
+28,home,89,Yellow Card
+28,home,96,Yellow Card
+28,away,96,Yellow Card
+29,away,6,Yellow Card
+29,home,25,Goal
+29,away,28,Red Card
+29,away,33,Substitution
+29,home,51,Yellow Card
+29,away,58,Substitution
+29,away,58,Substitution
+29,home,72,Substitution
+29,home,72,Substitution
+29,home,72,Substitution
+29,away,77,Substitution
+29,away,77,Substitution
+29,away,81,Goal
+29,home,82,Substitution
+29,away,85,Yellow Card
+29,home,87,Substitution
+29,away,93,Goal
+30,home,17,Substitution
+30,home,49,Yellow Card
+30,home,59,Yellow Card
+30,away,63,Goal
+30,home,71,Substitution
+30,home,71,Substitution
+30,home,77,Yellow Card
+30,home,80,Substitution
+30,home,83,Yellow Card
+30,home,85,Goal
+30,away,86,Substitution
+30,away,88,Goal
+31,away,27,Goal
+31,home,28,Goal
+31,away,38,Yellow Card
+31,home,40,Yellow Card
+31,away,65,Yellow Card
+31,away,67,Substitution
+31,away,67,Substitution
+31,away,68,Yellow Card
+31,home,76,Substitution
+31,home,76,Substitution
+31,home,77,Substitution
+31,away,84,Substitution
+31,away,84,Substitution
+31,home,89,Yellow Card
+31,home,90,Substitution
+31,home,96,Goal
+31,home,99,Substitution
+31,home,101,Goal
+32,home,7,Goal
+32,away,30,Goal
+32,away,51,Yellow Card
+32,away,60,Substitution
+32,away,64,Yellow Card
+32,home,69,Yellow Card
+32,home,71,Substitution
+32,home,71,Substitution
+32,away,71,Substitution
+32,away,77,Goal
+32,home,81,Substitution
+32,home,81,Substitution
+32,home,82,Substitution
+32,away,87,Substitution
+32,home,93,Goal
+33,away,23,Yellow Card
+33,home,27,Goal
+33,away,43,Yellow Card
+33,away,58,Substitution
+33,away,58,Substitution
+33,away,58,Substitution
+33,home,65,Goal
+33,away,68,Yellow Card
+33,home,70,Goal
+33,away,74,Substitution
+33,away,74,Substitution
+33,away,76,Yellow Card
+33,home,77,Substitution
+33,home,77,Substitution
+33,home,81,Substitution
+33,home,81,Substitution
+33,home,83,Yellow Card
+33,home,86,Yellow Card
+33,home,89,Substitution
+33,away,92,Goal
+33,home,95,Yellow Card
+33,home,98,Yellow Card
+34,home,4,Goal
+34,away,16,Goal
+34,away,28,Yellow Card
+34,away,41,Yellow Card
+34,home,43,Yellow Card
+34,away,47,Goal
+34,home,45,Substitution
+34,home,45,Substitution
+34,away,54,Goal
+34,home,57,Yellow Card
+34,home,60,Substitution
+34,away,63,Goal
+34,away,66,Goal
+34,home,68,Substitution
+34,away,68,Substitution
+34,away,68,Substitution
+34,away,72,Substitution
+34,home,74,Yellow Card
+34,home,74,Substitution
+34,away,81,Yellow Card
+34,away,86,Substitution
+34,away,86,Substitution
+34,home,91,Yellow Card
+34,home,94,Goal
+35,home,31,Yellow Card
+35,home,36,Yellow Card
+35,away,41,Yellow Card
+35,home,43,Yellow Card
+35,away,47,Substitution
+35,away,48,Goal
+35,away,61,Yellow Card
+35,home,62,Substitution
+35,home,62,Substitution
+35,away,65,Substitution
+35,away,72,Substitution
+35,away,72,Substitution
+35,away,73,Substitution
+35,home,77,Substitution
+35,home,77,Substitution
+35,away,86,Yellow Card
+35,away,98,Yellow Card
+36,away,24,Yellow Card
+36,away,27,Yellow Card
+36,home,52,Yellow Card
+36,away,55,Yellow Card
+36,home,56,Goal
+36,away,60,Substitution
+36,away,65,Goal
+36,home,71,Substitution
+36,away,73,Substitution
+36,home,78,Goal
+36,away,81,Substitution
+36,away,82,Substitution
+36,home,84,Goal
+36,home,90,Substitution
+36,away,96,Goal
+37,home,3,Goal
+37,away,19,Substitution
+37,home,22,Own Goal
+37,away,26,Yellow Card
+37,home,55,Goal
+37,home,64,Substitution
+37,home,65,Substitution
+37,home,65,Substitution
+37,away,65,Substitution
+37,home,71,Substitution
+37,away,72,Substitution
+37,away,73,Substitution
+37,home,87,Substitution
+38,away,37,Goal
+38,home,71,Substitution
+38,home,71,Substitution
+38,home,71,Substitution
+38,away,72,Substitution
+38,home,78,Substitution
+38,away,80,Substitution
+38,away,81,Yellow Card
+38,home,84,Substitution
+38,away,85,Goal
+38,home,87,Yellow Card
+38,away,91,Substitution
+38,home,92,Goal
+39,away,16,Substitution
+39,home,31,Goal
+39,away,33,Goal
+39,home,41,Yellow Card
+39,away,43,Yellow Card
+39,away,48,Yellow Card
+39,home,50,Goal
+39,away,54,Yellow Card
+39,home,58,Goal
+39,away,69,Yellow Card
+39,home,70,label.penalty.scored
+39,away,73,Substitution
+39,away,73,Substitution
+39,home,76,Substitution
+39,home,76,Substitution
+39,home,78,Yellow Card
+39,away,81,Substitution
+39,away,81,Substitution
+39,home,84,Substitution
+39,home,90,Substitution
+39,home,90,Substitution
+39,home,95,Goal
+40,away,9,Yellow Card
+40,away,14,Goal
+40,home,33,Goal
+40,home,48,Own Goal
+40,home,49,Yellow Card
+40,away,55,Goal
+40,home,68,Substitution
+40,home,68,Substitution
+40,away,73,Yellow Card
+40,home,75,Substitution
+40,away,75,Substitution
+40,away,91,Substitution
+41,home,17,Yellow Card
+41,away,17,Yellow Card
+41,away,25,Substitution
+41,home,49,Yellow Card
+41,away,47,Goal
+41,away,53,Yellow Card
+41,home,57,Substitution
+41,home,58,Substitution
+41,home,71,Substitution
+41,home,86,Yellow Card
+41,home,87,Goal
+41,away,90,Substitution
+41,home,98,label.penalty.scored
+41,away,98,Yellow Card
+41,away,99,Substitution
+41,home,100,Substitution
+41,home,101,Goal
+41,home,104,Yellow Card
+41,home,105,Yellow Card
+42,away,4,Yellow Card
+42,away,41,Yellow Card
+42,home,62,Yellow Card
+42,home,63,Substitution
+42,away,63,Substitution
+42,home,73,Substitution
+42,home,74,Substitution
+42,away,76,Yellow Card
+42,away,80,Yellow Card
+42,away,80,Substitution
+42,away,81,Substitution
+42,home,89,Substitution
+42,away,95,Yellow Card
+43,away,24,Substitution
+43,home,47,Yellow Card
+43,away,47,Yellow Card
+43,home,66,Substitution
+43,away,66,Substitution
+43,away,69,Goal
+43,home,80,Substitution
+43,away,80,Substitution
+43,away,80,Substitution
+43,home,87,Substitution
+43,home,88,Substitution
+44,away,27,Yellow Card
+44,away,37,Yellow Card
+44,home,40,Yellow Card
+44,home,44,Yellow Card
+44,home,62,Substitution
+44,home,62,Substitution
+44,home,65,Goal
+44,away,74,Substitution
+44,away,74,Substitution
+44,away,74,Substitution
+44,away,74,Substitution
+44,home,81,Substitution
+44,home,81,Substitution
+44,away,81,Substitution
+44,home,91,Substitution
+45,away,4,Yellow Card
+45,away,20,Goal
+45,away,24,Yellow Card
+45,home,48,Yellow Card
+45,away,53,Goal
+45,home,64,Substitution
+45,home,64,Substitution
+45,away,64,Substitution
+45,away,64,Substitution
+45,away,71,Goal
+45,home,73,Goal
+45,away,77,Substitution
+45,away,77,Substitution
+45,home,85,Substitution
+45,home,85,Substitution
+45,home,85,Substitution
+45,away,85,Substitution
+45,home,92,Yellow Card
+46,away,33,Yellow Card
+46,away,42,Yellow Card
+46,away,42,Substitution
+46,away,59,Yellow Card
+46,home,64,label.penalty.scored
+46,away,64,Yellow Card
+46,away,72,Substitution
+46,away,72,Substitution
+46,away,72,Substitution
+46,away,82,Substitution
+46,home,83,Substitution
+46,away,85,Yellow Card
+46,home,95,Yellow Card
+46,home,95,Yellow Card
+46,home,97,Yellow Card
+47,away,11,Yellow Card
+47,home,32,Yellow Card
+47,home,34,Yellow Card
+47,away,41,Goal
+47,home,53,Substitution
+47,home,61,Goal
+47,away,63,Substitution
+47,away,63,Substitution
+47,home,71,Substitution
+47,home,71,Substitution
+47,away,76,Substitution
+47,away,87,Substitution
+47,home,88,Substitution
+47,away,94,Red Card
+47,away,95,Yellow Card
+47,away,99,Yellow Card
+48,away,29,Yellow Card
+48,away,41,Yellow Card
+48,away,45,Yellow Card
+48,home,48,Yellow Card
+48,away,56,Yellow Card
+48,away,63,Yellow Card
+48,home,66,Yellow Card
+48,home,69,Yellow Card
+48,away,70,Substitution
+48,away,73,Goal
+48,home,80,Substitution
+48,home,80,Substitution
+48,home,80,Substitution
+48,away,81,Substitution
+48,home,86,Yellow Card
+48,away,86,Substitution
+48,away,92,Yellow Card
+48,home,94,Substitution
+48,home,95,Substitution
+48,home,98,Goal
+48,home,100,Goal
+48,home,103,Yellow Card
+48,away,104,Second Yellow Card (Red Card)
+48,home,106,Yellow Card
+49,home,36,Goal
+49,home,38,Yellow Card
+49,away,47,Yellow Card
+49,away,46,Goal
+49,home,67,Substitution
+49,away,67,Substitution
+49,home,68,Substitution
+49,away,76,Goal
+49,home,79,Yellow Card
+49,away,86,Goal
+49,home,87,Substitution
+49,home,87,Substitution
+49,away,89,Yellow Card
+49,away,90,Substitution
+49,away,94,Substitution
+49,away,95,Substitution
+49,away,95,Substitution
+49,home,96,Yellow Card
+50,away,4,Yellow Card
+50,home,7,Goal
+50,away,45,Substitution
+50,away,55,Goal
+50,away,56,Substitution
+50,away,56,Substitution
+50,home,60,Substitution
+50,home,61,Substitution
+50,home,66,Substitution
+50,home,71,Yellow Card
+50,home,77,Substitution
+50,home,78,Substitution
+50,away,83,Substitution
+50,away,85,Goal
+50,away,91,Own Goal
+50,away,92,Yellow Card
+50,away,92,Yellow Card
+50,away,93,Substitution
+51,home,15,Yellow Card
+51,away,15,Yellow Card
+51,home,26,Own Goal
+51,away,42,Goal
+51,away,46,Yellow Card
+51,away,46,Yellow Card
+51,home,45,Substitution
+51,home,45,Substitution
+51,home,54,label.penalty.scored
+51,away,55,Goal
+51,home,57,Yellow Card
+51,away,63,Substitution
+51,home,67,Yellow Card
+51,away,75,Yellow Card
+51,home,77,Substitution
+51,away,78,Substitution
+51,away,79,Substitution
+51,home,97,Substitution
+52,away,1,Yellow Card
+52,away,6,Goal
+52,home,28,Goal
+52,home,61,Substitution
+52,home,61,Substitution
+52,away,63,Substitution
+52,away,67,Goal
+52,away,71,Goal
+52,home,73,Substitution
+52,home,77,Yellow Card
+52,away,77,Substitution
+52,home,82,Yellow Card
+52,home,89,Substitution
+52,away,91,Yellow Card
+53,away,25,Goal
+53,home,37,Yellow Card
+53,away,41,Yellow Card
+53,home,47,Own Goal
+53,home,48,Yellow Card
+53,home,45,Substitution
+53,home,45,Substitution
+53,home,46,Goal
+53,home,63,Substitution
+53,away,64,Substitution
+53,away,64,Substitution
+53,home,73,Substitution
+53,home,75,Yellow Card
+53,home,77,Goal
+53,away,82,Substitution
+53,away,82,Substitution
+53,away,83,Substitution
+53,home,87,Substitution
+53,away,89,Yellow Card
+53,away,96,Yellow Card
+54,away,13,Yellow Card
+54,home,20,Substitution
+54,away,45,Goal
+54,away,55,Yellow Card
+54,home,73,Substitution
+54,home,73,Substitution
+54,home,73,Substitution
+54,away,79,Substitution
+54,home,86,Substitution
+54,away,89,Substitution
+54,home,93,Yellow Card
+55,away,44,Yellow Card
+55,home,50,Yellow Card
+55,home,58,Red Card
+55,home,61,Substitution
+55,home,68,Substitution
+55,home,68,Substitution
+55,away,73,Goal
+55,away,75,Substitution
+55,away,75,Substitution
+55,home,79,Substitution
+55,away,81,Substitution
+55,home,90,Yellow Card
+55,away,90,Substitution
+55,away,90,Substitution
+55,away,91,Yellow Card
+55,away,94,Yellow Card
+56,away,14,Yellow Card
+56,away,16,Yellow Card
+56,home,21,Yellow Card
+56,home,40,Yellow Card
+56,home,67,Yellow Card
+56,home,70,Substitution
+56,away,75,Substitution
+56,away,79,Substitution
+56,away,79,Substitution
+56,home,91,Substitution
+57,home,16,label.penalty.scored
+57,away,36,Yellow Card
+57,away,42,Goal
+57,home,60,Goal
+57,away,74,Substitution
+57,away,74,Substitution
+57,home,77,Substitution
+57,home,81,Substitution
+57,home,81,Substitution
+57,away,82,Yellow Card
+57,home,85,Goal
+57,away,87,Substitution
+57,home,88,Substitution
+58,away,39,Red Card
+58,away,46,Yellow Card
+58,away,45,Substitution
+58,away,45,Substitution
+58,away,50,Goal
+58,home,57,Substitution
+58,home,65,label.penalty.scored
+58,away,71,Substitution
+58,home,72,Substitution
+58,home,72,Substitution
+58,away,84,Substitution
+58,home,85,Substitution
+58,away,90,Substitution
+58,away,96,Yellow Card
+59,home,7,Goal
+59,home,14,Goal
+59,home,18,Yellow Card
+59,away,21,Yellow Card
+59,away,39,Substitution
+59,away,46,Yellow Card
+59,home,46,Red Card
+59,away,46,Yellow Card
+59,home,51,Substitution
+59,away,56,Substitution
+59,away,56,Substitution
+59,home,57,Substitution
+59,home,58,Yellow Card
+59,away,58,Yellow Card
+59,away,75,Substitution
+59,away,75,Substitution
+59,away,77,Yellow Card
+59,away,81,Yellow Card
+59,home,87,Substitution
+59,home,93,Yellow Card
+59,away,93,Yellow Card
+60,away,12,Substitution
+60,away,21,Goal
+60,home,28,Yellow Card
+60,away,31,Goal
+60,home,34,Yellow Card
+60,away,35,Goal
+60,home,45,Substitution
+60,away,56,Goal
+60,away,61,Goal
+60,home,62,Substitution
+60,home,66,Substitution
+60,away,68,Goal
+60,away,69,Substitution
+60,away,70,Substitution
+60,away,70,Substitution
+60,away,73,Goal
+60,home,74,Substitution
+60,home,75,Yellow Card
+60,away,81,Substitution
+60,away,87,Goal
+60,home,94,Yellow Card
+61,home,7,Yellow Card
+61,home,14,Goal
+61,home,21,Goal
+61,home,26,Own Goal
+61,home,32,Yellow Card
+61,away,39,Yellow Card
+61,away,45,Substitution
+61,away,45,Substitution
+61,away,45,Substitution
+61,away,50,Goal
+61,home,57,Yellow Card
+61,home,57,Substitution
+61,away,62,Substitution
+61,home,65,Goal
+61,away,72,Yellow Card
+61,home,79,Substitution
+61,away,79,Yellow Card
+61,away,84,Yellow Card
+61,home,85,Goal
+61,away,86,Substitution
+61,home,90,Substitution
+61,home,95,Yellow Card
+61,home,97,Goal
+62,away,17,Goal
+62,away,33,Yellow Card
+62,away,44,label.penalty.scored
+62,away,53,label.penalty.scored
+62,home,59,Substitution
+62,home,59,Substitution
+62,away,69,Substitution
+62,away,69,Substitution
+62,home,75,Substitution
+62,away,76,Substitution
+62,away,81,Substitution
+62,away,81,Substitution
+62,home,83,Substitution
+62,home,83,Substitution
+62,away,93,Goal
+63,away,24,Goal
+63,away,31,Goal
+63,home,41,Goal
+63,home,45,Substitution
+63,away,45,Substitution
+63,away,56,Substitution
+63,home,60,Substitution
+63,away,66,Yellow Card
+63,home,78,Substitution
+63,away,78,Substitution
+63,away,83,Substitution
+63,home,84,Substitution
+64,away,18,Goal
+64,away,19,Goal
+64,away,34,Yellow Card
+64,away,45,Substitution
+64,home,53,Substitution
+64,home,54,Substitution
+64,away,55,Yellow Card
+64,home,57,Yellow Card
+64,home,65,Substitution
+64,away,65,Substitution
+64,away,68,Yellow Card
+64,home,75,Substitution
+64,away,78,Substitution
+64,away,87,Yellow Card
+64,away,95,Substitution
+64,away,96,Substitution
+65,home,10,Yellow Card
+65,away,25,Goal
+65,away,32,Yellow Card
+65,away,48,Yellow Card
+65,home,61,Substitution
+65,home,77,Yellow Card
+65,home,77,Substitution
+65,home,77,Substitution
+65,away,78,Substitution
+65,home,79,Yellow Card
+65,home,87,Substitution
+65,home,88,Substitution
+65,away,88,Substitution
+66,home,14,Goal
+66,home,17,Yellow Card
+66,away,29,Yellow Card
+66,away,40,Yellow Card
+66,away,53,Yellow Card
+66,away,58,Substitution
+66,away,58,Substitution
+66,home,64,Substitution
+66,away,67,Substitution
+66,home,68,Substitution
+66,home,76,label.penalty.scored
+66,away,88,Substitution
+66,away,88,Substitution
+66,home,96,Substitution
+66,home,96,Substitution
+67,away,2,Yellow Card
+67,home,30,Yellow Card
+67,home,56,Second Yellow Card (Red Card)
+67,away,58,Goal
+67,home,60,Substitution
+67,home,60,Substitution
+67,home,65,Goal
+67,home,68,Yellow Card
+67,away,69,Substitution
+67,away,69,Substitution
+67,away,75,Substitution
+67,home,77,Substitution
+67,home,80,Substitution
+67,home,81,Substitution
+67,away,88,Yellow Card
+67,away,89,Substitution
+67,away,89,Substitution
+68,away,26,Red Card
+68,home,36,Goal
+68,away,40,Yellow Card
+68,home,48,Yellow Card
+68,away,49,Goal
+68,away,45,Substitution
+68,away,65,Yellow Card
+68,away,68,Yellow Card
+68,home,69,Substitution
+68,away,69,Second Yellow Card (Red Card)
+68,away,73,Substitution
+68,away,74,Substitution
+68,away,74,Substitution
+68,away,80,Substitution
+68,home,83,Substitution
+68,home,83,Substitution
+68,away,87,Yellow Card
+68,home,88,Yellow Card
+68,home,89,Yellow Card
+68,home,90,Substitution
+68,home,90,Substitution
+68,away,95,Yellow Card
+68,home,96,Own Goal
+68,home,97,Yellow Card
+68,home,98,Yellow Card
+69,home,24,Goal
+69,away,32,Yellow Card
+69,home,37,Goal
+69,home,40,Yellow Card
+69,away,56,Substitution
+69,away,70,Substitution
+69,home,72,Substitution
+69,home,72,Substitution
+69,away,79,Substitution
+69,away,79,Substitution
+69,away,79,Substitution
+69,home,93,Substitution
+69,home,93,Substitution
+70,home,13,Own Goal
+70,away,17,Yellow Card
+70,home,24,Yellow Card
+70,home,39,Yellow Card
+70,away,45,Substitution
+70,home,57,Yellow Card
+70,away,58,Goal
+70,away,59,Yellow Card
+70,away,63,Yellow Card
+70,away,65,Substitution
+70,home,66,Goal
+70,home,67,Substitution
+70,home,74,Substitution
+70,away,80,Substitution
+70,home,82,Yellow Card
+70,away,82,Yellow Card
+70,home,86,Substitution
+70,home,86,Substitution
+70,home,93,Yellow Card
+70,home,97,Yellow Card
+70,away,97,Yellow Card
+71,home,11,Yellow Card
+71,away,23,Yellow Card
+71,away,29,Yellow Card
+71,home,45,Substitution
+71,away,68,Substitution
+71,away,68,Substitution
+71,away,68,Substitution
+71,home,75,Substitution
+71,home,75,Substitution
+71,home,75,Substitution
+71,home,86,Goal
+71,home,93,Yellow Card
+71,away,93,Yellow Card
+72,home,20,Goal
+72,away,40,Goal
+72,away,46,label.penalty.scored
+72,away,45,Substitution
+72,home,60,Substitution
+72,home,63,Substitution
+72,away,67,Yellow Card
+72,away,73,Substitution
+72,home,78,Goal
+72,away,80,Substitution
+72,away,86,Yellow Card
+72,home,88,Substitution
+72,home,94,Yellow Card
+73,home,15,Goal
+73,away,26,Yellow Card
+73,away,27,Yellow Card
+73,home,30,Yellow Card
+73,home,38,Yellow Card
+73,away,42,Own Goal
+73,away,47,Yellow Card
+73,home,45,Substitution
+73,away,45,Substitution
+73,away,50,label.penalty.scored
+73,home,61,Substitution
+73,home,61,Substitution
+73,home,61,Substitution
+73,away,65,Goal
+73,away,74,Goal
+73,away,74,Yellow Card
+73,home,79,Substitution
+73,away,83,Substitution
+73,away,86,Substitution
+74,home,26,Substitution
+74,away,45,Substitution
+74,away,66,Substitution
+74,home,75,Substitution
+74,away,76,Substitution
+74,away,76,Substitution
+74,away,83,Substitution
+74,away,84,Yellow Card
+75,home,8,Goal
+75,home,11,Yellow Card
+75,home,37,Goal
+75,away,45,Substitution
+75,away,57,Substitution
+75,away,58,Yellow Card
+75,home,60,Goal
+75,away,60,Yellow Card
+75,away,66,Substitution
+75,away,67,Substitution
+75,home,78,Substitution
+75,home,83,Substitution
+75,away,86,Substitution
+75,home,91,Substitution
+76,away,35,Substitution
+76,home,50,Yellow Card
+76,home,53,Goal
+76,away,66,Substitution
+76,away,66,Substitution
+76,away,68,Own Goal
+76,home,71,Substitution
+76,home,71,Substitution
+76,away,73,Yellow Card
+76,home,76,Own Goal
+76,home,78,Substitution
+76,home,78,Substitution
+76,home,79,Substitution
+76,away,79,Substitution
+76,away,91,Yellow Card
+76,home,92,Goal
+77,home,19,Yellow Card
+77,home,34,Yellow Card
+77,away,38,Yellow Card
+77,away,49,Second Yellow Card (Red Card)
+77,away,45,Substitution
+77,away,52,Goal
+77,home,59,Substitution
+77,home,66,Substitution
+77,home,67,Substitution
+77,home,67,Substitution
+77,away,68,Yellow Card
+77,away,76,Substitution
+77,away,76,Substitution
+77,home,81,Substitution
+77,away,82,Substitution
+77,away,92,Substitution
+78,away,10,Yellow Card
+78,away,26,Goal
+78,home,45,Substitution
+78,away,48,Yellow Card
+78,home,63,Substitution
+78,home,63,Substitution
+78,away,65,Yellow Card
+78,away,67,Yellow Card
+78,away,70,Substitution
+78,away,70,Substitution
+78,home,71,Substitution
+78,away,79,Yellow Card
+78,away,83,Substitution
+78,home,87,Substitution
+78,home,93,Goal
+78,home,97,Goal
+79,home,8,Goal
+79,home,16,Yellow Card
+79,away,16,Yellow Card
+79,home,35,Yellow Card
+79,away,57,Goal
+79,away,62,Goal
+79,away,67,Yellow Card
+79,home,70,Yellow Card
+79,home,75,Substitution
+79,home,76,Substitution
+79,away,79,Yellow Card
+79,away,82,Substitution
+79,away,86,Substitution
+79,home,89,Goal
+79,away,93,Substitution
+80,away,6,Yellow Card
+80,home,28,Yellow Card
+80,away,29,Yellow Card
+80,home,45,Substitution
+80,home,53,Goal
+80,away,55,Goal
+80,home,62,Yellow Card
+80,away,62,Substitution
+80,home,67,Yellow Card
+80,home,69,Substitution
+80,home,76,Substitution
+80,away,82,Substitution
+80,away,82,Substitution
+80,home,86,Substitution
+80,home,94,Second Yellow Card (Red Card)
+80,home,104,Yellow Card
+81,home,30,Goal
+81,home,52,label.penalty.scored
+81,away,54,Yellow Card
+81,away,56,Goal
+81,away,67,Substitution
+81,home,74,Goal
+81,home,76,Substitution
+81,home,85,Substitution
+81,away,86,Substitution
+81,home,89,Goal
+81,away,90,Substitution
+82,home,17,Goal
+82,home,34,Yellow Card
+82,away,42,Yellow Card
+82,home,47,Yellow Card
+82,away,48,Yellow Card
+82,away,45,Substitution
+82,away,47,Goal
+82,home,54,Red Card
+82,away,54,Yellow Card
+82,home,57,Substitution
+82,home,57,Substitution
+82,home,75,Substitution
+82,away,75,Substitution
+82,away,82,Substitution
+82,away,83,Yellow Card
+82,home,85,Substitution
+82,home,85,Substitution
+82,away,88,Goal
+82,away,89,Yellow Card
+82,away,91,Yellow Card
+83,home,25,Goal
+83,away,32,Yellow Card
+83,away,42,Yellow Card
+83,away,47,Yellow Card
+83,away,45,Substitution
+83,home,46,Yellow Card
+83,home,53,Yellow Card
+83,home,62,Goal
+83,away,66,Substitution
+83,away,66,Substitution
+83,home,69,Yellow Card
+83,home,76,Substitution
+83,home,76,Substitution
+83,away,76,Substitution
+83,away,78,Second Yellow Card (Red Card)
+83,away,80,Substitution
+83,home,84,Substitution
+83,home,85,Yellow Card
+83,home,87,Goal
+83,home,88,Substitution
+83,home,93,Yellow Card
+84,home,8,Yellow Card
+84,away,11,Yellow Card
+84,home,15,label.penalty.scored
+84,home,44,Yellow Card
+84,away,45,Substitution
+84,home,48,Goal
+84,home,66,Substitution
+84,away,68,Substitution
+84,away,68,Substitution
+84,home,71,Yellow Card
+84,away,77,Goal
+84,away,78,Substitution
+84,away,78,Substitution
+84,home,84,Substitution
+84,home,84,Substitution
+84,away,84,Goal
+84,away,89,Yellow Card
+84,away,91,Yellow Card
+85,away,18,Yellow Card
+85,away,32,Yellow Card
+85,away,37,Second Yellow Card (Red Card)
+85,away,45,Substitution
+85,away,45,Substitution
+85,home,50,Yellow Card
+85,away,61,Substitution
+85,home,62,Substitution
+85,home,62,Substitution
+85,home,66,Substitution
+85,home,75,label.penalty.scored
+85,away,80,Substitution
+85,home,81,Substitution
+85,away,88,Substitution
+85,home,97,Goal
+86,home,7,Goal
+86,away,16,Substitution
+86,home,19,Goal
+86,away,36,Yellow Card
+86,home,38,Yellow Card
+86,away,45,Substitution
+86,home,63,Yellow Card
+86,away,64,Yellow Card
+86,away,65,Substitution
+86,away,66,Substitution
+86,away,73,Goal
+86,home,75,Substitution
+86,home,75,Substitution
+86,home,84,Yellow Card
+86,away,94,Substitution
+86,home,95,Second Yellow Card (Red Card)
+86,home,96,Substitution
+87,home,4,Goal
+87,away,29,Yellow Card
+87,home,39,Yellow Card
+87,home,44,Goal
+87,home,47,Goal
+87,home,50,Yellow Card
+87,away,50,Yellow Card
+87,away,60,Yellow Card
+87,away,61,Substitution
+87,home,66,Goal
+87,home,69,Substitution
+87,home,69,Substitution
+87,home,70,Substitution
+87,home,70,Substitution
+87,away,70,Substitution
+87,home,80,Substitution
+87,away,87,Substitution
+88,home,48,Goal
+88,away,55,Substitution
+88,home,60,Yellow Card
+88,away,72,Substitution
+88,away,72,Substitution
+88,away,72,Substitution
+88,home,76,Goal
+88,home,78,Substitution
+88,home,78,Substitution
+88,home,78,Substitution
+88,away,81,Substitution
+88,home,82,Yellow Card
+88,away,83,Goal
+88,home,88,Substitution
+88,home,88,Substitution
+88,away,92,Goal
+88,home,98,Yellow Card
+89,away,28,Goal
+89,home,34,label.penalty.scored
+89,home,37,Yellow Card
+89,home,45,Yellow Card
+89,home,52,Substitution
+89,home,62,Yellow Card
+89,away,63,Substitution
+89,away,63,Substitution
+89,away,64,Substitution
+89,away,77,Goal
+89,home,78,Substitution
+89,away,82,Yellow Card
+89,home,84,Substitution
+89,away,84,Substitution
+89,away,88,Substitution
+90,home,35,Yellow Card
+90,home,36,Goal
+90,away,45,Substitution
+90,away,45,Substitution
+90,home,54,Goal
+90,home,56,Substitution
+90,home,62,Substitution
+90,away,62,Substitution
+90,away,72,Substitution
+90,home,81,Substitution
+90,home,82,Substitution
+90,home,82,Substitution
+90,away,82,Substitution
+90,home,85,Yellow Card
+91,home,28,Goal
+91,home,50,Goal
+91,home,58,Goal
+91,away,59,Substitution
+91,away,59,Substitution
+91,away,60,Yellow Card
+91,home,66,Substitution
+91,home,66,Substitution
+91,away,70,Yellow Card
+91,away,71,Substitution
+91,away,71,Substitution
+91,home,73,Substitution
+91,home,74,Substitution
+91,away,83,Substitution
+91,away,87,Yellow Card
+91,home,88,label.penalty.scored
+91,home,89,Substitution
+91,home,96,Goal
+92,home,17,Goal
+92,home,28,Yellow Card
+92,home,45,Substitution
+92,home,49,Goal
+92,home,51,Yellow Card
+92,away,53,Yellow Card
+92,away,57,Substitution
+92,away,57,Substitution
+92,home,62,Own Goal
+92,home,71,Yellow Card
+92,away,75,Yellow Card
+92,away,76,Substitution
+92,away,76,Substitution
+92,home,79,Substitution
+92,home,79,Substitution
+92,away,79,Substitution
+92,away,83,Own Goal
+92,home,90,Substitution
+92,home,90,Substitution
+93,away,11,Goal
+93,home,22,Goal
+93,away,28,Yellow Card
+93,away,45,Substitution
+93,away,56,Yellow Card
+93,away,60,Substitution
+93,away,67,Yellow Card
+93,away,68,Substitution
+93,home,69,Substitution
+93,home,76,Goal
+93,home,76,Yellow Card
+93,away,81,Substitution
+93,away,81,Substitution
+93,home,82,Substitution
+93,home,82,Substitution
+93,home,84,Yellow Card
+93,home,85,Substitution
+94,home,26,Goal
+94,home,58,Substitution
+94,away,58,Substitution
+94,away,58,Substitution
+94,away,58,Substitution
+94,away,65,Goal
+94,home,71,Substitution
+94,home,71,Substitution
+94,home,71,Substitution
+94,away,73,Yellow Card
+94,home,78,Substitution
+94,away,78,Yellow Card
+94,away,86,Substitution
+94,away,90,Yellow Card
+94,away,92,Substitution
+95,away,56,Yellow Card
+95,away,58,Goal
+95,away,64,Substitution
+95,home,67,Substitution
+95,home,67,Substitution
+95,away,76,Substitution
+95,away,76,Substitution
+95,home,77,Yellow Card
+95,home,81,Substitution
+95,home,81,Substitution
+95,away,84,Substitution
+95,away,85,Yellow Card
+95,away,95,Yellow Card
+95,away,96,Goal
+95,away,97,Yellow Card
+96,away,45,Substitution
+96,away,53,Own Goal
+96,home,60,Substitution
+96,away,64,Substitution
+96,away,64,Substitution
+96,away,66,Goal
+96,home,70,Substitution
+96,home,70,Substitution
+96,home,79,Substitution
+96,home,79,Substitution
+96,away,89,Substitution
+96,away,90,Substitution
+96,home,94,Goal
+96,home,99,Yellow Card
+96,away,99,Yellow Card
+96,home,100,Yellow Card
+97,home,19,Yellow Card
+97,home,31,Goal
+97,away,33,Yellow Card
+97,home,35,Goal
+97,away,52,Yellow Card
+97,home,58,Yellow Card
+97,home,58,Substitution
+97,home,58,Substitution
+97,away,69,Substitution
+97,away,69,Substitution
+97,away,69,Substitution
+97,home,77,Goal
+97,home,80,Substitution
+97,away,83,Substitution
+97,away,83,Substitution
+97,home,89,Substitution
+97,away,90,Yellow Card
+98,home,26,Yellow Card
+98,away,26,label.penalty.scored
+98,home,42,Yellow Card
+98,away,42,Yellow Card
+98,home,45,Substitution
+98,away,49,Goal
+98,home,73,Substitution
+98,home,73,Substitution
+98,away,80,Goal
+98,home,86,Substitution
+98,home,86,Substitution
+98,away,87,Substitution
+98,away,87,Substitution
+98,home,92,Yellow Card
+98,home,93,Yellow Card
+99,home,28,Yellow Card
+99,away,28,Yellow Card
+99,away,51,Goal
+99,home,57,Substitution
+99,home,69,Yellow Card
+99,home,73,Substitution
+99,home,76,Yellow Card
+99,home,83,Yellow Card
+99,home,85,Substitution
+99,away,89,Substitution
+100,away,22,Goal
+100,home,36,Goal
+100,away,49,label.penalty.scored
+100,home,54,Substitution
+100,away,66,Yellow Card
+100,away,69,Yellow Card
+100,home,71,Goal
+100,away,72,Substitution
+100,home,77,Substitution
+100,away,82,Yellow Card
+100,home,83,Yellow Card
+100,home,86,Substitution
+100,away,96,Yellow Card
+101,home,11,Goal
+101,away,11,Yellow Card
+101,away,19,Goal
+101,home,24,Yellow Card
+101,away,26,Goal
+101,home,45,Substitution
+101,away,52,Yellow Card
+101,home,55,Own Goal
+101,away,62,Yellow Card
+101,away,64,Substitution
+101,away,64,Substitution
+101,home,69,Goal
+101,home,79,Substitution
+101,home,79,Substitution
+101,home,89,Substitution
+101,home,91,Substitution
+101,away,95,Yellow Card
+102,away,16,Yellow Card
+102,away,22,Goal
+102,away,48,Yellow Card
+102,away,48,Yellow Card
+102,away,58,Substitution
+102,away,70,Substitution
+102,away,70,Substitution
+102,home,78,Substitution
+102,home,78,Substitution
+102,away,86,Substitution
+102,home,87,Substitution
+102,away,90,Yellow Card
+102,home,92,Substitution
+102,away,94,Goal
+102,away,94,Yellow Card
+103,home,7,Goal
+103,away,20,Yellow Card
+103,away,23,Yellow Card
+103,home,43,Yellow Card
+103,away,45,Substitution
+103,home,54,Yellow Card
+103,away,67,Substitution
+103,away,68,Substitution
+103,home,77,Yellow Card
+103,away,79,Substitution
+103,home,81,Yellow Card
+103,away,84,Own Goal
+103,home,90,Substitution
+103,home,90,Substitution
+103,away,90,Substitution
+104,home,31,Yellow Card
+104,away,63,Substitution
+104,home,66,Yellow Card
+104,away,67,Yellow Card
+104,home,76,Substitution
+104,home,76,Substitution
+104,away,79,Substitution
+104,away,79,Substitution
+104,home,81,Substitution
+104,home,82,Yellow Card
+104,home,85,Yellow Card
+104,away,88,Yellow Card
+104,home,89,Substitution
+104,home,90,Substitution
+104,away,91,Goal
+104,away,93,Substitution
+104,home,97,Yellow Card
+105,home,44,Yellow Card
+105,away,54,Yellow Card
+105,home,61,Substitution
+105,away,66,Substitution
+105,away,66,Substitution
+105,away,67,Substitution
+105,home,75,Substitution
+105,home,79,Substitution
+105,home,80,Goal
+105,away,83,Substitution
+105,away,95,Goal
+106,home,30,Goal
+106,away,32,Yellow Card
+106,home,33,Goal
+106,home,37,Goal
+106,away,44,Substitution
+106,home,45,Substitution
+106,away,45,Substitution
+106,home,64,Goal
+106,home,71,Substitution
+106,home,71,Substitution
+106,home,71,Substitution
+106,away,71,Substitution
+106,away,72,Substitution
+106,away,74,Goal
+106,home,83,Goal
+106,home,85,Substitution
+106,away,85,Substitution
+106,home,88,Goal
+107,home,37,Yellow Card
+107,away,37,Yellow Card
+107,home,38,Yellow Card
+107,home,38,Yellow Card
+107,home,45,Substitution
+107,home,62,Substitution
+107,home,63,Substitution
+107,home,64,Goal
+107,away,73,Substitution
+107,away,79,Substitution
+107,away,79,Substitution
+107,home,80,Substitution
+107,home,88,Yellow Card
+107,home,91,Yellow Card
+108,home,5,Goal
+108,away,45,Substitution
+108,home,47,Goal
+108,away,59,Substitution
+108,away,64,Yellow Card
+108,home,71,Substitution
+108,away,78,Substitution
+108,home,82,Substitution
+108,home,86,Substitution
+108,away,86,Substitution
+108,home,87,Substitution
+108,home,88,Yellow Card
+109,home,22,Yellow Card
+109,home,47,Substitution
+109,away,49,Yellow Card
+109,away,58,Yellow Card
+109,away,61,Substitution
+109,away,70,Substitution
+109,home,72,Goal
+109,away,81,Yellow Card
+109,away,81,Substitution
+109,home,89,Yellow Card
+109,away,89,Goal
+109,home,90,Substitution
+109,home,100,label.penalty.scored
+110,home,6,Goal
+110,home,18,Yellow Card
+110,home,33,Red Card
+110,home,34,Substitution
+110,away,35,label.penalty.scored
+110,home,46,Substitution
+110,home,46,Substitution
+110,home,55,Yellow Card
+110,away,55,Yellow Card
+110,away,55,Yellow Card
+110,away,45,Substitution
+110,home,55,Second Yellow Card (Red Card)
+110,away,58,Substitution
+110,home,61,Substitution
+110,home,61,Substitution
+110,away,75,Goal
+110,away,77,Substitution
+110,away,86,Yellow Card
+110,away,89,Yellow Card
+110,away,91,Substitution
+110,away,94,Goal
+110,away,94,Yellow Card
+110,away,97,Goal
+111,home,46,Goal
+111,away,54,Goal
+111,home,57,Goal
+111,home,59,Substitution
+111,home,74,Goal
+111,away,80,Substitution
+111,away,80,Substitution
+111,home,81,Substitution
+111,home,81,Substitution
+111,home,83,Red Card
+111,away,85,Substitution
+111,away,88,Substitution
+111,home,89,Substitution
+111,away,93,Yellow Card
+111,home,100,Substitution Off
+112,home,27,Own Goal
+112,home,42,Goal
+112,away,45,Substitution
+112,away,52,Yellow Card
+112,home,62,Substitution
+112,home,64,Goal
+112,away,64,Yellow Card
+112,home,66,Yellow Card
+112,away,70,Goal
+112,away,74,Yellow Card
+112,away,74,Substitution
+112,away,74,Substitution
+112,away,82,Substitution
+112,away,82,Substitution
+112,home,83,Yellow Card
+112,away,94,Yellow Card
+112,away,96,Yellow Card
+113,away,31,Substitution
+113,away,45,Substitution
+113,home,57,Yellow Card
+113,home,60,Goal
+113,away,66,Substitution
+113,home,68,Substitution
+113,home,68,Substitution
+113,home,73,Goal
+113,home,80,Substitution
+113,away,85,Yellow Card
+113,home,86,Yellow Card
+113,away,95,Substitution
+113,home,96,Substitution
+114,home,6,Goal
+114,away,47,Yellow Card
+114,home,48,Yellow Card
+114,home,45,Substitution
+114,home,45,Substitution
+114,away,52,Substitution
+114,home,66,Yellow Card
+114,home,69,Red Card
+114,home,71,Substitution
+114,home,71,Substitution
+114,away,74,Own Goal
+114,home,77,Yellow Card
+114,away,85,Substitution
+114,away,88,Yellow Card
+114,away,96,Substitution
+115,home,21,Yellow Card
+115,home,23,Yellow Card
+115,away,25,label.penalty.scored
+115,home,29,Goal
+115,home,37,Goal
+115,away,46,Goal
+115,away,47,Goal
+115,away,56,Yellow Card
+115,away,59,Substitution
+115,home,60,Yellow Card
+115,home,64,Substitution
+115,home,64,Substitution
+115,home,67,Goal
+115,away,72,Yellow Card
+115,away,79,Substitution
+115,away,86,Goal
+115,home,90,Substitution
+115,home,94,Yellow Card
+115,away,94,Yellow Card
+115,home,95,label.penalty.scored
+115,home,96,Substitution
+115,home,97,Yellow Card
+116,away,1,Goal
+116,home,5,label.penalty.scored
+116,home,24,Yellow Card
+116,away,47,Yellow Card
+116,away,45,Substitution
+116,away,49,Goal
+116,home,67,Substitution
+116,home,74,Goal
+116,away,77,Substitution
+116,home,83,Substitution
+116,away,86,Goal
+116,away,87,Yellow Card
+116,home,89,Substitution
+116,away,89,Yellow Card
+116,away,90,Substitution
+116,away,97,Yellow Card
+117,away,30,Yellow Card
+117,away,30,Yellow Card
+117,home,37,Yellow Card
+117,home,39,Goal
+117,away,45,Substitution
+117,home,62,Goal
+117,away,72,Substitution
+117,away,72,Substitution
+117,away,72,Substitution
+117,home,74,Goal
+117,home,83,Substitution
+117,home,84,Substitution
+117,home,90,Substitution
+117,home,94,Substitution
+118,home,40,Substitution
+118,home,59,Goal
+118,away,60,Substitution
+118,home,68,Substitution
+118,away,73,Substitution
+118,away,74,Yellow Card
+118,home,79,Substitution
+118,home,79,Substitution
+118,away,85,Substitution
+118,away,86,Substitution
+118,away,86,Substitution
+118,away,93,Yellow Card
+119,home,3,Goal
+119,home,22,Yellow Card
+119,away,44,Goal
+119,away,45,Substitution
+119,away,54,Yellow Card
+119,home,60,Yellow Card
+119,away,63,Goal
+119,away,64,Yellow Card
+119,home,65,Goal
+119,away,76,Substitution
+119,away,76,Substitution
+119,away,76,Substitution
+119,home,79,Substitution
+119,home,88,Goal
+119,away,90,Substitution
+119,home,95,Substitution
+119,home,99,Substitution
+120,away,3,Goal
+120,away,45,Yellow Card
+120,away,49,Yellow Card
+120,away,63,Substitution
+120,home,67,Substitution
+120,home,73,Substitution
+120,away,75,Substitution
+120,away,75,Substitution
+120,home,87,Substitution
+120,home,87,Substitution
+120,away,89,Yellow Card
+120,home,91,Goal
+120,home,95,Yellow Card
+120,home,96,Yellow Card
+120,home,97,Goal
+120,home,98,Yellow Card
+120,home,98,Yellow Card
+121,home,46,Yellow Card
+121,away,56,Yellow Card
+121,away,66,Substitution
+121,home,72,Substitution
+121,home,72,Substitution
+121,away,79,Substitution
+121,away,89,Goal
+121,home,90,Substitution
+121,home,90,Substitution
+121,away,93,Substitution
+121,away,93,Substitution
+122,home,32,Yellow Card
+122,away,39,Yellow Card
+122,away,39,Yellow Card
+122,home,49,label.penalty.scored
+122,away,62,Substitution
+122,away,63,Substitution
+122,away,66,Yellow Card
+122,home,72,Substitution
+122,home,81,Substitution
+122,home,85,Substitution
+122,away,86,Own Goal
+122,away,91,Goal
+123,away,3,Goal
+123,home,21,Yellow Card
+123,home,29,Yellow Card
+123,away,56,label.penalty.scored
+123,away,72,Substitution
+123,away,72,Substitution
+123,home,73,Substitution
+123,home,73,Substitution
+123,away,75,Goal
+123,away,76,Substitution
+123,home,82,Substitution
+123,away,85,Substitution
+123,home,90,Substitution
+123,home,92,Yellow Card
+124,home,7,Goal
+124,home,19,Yellow Card
+124,away,19,Substitution
+124,away,22,Goal
+124,away,33,Yellow Card
+124,home,59,label.penalty.scored
+124,away,62,Substitution
+124,away,75,label.penalty.scored
+124,home,76,Substitution
+124,home,76,Substitution
+124,away,83,Substitution
+124,away,84,Yellow Card
+124,home,88,Yellow Card
+124,home,94,label.penalty.scored
+124,home,95,Substitution
+124,home,95,Substitution
+125,away,13,Yellow Card
+125,home,44,Yellow Card
+125,away,49,Substitution
+125,home,50,Yellow Card
+125,away,54,Substitution
+125,home,59,Yellow Card
+125,home,61,Substitution
+125,home,61,Substitution
+125,home,69,Yellow Card
+125,home,72,Goal
+125,home,74,Substitution
+125,away,74,Goal
+125,home,79,Substitution
+125,away,80,Substitution
+125,away,80,Substitution
+125,home,83,Goal
+125,home,91,Yellow Card
+125,home,100,Yellow Card
+126,home,27,Goal
+126,away,54,Substitution
+126,away,54,Substitution
+126,away,73,Substitution
+126,away,75,Yellow Card
+126,away,80,Goal
+126,away,85,Substitution
+126,away,85,Substitution
+126,away,86,Yellow Card
+126,home,89,Yellow Card
+126,away,93,Yellow Card
+127,home,13,Goal
+127,home,22,Yellow Card
+127,away,23,Goal
+127,away,41,Yellow Card
+127,home,48,Yellow Card
+127,home,46,Yellow Card
+127,away,55,Yellow Card
+127,away,59,Yellow Card
+127,home,60,Goal
+127,home,61,Goal
+127,away,69,Substitution
+127,away,69,Substitution
+127,away,69,Substitution
+127,away,73,Second Yellow Card (Red Card)
+127,away,75,Substitution
+127,away,77,Yellow Card
+127,home,81,Substitution
+127,away,81,Yellow Card
+127,home,83,Goal
+127,home,86,Substitution
+127,home,87,Substitution
+127,away,87,Substitution
+127,home,92,Yellow Card
+127,home,93,Substitution
+127,home,93,Substitution
+128,home,3,Goal
+128,away,21,Substitution
+128,away,26,Goal
+128,away,34,Substitution
+128,away,49,Goal
+128,away,45,Substitution
+128,home,54,Yellow Card
+128,away,58,label.penalty.scored
+128,home,63,Substitution
+128,home,63,Substitution
+128,away,65,Yellow Card
+128,home,69,Substitution
+128,away,72,Yellow Card
+128,away,73,Red Card
+128,home,74,Yellow Card
+128,away,74,Yellow Card
+128,home,76,label.penalty.scored
+128,away,77,Substitution
+128,away,77,Substitution
+128,away,82,Yellow Card
+128,home,90,Substitution
+128,away,94,Yellow Card
+128,away,101,Yellow Card
+129,away,12,Goal
+129,home,22,Yellow Card
+129,away,48,Goal
+129,home,45,Substitution
+129,home,45,Substitution
+129,away,45,Substitution
+129,home,51,Yellow Card
+129,away,51,Goal
+129,home,66,Substitution
+129,away,66,Substitution
+129,away,66,Substitution
+129,home,69,Yellow Card
+129,home,70,Yellow Card
+129,away,70,Yellow Card
+129,home,81,Substitution
+129,home,81,Substitution
+129,away,82,Substitution
+129,home,97,Goal
+130,home,22,Goal
+130,away,27,Yellow Card
+130,home,32,Substitution
+130,away,38,Yellow Card
+130,away,41,Yellow Card
+130,away,52,Goal
+130,away,45,Substitution
+130,away,45,Substitution
+130,away,61,Goal
+130,home,71,Substitution
+130,away,82,Yellow Card
+130,home,86,Substitution
+130,away,92,Substitution
+130,away,92,Substitution
+131,home,6,Goal
+131,home,13,Goal
+131,away,23,Substitution
+131,away,62,Substitution
+131,away,63,Substitution
+131,home,67,Substitution
+131,home,68,Yellow Card
+131,home,78,Substitution
+131,home,79,Substitution
+131,away,86,Goal
+131,away,88,Yellow Card
+131,home,93,Substitution
+131,home,93,Substitution
+131,away,93,Substitution
+131,away,99,Yellow Card
+132,home,10,Goal
+132,home,12,Yellow Card
+132,home,17,Yellow Card
+132,away,20,Goal
+132,away,29,Yellow Card
+132,away,43,Yellow Card
+132,home,49,Yellow Card
+132,away,45,Substitution
+132,home,52,Goal
+132,home,54,Yellow Card
+132,away,65,Substitution
+132,home,70,Substitution
+132,home,70,Substitution
+132,away,74,Substitution
+132,away,74,Substitution
+132,away,74,Substitution
+132,home,83,Substitution
+132,home,84,Yellow Card
+132,away,84,Yellow Card
+132,away,90,Goal
+132,home,93,Substitution
+133,away,38,Yellow Card
+133,away,45,Substitution
+133,home,49,Goal
+133,away,50,Yellow Card
+133,home,56,Goal
+133,away,60,Substitution
+133,away,60,Substitution
+133,away,60,Substitution
+133,home,70,Substitution
+133,away,76,Goal
+133,away,76,Substitution
+133,home,77,Substitution
+133,home,78,Substitution
+133,home,81,Goal
+133,home,81,Yellow Card
+133,home,92,Substitution
+134,home,1,Goal
+134,away,25,Substitution
+134,home,29,Goal
+134,away,34,Yellow Card
+134,away,37,Yellow Card
+134,home,38,Yellow Card
+134,away,43,Yellow Card
+134,away,46,Second Yellow Card (Red Card)
+134,away,45,Substitution
+134,away,45,Substitution
+134,away,45,Substitution
+134,away,64,Yellow Card
+134,home,65,Substitution
+134,home,67,Yellow Card
+134,away,72,Yellow Card
+134,away,72,Yellow Card
+134,home,73,Goal
+134,home,75,Goal
+134,home,76,Substitution
+134,home,76,Substitution
+134,home,77,Substitution
+134,home,80,Goal
+134,home,83,Substitution
+135,home,17,Goal
+135,home,21,Goal
+135,home,31,Yellow Card
+135,away,43,Goal
+135,home,45,Second Yellow Card (Red Card)
+135,away,51,Yellow Card
+135,home,52,Yellow Card
+135,away,57,Substitution
+135,away,57,Substitution
+135,away,57,Substitution
+135,away,58,Yellow Card
+135,away,58,Substitution
+135,home,59,Yellow Card
+135,away,64,Yellow Card
+135,away,64,Yellow Card
+135,home,65,label.penalty.scored
+135,home,66,Substitution
+135,home,72,Substitution
+135,home,81,Substitution
+135,away,84,Substitution
+135,home,88,Yellow Card
+135,away,92,Goal
+135,away,104,Yellow Card
+136,home,20,Own Goal
+136,away,24,Goal
+136,home,38,Goal
+136,away,48,Goal
+136,away,62,Substitution
+136,away,62,Substitution
+136,home,64,Substitution
+136,home,65,Substitution
+136,home,69,Substitution
+136,away,75,Substitution
+136,away,75,Substitution
+136,away,80,Goal
+136,home,83,Substitution
+136,home,87,Goal
+136,home,88,Goal
+136,away,90,Substitution
+137,away,6,Goal
+137,home,9,Own Goal
+137,home,31,Goal
+137,home,34,Yellow Card
+137,away,38,Yellow Card
+137,away,45,Substitution
+137,home,52,Substitution
+137,home,61,Yellow Card
+137,away,69,Goal
+137,home,73,Substitution
+137,away,74,Yellow Card
+137,away,79,Substitution
+137,home,81,Goal
+137,home,84,Yellow Card
+137,home,87,Substitution
+137,home,87,Substitution
+137,away,87,Substitution
+137,away,90,Goal
+137,away,92,Yellow Card
+137,home,95,Yellow Card
+137,away,95,Yellow Card
+137,away,96,Substitution
+138,home,55,Goal
+138,away,61,Substitution
+138,away,61,Substitution
+138,away,77,Yellow Card
+138,away,80,Substitution
+138,away,80,Substitution
+138,home,86,Substitution
+138,away,92,Yellow Card
+138,home,97,Yellow Card
+138,home,97,Substitution
+139,home,45,Substitution
+139,home,55,Yellow Card
+139,home,65,Substitution
+139,away,67,Goal
+139,home,82,Substitution
+139,away,82,Substitution
+140,home,13,Goal
+140,home,37,Yellow Card
+140,away,53,Goal
+140,home,79,Yellow Card
+140,away,82,Substitution
+140,away,87,Substitution
+140,home,89,Substitution
+141,away,45,Yellow Card
+141,away,53,Yellow Card
+141,home,60,Yellow Card
+141,away,68,Substitution
+141,away,68,Substitution
+141,away,73,Substitution
+141,home,74,Goal
+141,home,85,Substitution
+141,home,85,Substitution
+141,home,87,Yellow Card
+141,home,90,Substitution
+141,home,90,Substitution
+142,home,25,Yellow Card
+142,away,27,label.penalty.scored
+142,home,31,Goal
+142,away,40,Substitution
+142,home,52,Yellow Card
+142,away,45,Substitution
+142,home,52,Goal
+142,home,69,Substitution
+142,home,69,Substitution
+142,away,69,Substitution
+142,home,73,Substitution
+142,home,76,Yellow Card
+142,away,76,Yellow Card
+142,home,84,Substitution
+142,home,84,Substitution
+142,away,84,Substitution
+143,away,25,Goal
+143,home,29,Substitution
+143,home,45,Yellow Card
+143,away,53,Yellow Card
+143,away,62,Substitution
+143,away,62,Substitution
+143,away,63,Yellow Card
+143,home,69,Substitution
+143,home,69,Substitution
+143,away,79,Substitution
+143,away,83,Yellow Card
+143,home,86,Substitution
+143,away,88,Substitution
+143,away,91,Goal
+144,home,35,Yellow Card
+144,home,67,Substitution
+144,home,79,Goal
+144,home,83,Yellow Card
+144,home,85,Substitution
+144,home,86,Goal
+144,home,87,Yellow Card
+144,away,90,Substitution
+144,away,90,Substitution
+144,home,96,Goal
+145,home,30,Goal
+145,home,34,Goal
+145,away,45,Substitution
+145,away,45,Substitution
+145,home,54,Goal
+145,away,58,Substitution
+145,away,58,Substitution
+145,home,63,Substitution
+145,home,74,Goal
+145,home,75,Substitution
+145,home,75,Substitution
+145,away,75,Substitution
+145,away,76,Yellow Card
+145,home,79,Substitution
+145,home,79,Substitution
+145,home,86,Goal
+146,away,20,Goal
+146,home,25,Goal
+146,home,33,Yellow Card
+146,home,44,Yellow Card
+146,away,45,Goal
+146,away,46,Yellow Card
+146,home,49,Goal
+146,home,57,Goal
+146,away,60,Goal
+146,home,61,Substitution
+146,home,61,Substitution
+146,home,62,Substitution
+146,away,64,Substitution
+146,away,64,Substitution
+146,home,88,Substitution
+146,home,88,Substitution
+146,away,97,Goal
+147,away,34,Yellow Card
+147,away,37,Goal
+147,away,57,Substitution
+147,away,62,Yellow Card
+147,away,67,Substitution
+147,away,67,Substitution
+147,home,74,Substitution
+147,home,74,Substitution
+147,away,84,Yellow Card
+147,home,86,Substitution
+147,away,86,Substitution
+147,home,88,Substitution
+147,home,90,Yellow Card
+147,away,94,Goal
+147,home,96,Yellow Card
+148,home,11,Goal
+148,away,52,Goal
+148,away,57,Yellow Card
+148,home,59,Yellow Card
+148,home,67,Substitution
+148,home,67,Substitution
+148,away,74,Goal
+148,away,80,Yellow Card
+148,home,84,Substitution
+148,home,84,Substitution
+148,home,88,Substitution
+148,away,88,Substitution
+148,home,89,Yellow Card
+148,away,92,Yellow Card
+148,home,96,Yellow Card
+149,away,2,Yellow Card
+149,away,36,Substitution
+149,home,42,Goal
+149,away,53,Yellow Card
+149,home,57,Yellow Card
+149,away,63,Yellow Card
+149,away,70,Substitution
+149,away,74,Yellow Card
+149,home,79,Substitution
+149,home,80,Yellow Card
+149,home,87,Substitution
+149,home,91,Substitution
+149,away,92,Substitution
+149,away,92,Substitution
+150,home,14,Yellow Card
+150,home,19,Goal
+150,home,22,Yellow Card
+150,away,45,Goal
+150,home,45,Substitution
+150,away,45,Substitution
+150,home,69,Goal
+150,away,77,Substitution
+150,home,82,Yellow Card
+150,home,84,Substitution
+150,home,92,Substitution
+150,home,94,Yellow Card
+151,home,7,Goal
+151,away,28,Yellow Card
+151,home,45,Substitution
+151,home,53,Yellow Card
+151,home,56,Substitution
+151,home,62,Yellow Card
+151,home,66,Substitution
+151,home,67,Substitution
+151,away,70,Substitution
+151,home,73,Yellow Card
+151,away,77,Yellow Card
+151,home,78,Substitution
+151,away,81,Substitution
+151,home,88,Yellow Card
+151,away,93,Substitution
+152,away,14,Yellow Card
+152,away,45,Goal
+152,home,45,Substitution
+152,home,45,Substitution
+152,away,58,Substitution
+152,home,59,Substitution
+152,home,59,Substitution
+152,away,66,Yellow Card
+152,away,72,Yellow Card
+152,home,77,Goal
+152,away,78,Substitution
+152,away,78,Substitution
+152,away,79,Substitution
+152,away,82,Substitution
+152,home,85,Substitution
+152,away,86,Yellow Card
+153,home,37,Yellow Card
+153,home,45,Substitution
+153,away,45,Substitution
+153,home,57,label.penalty.scored
+153,away,57,Substitution
+153,away,57,Substitution
+153,home,60,Yellow Card
+153,home,64,Yellow Card
+153,home,68,Substitution
+153,home,71,Yellow Card
+153,away,73,Substitution
+153,away,74,Substitution
+153,home,75,Second Yellow Card (Red Card)
+153,away,76,Goal
+153,home,84,Substitution
+153,home,87,Substitution
+153,away,91,Goal
+153,home,95,Substitution
+153,home,98,Yellow Card
+153,away,99,Yellow Card
+153,away,100,Yellow Card
+153,home,102,Yellow Card
+154,home,15,Yellow Card
+154,away,19,Yellow Card
+154,away,27,Substitution
+154,home,41,Substitution
+154,home,45,Substitution
+154,home,54,Goal
+154,home,59,Yellow Card
+154,away,66,Substitution
+154,home,67,Substitution
+154,away,67,Substitution
+154,away,73,Yellow Card
+154,away,84,Substitution
+154,away,84,Substitution
+154,home,86,Substitution
+154,home,92,Goal
+155,away,18,Yellow Card
+155,home,22,Goal
+155,home,31,Goal
+155,home,41,Goal
+155,home,46,Yellow Card
+155,home,45,Substitution
+155,away,45,Substitution
+155,away,45,Substitution
+155,home,60,Goal
+155,away,64,Substitution
+155,away,64,Substitution
+155,away,65,Substitution
+155,home,72,Substitution
+155,home,72,Substitution
+155,home,75,Yellow Card
+155,home,79,Substitution
+155,home,80,Substitution
+155,home,89,Goal
+156,home,47,Goal
+156,home,58,Yellow Card
+156,away,62,Goal
+156,away,65,Goal
+156,away,69,Substitution
+156,home,72,Substitution
+156,home,72,Substitution
+156,away,73,Yellow Card
+156,home,77,Yellow Card
+156,away,83,Substitution
+156,home,84,Substitution
+156,home,90,Substitution
+156,away,93,Substitution
+157,away,5,Goal
+157,away,27,Yellow Card
+157,home,30,Yellow Card
+157,home,56,Substitution
+157,away,58,Substitution
+157,home,60,Yellow Card
+157,away,68,Goal
+157,away,72,Substitution
+157,away,73,Goal
+157,home,79,Substitution
+157,home,79,Substitution
+157,home,79,Substitution
+157,home,84,Yellow Card
+157,away,88,Substitution
+157,away,88,Substitution
+158,home,17,Yellow Card
+158,away,29,Yellow Card
+158,home,46,Goal
+158,away,45,Substitution
+158,home,51,Yellow Card
+158,home,53,Substitution
+158,away,66,Substitution
+158,away,66,Substitution
+158,home,73,Substitution
+158,home,81,Substitution
+158,home,82,Yellow Card
+158,home,91,Yellow Card
+158,home,92,Yellow Card
+159,home,26,Goal
+159,home,38,Goal
+159,away,59,Yellow Card
+159,home,60,Goal
+159,away,64,Substitution
+159,away,64,Substitution
+159,away,69,Yellow Card
+159,home,73,Substitution
+159,home,73,Substitution
+159,away,73,Substitution
+159,away,73,Substitution
+159,home,80,Yellow Card
+159,away,83,Yellow Card
+159,home,85,label.penalty.scored
+159,home,86,Substitution
+159,home,86,Substitution
+159,away,86,Substitution
+159,home,91,Substitution
+159,away,91,Goal
+160,away,14,Goal
+160,home,32,Goal
+160,away,33,Yellow Card
+160,home,61,Substitution
+160,away,63,Substitution
+160,home,69,Substitution
+160,home,69,Substitution
+160,away,77,Substitution
+160,away,84,Substitution
+160,home,91,Substitution
+161,away,27,Substitution
+161,home,38,Yellow Card
+161,away,43,Yellow Card
+161,home,53,Goal
+161,away,60,Substitution
+161,away,60,Substitution
+161,away,60,Substitution
+161,away,76,Yellow Card
+161,away,79,Substitution
+161,home,81,Substitution
+161,home,82,Substitution
+161,home,87,Goal
+161,home,89,Substitution
+161,home,89,Substitution
+161,away,89,Yellow Card
+161,home,93,Substitution
+162,away,9,Goal
+162,away,30,Yellow Card
+162,away,31,Goal
+162,away,46,Goal
+162,home,45,Substitution
+162,home,45,Substitution
+162,home,50,Goal
+162,home,62,Goal
+162,home,64,Goal
+162,away,66,Yellow Card
+162,away,68,Substitution
+162,home,69,Yellow Card
+162,home,71,Substitution
+162,away,73,Substitution
+162,home,83,Goal
+162,away,88,Substitution
+162,away,88,Substitution
+162,home,91,Substitution
+162,home,96,Substitution
+163,home,45,Goal
+163,home,46,Yellow Card
+163,away,65,Substitution
+163,away,65,Substitution
+163,home,68,Substitution
+163,home,68,Substitution
+163,home,71,Red Card
+163,home,76,Substitution
+163,away,77,Goal
+163,away,80,Yellow Card
+163,away,81,Substitution
+163,away,85,Goal
+163,home,86,Yellow Card
+163,away,86,Yellow Card
+163,away,87,Yellow Card
+163,home,88,Yellow Card
+163,home,88,Substitution
+163,home,89,Substitution
+163,home,90,Yellow Card
+163,away,90,Substitution
+163,home,91,Yellow Card
+163,away,97,Red Card
+163,home,98,Yellow Card
+163,away,98,Yellow Card
+164,away,19,Goal
+164,away,25,Goal
+164,home,45,Substitution
+164,away,45,Substitution
+164,home,70,Substitution
+164,home,82,Substitution
+164,away,82,Yellow Card
+164,away,82,Substitution
+164,home,87,Substitution
+164,home,87,Substitution
+165,away,42,Yellow Card
+165,home,52,Yellow Card
+165,home,54,Goal
+165,away,58,Substitution
+165,home,61,Goal
+165,away,63,Yellow Card
+165,away,67,Substitution
+165,home,69,Substitution
+165,away,74,Yellow Card
+165,home,75,Substitution
+165,away,80,Substitution
+165,home,94,Substitution
+165,home,94,Substitution
+166,home,21,Yellow Card
+166,away,27,Yellow Card
+166,away,35,Yellow Card
+166,home,47,Yellow Card
+166,home,61,Substitution
+166,home,61,Substitution
+166,away,71,Substitution
+166,home,78,Substitution
+166,home,78,Substitution
+166,away,82,Substitution
+166,away,82,Substitution
+166,away,88,Yellow Card
+166,away,91,Yellow Card
+166,away,94,Second Yellow Card (Red Card)
+166,away,94,Yellow Card
+167,home,24,Goal
+167,away,34,Substitution
+167,away,40,Yellow Card
+167,home,42,Yellow Card
+167,home,54,Goal
+167,away,76,Goal
+167,away,80,Substitution
+167,away,81,Substitution
+167,away,91,Substitution
+167,away,95,label.penalty.scored
+167,home,96,Substitution
+168,home,14,Substitution
+168,away,22,Red Card
+168,home,36,Substitution
+168,home,57,Goal
+168,away,61,Substitution
+168,away,61,Substitution
+168,home,64,Goal
+168,away,70,Yellow Card
+168,away,76,Substitution
+168,away,77,Substitution
+168,away,77,Substitution
+168,away,81,Yellow Card
+168,home,82,Goal
+168,home,84,Substitution
+168,home,84,Substitution
+168,home,84,Substitution
+169,away,32,Substitution
+169,away,42,Yellow Card
+169,away,47,Goal
+169,away,54,Yellow Card
+169,away,65,Goal
+169,home,67,Substitution
+169,home,67,Substitution
+169,away,70,Red Card
+169,away,72,Substitution
+169,away,73,Yellow Card
+169,away,79,Yellow Card
+169,home,82,Yellow Card
+169,home,83,Substitution
+169,away,88,Substitution
+169,home,90,Yellow Card
+169,away,99,Substitution
+170,home,23,Goal
+170,home,32,Goal
+170,away,47,Yellow Card
+170,home,49,Yellow Card
+170,home,70,Substitution
+170,away,70,Substitution
+170,home,74,Goal
+170,away,79,Substitution
+170,away,80,Substitution
+170,home,86,Substitution
+170,home,86,Substitution
+170,home,87,Yellow Card
+170,home,91,Substitution
+170,home,93,Yellow Card
+171,home,49,Yellow Card
+171,away,51,Yellow Card
+171,away,58,Substitution
+171,away,58,Substitution
+171,away,69,Yellow Card
+171,home,74,Substitution
+171,home,74,Substitution
+171,away,76,Substitution
+171,home,82,Substitution
+171,away,87,Goal
+171,away,91,Substitution
+171,home,95,Yellow Card
+171,home,97,Goal
+171,away,98,Yellow Card
+171,home,100,Yellow Card
+172,home,29,Yellow Card
+172,away,31,Yellow Card
+172,home,46,Goal
+172,away,45,Substitution
+172,away,45,Substitution
+172,home,50,Yellow Card
+172,home,54,Yellow Card
+172,away,57,Yellow Card
+172,home,59,Substitution
+172,home,70,Substitution
+172,away,75,Substitution
+172,away,82,Goal
+172,away,83,Substitution
+172,home,85,Yellow Card
+172,home,90,Yellow Card
+173,home,25,Yellow Card
+173,away,45,Substitution
+173,away,47,Goal
+173,home,58,Yellow Card
+173,away,61,Yellow Card
+173,home,64,Substitution
+173,home,65,Substitution
+173,away,65,Substitution
+173,away,66,Goal
+173,away,80,Substitution
+173,away,80,Substitution
+173,home,82,Substitution
+173,home,82,Substitution
+173,away,89,Substitution
+174,away,4,Goal
+174,home,29,Goal
+174,home,35,Substitution
+174,away,38,Yellow Card
+174,home,48,Yellow Card
+174,away,49,Yellow Card
+174,away,49,Yellow Card
+174,home,68,Substitution
+174,home,68,Substitution
+174,home,68,Substitution
+174,away,68,Substitution
+174,away,78,Substitution
+174,home,84,Yellow Card
+174,away,86,Yellow Card
+174,away,91,Yellow Card
+175,home,25,Goal
+175,away,37,Substitution
+175,away,38,Substitution
+175,home,45,Substitution
+175,home,56,Yellow Card
+175,home,76,Substitution
+175,home,80,Substitution
+175,home,80,Substitution
+175,home,81,Substitution
+175,away,81,Substitution
+175,away,85,Substitution
+175,home,89,Yellow Card
+175,away,94,Yellow Card
+175,away,98,Yellow Card
+176,home,47,Yellow Card
+176,away,47,Yellow Card
+176,away,60,Yellow Card
+176,home,61,Substitution
+176,away,68,Yellow Card
+176,away,68,Substitution
+176,home,71,Goal
+176,away,77,Substitution
+176,away,77,Substitution
+176,home,82,Yellow Card
+176,home,89,Substitution
+176,away,89,Substitution
+176,away,89,Substitution
+176,away,96,Yellow Card
+177,home,5,Yellow Card
+177,home,23,Second Yellow Card (Red Card)
+177,home,26,Substitution
+177,away,29,Substitution
+177,away,31,Yellow Card
+177,home,45,Substitution
+177,home,47,Goal
+177,away,51,Goal
+177,away,58,Goal
+177,away,65,Yellow Card
+177,away,68,Yellow Card
+177,away,70,Substitution
+177,away,70,Substitution
+177,home,74,Goal
+177,away,82,Substitution
+177,away,82,Substitution
+177,home,85,Substitution
+177,home,93,Substitution
+177,away,94,Goal
+178,home,9,Goal
+178,home,18,Goal
+178,away,23,Yellow Card
+178,away,24,Substitution
+178,away,26,Yellow Card
+178,home,45,Substitution
+178,home,63,Substitution
+178,away,66,Substitution
+178,home,73,Substitution
+178,away,75,Yellow Card
+178,away,79,Substitution
+178,away,82,Goal
+178,away,83,Yellow Card
+178,home,86,Yellow Card
+179,home,43,Yellow Card
+179,away,47,Yellow Card
+179,away,51,Yellow Card
+179,away,57,Substitution
+179,home,72,Goal
+179,away,73,Substitution
+179,home,74,Yellow Card
+179,home,78,Goal
+179,away,84,Substitution
+179,away,85,Substitution
+179,home,87,Substitution
+179,home,93,Substitution
+179,away,96,Yellow Card
+180,home,27,Yellow Card
+180,away,30,Yellow Card
+180,home,51,Goal
+180,away,56,Yellow Card
+180,away,59,Substitution
+180,away,59,Substitution
+180,away,60,Yellow Card
+180,away,62,Yellow Card
+180,home,64,Yellow Card
+180,home,70,Substitution
+180,home,75,Substitution
+180,away,79,Substitution
+180,away,80,Substitution
+180,away,80,Substitution
+180,home,86,Substitution
+180,home,87,Substitution
+180,home,93,Goal
+180,away,96,Goal
+180,away,99,Yellow Card
+180,home,100,Yellow Card
+180,away,101,Yellow Card
+181,away,13,Goal
+181,away,33,Substitution
+181,away,55,Goal
+181,home,64,Substitution
+181,home,64,Substitution
+181,home,72,Yellow Card
+181,home,79,Substitution
+181,home,91,Yellow Card
+182,home,44,Goal
+182,home,62,label.penalty.scored
+182,away,62,Yellow Card
+182,away,62,Yellow Card
+182,home,72,Substitution
+182,home,73,Substitution
+182,away,73,Substitution
+182,away,73,Substitution
+182,away,82,Substitution
+182,away,83,Substitution
+182,away,83,Substitution
+182,home,88,Substitution
+182,home,93,Goal
+183,away,13,Goal
+183,away,14,Goal
+183,home,16,Goal
+183,away,28,Goal
+183,home,43,Yellow Card
+183,away,52,Substitution
+183,home,45,Substitution
+183,away,54,Yellow Card
+183,away,64,Substitution
+183,away,65,Substitution
+183,home,67,Substitution
+183,away,79,Goal
+183,away,80,Substitution
+183,home,86,Substitution
+183,home,86,Substitution
+184,home,11,Goal
+184,home,23,label.penalty.scored
+184,away,23,Yellow Card
+184,home,43,Yellow Card
+184,home,45,Substitution
+184,away,57,Yellow Card
+184,home,59,Substitution
+184,home,63,Goal
+184,away,65,Substitution
+184,away,65,Substitution
+184,home,69,Substitution
+184,home,69,Substitution
+184,home,70,Yellow Card
+184,away,70,Substitution
+184,home,75,label.penalty.scored
+184,away,81,Goal
+184,home,82,Yellow Card
+184,away,85,Goal
+184,home,93,Substitution
+185,away,6,Goal
+185,home,22,Yellow Card
+185,home,61,Substitution
+185,away,66,Substitution
+185,away,67,Substitution
+185,away,67,Substitution
+185,away,77,Yellow Card
+185,away,84,Substitution
+185,home,85,Substitution
+185,home,85,Substitution
+185,away,90,Goal
+185,home,91,Yellow Card
+185,home,91,Substitution
+186,home,13,Goal
+186,away,46,Goal
+186,home,52,Yellow Card
+186,home,58,Substitution
+186,home,58,Substitution
+186,home,71,Substitution
+186,home,71,Substitution
+186,away,73,Yellow Card
+186,away,79,Substitution
+186,home,80,Yellow Card
+186,away,80,Yellow Card
+186,home,89,label.penalty.scored
+186,away,90,Substitution
+186,home,92,Substitution
+186,home,95,Yellow Card
+187,home,29,Goal
+187,home,39,Yellow Card
+187,away,43,Substitution
+187,away,53,Goal
+187,away,59,Yellow Card
+187,home,60,Yellow Card
+187,home,63,Yellow Card
+187,home,64,Substitution
+187,away,64,label.penalty.scored
+187,home,65,Substitution
+187,away,65,Substitution
+187,home,78,Yellow Card
+187,home,80,Substitution
+187,away,81,Yellow Card
+187,away,86,Goal
+188,away,21,Goal
+188,away,26,Goal
+188,away,47,Yellow Card
+188,away,50,Substitution
+188,home,59,Goal
+188,home,71,Goal
+188,home,73,Yellow Card
+188,away,74,Yellow Card
+188,away,77,Substitution
+188,away,77,Substitution
+188,home,80,Substitution
+188,home,81,Substitution
+188,home,82,Goal
+188,away,86,Substitution
+188,away,86,Substitution
+188,away,87,Yellow Card
+188,home,89,Substitution
+188,home,94,Substitution
+188,home,95,Substitution
+189,home,23,label.penalty.scored
+189,away,26,Yellow Card
+189,home,27,Yellow Card
+189,away,27,Yellow Card
+189,away,46,Goal
+189,away,53,Goal
+189,home,55,Substitution
+189,home,55,Substitution
+189,away,60,Goal
+189,away,70,Substitution
+189,away,70,Substitution
+189,home,71,Substitution
+189,home,79,Substitution
+189,away,79,Substitution
+189,away,84,Yellow Card
+189,home,85,Yellow Card
+189,home,88,Yellow Card
+189,away,90,Substitution
+189,away,90,Substitution
+190,home,14,Yellow Card
+190,away,17,Goal
+190,home,41,Yellow Card
+190,home,45,Substitution
+190,home,61,Goal
+190,home,69,Goal
+190,away,71,Substitution
+190,home,72,Substitution
+190,away,72,Substitution
+190,home,77,Yellow Card
+190,away,77,Own Goal
+190,away,78,Substitution
+190,home,79,Yellow Card
+190,away,81,Own Goal
+190,away,84,Substitution
+190,home,86,Substitution
+190,home,86,Substitution
+190,home,86,Substitution
+190,home,94,Yellow Card
+191,away,17,Substitution
+191,home,18,Yellow Card
+191,away,23,Yellow Card
+191,home,28,Goal
+191,away,31,Goal
+191,home,42,Goal
+191,away,42,Yellow Card
+191,away,56,Second Yellow Card (Red Card)
+191,away,59,Substitution
+191,home,62,Substitution
+191,away,71,Goal
+191,away,74,Substitution
+191,away,74,Substitution
+191,home,82,Substitution
+191,home,88,Yellow Card
+191,home,89,label.penalty.scored
+191,home,93,Substitution
+191,home,96,Yellow Card
+191,home,98,Yellow Card
+192,away,2,Goal
+192,home,14,Goal
+192,home,39,Goal
+192,away,47,Yellow Card
+192,home,58,Goal
+192,away,63,Substitution
+192,away,63,Substitution
+192,away,67,Substitution
+192,away,80,Substitution
+192,away,80,Substitution
+192,home,86,Substitution
+192,home,86,Substitution
+192,home,92,Substitution
+193,away,5,Goal
+193,home,29,Goal
+193,away,45,Substitution
+193,home,59,Goal
+193,home,65,Yellow Card
+193,away,67,Substitution
+193,away,67,Substitution
+193,home,72,Substitution
+193,home,77,Yellow Card
+193,away,77,Substitution
+193,home,79,Substitution
+193,home,79,Substitution
+193,away,86,Yellow Card
+193,home,92,Yellow Card
+193,home,93,Substitution
+193,home,96,Yellow Card
+194,away,28,Yellow Card
+194,home,45,Yellow Card
+194,away,47,Yellow Card
+194,home,50,Yellow Card
+194,home,49,Goal
+194,away,54,Goal
+194,away,54,Substitution
+194,home,64,Substitution
+194,home,64,Substitution
+194,home,65,Substitution
+194,home,66,Yellow Card
+194,away,66,Yellow Card
+194,home,74,Goal
+194,home,75,Substitution
+194,home,78,Goal
+194,away,81,Goal
+194,away,82,Substitution
+194,away,82,Substitution
+194,away,84,Yellow Card
+194,home,86,label.penalty.scored
+194,away,89,Yellow Card
+195,away,12,Goal
+195,home,27,Yellow Card
+195,away,37,Goal
+195,home,45,Substitution
+195,home,45,Substitution
+195,home,62,Substitution
+195,away,62,Substitution
+195,away,70,Goal
+195,home,77,Yellow Card
+195,home,80,Goal
+195,away,81,Substitution
+195,home,87,Goal
+195,away,87,Yellow Card
+195,away,91,Substitution
+195,home,94,Substitution
+195,away,94,Yellow Card
+196,home,14,Goal
+196,home,43,Yellow Card
+196,home,52,Substitution
+196,home,61,Goal
+196,away,67,Substitution
+196,away,67,Substitution
+196,home,68,Substitution
+196,home,68,Substitution
+196,away,80,Substitution
+196,away,89,Yellow Card
+196,away,90,Substitution
+197,away,45,Substitution
+197,away,54,Substitution
+197,home,56,Yellow Card
+197,away,58,Yellow Card
+197,away,59,Yellow Card
+197,home,64,Goal
+197,home,74,Substitution
+197,away,78,Goal
+197,home,79,Substitution
+197,home,82,Goal
+197,away,85,Yellow Card
+197,home,87,Substitution
+197,home,87,Substitution
+197,home,87,Substitution
+197,home,88,Yellow Card
+197,away,90,Substitution
+197,away,99,Yellow Card
+198,home,9,Goal
+198,away,25,Yellow Card
+198,home,32,Substitution
+198,away,45,Substitution
+198,home,56,Yellow Card
+198,home,58,Substitution
+198,away,61,Substitution
+198,away,61,Substitution
+198,away,69,Substitution
+198,home,71,Goal
+198,away,79,Yellow Card
+198,home,80,Goal
+198,home,82,Substitution
+198,home,82,Substitution
+198,away,82,Substitution
+198,home,83,Substitution
+198,away,84,Goal
+198,home,87,Yellow Card
+198,home,93,Yellow Card
+198,home,94,Substitution Off
+199,home,31,Yellow Card
+199,away,67,Substitution
+199,home,73,Substitution
+199,away,74,Substitution
+199,away,74,Substitution
+200,away,23,Yellow Card
+200,home,25,Goal
+200,home,43,Yellow Card
+200,home,50,Yellow Card
+200,away,50,Yellow Card
+200,home,53,Goal
+200,home,61,Goal
+200,away,63,Substitution
+200,away,63,Substitution
+200,away,67,Yellow Card
+200,home,73,Substitution
+200,away,74,Substitution
+200,away,74,Substitution
+200,home,80,Substitution
+200,home,80,Substitution
+200,home,84,Substitution
+200,home,85,Substitution
+201,home,11,Goal
+201,home,37,Goal
+201,home,59,Goal
+201,away,68,Substitution
+201,home,69,Substitution
+201,home,69,Substitution
+201,home,73,Substitution
+201,away,76,Substitution
+201,away,76,Substitution
+201,home,81,Substitution
+201,home,81,Substitution
+201,away,87,Substitution
+201,home,94,Goal
+201,home,95,Goal
+202,away,49,Goal
+202,home,55,Substitution
+202,home,55,Substitution
+202,home,59,Yellow Card
+202,away,64,Substitution
+202,away,64,Substitution
+202,away,66,Yellow Card
+202,home,69,Substitution
+202,away,70,Goal
+202,away,79,Goal
+202,home,83,Substitution
+202,home,83,Substitution
+202,away,83,Substitution
+202,away,83,Substitution
+202,home,87,Substitution Off
+202,away,93,Goal
+202,away,93,Substitution
+202,away,97,Yellow Card
+203,away,3,Goal
+203,away,18,Yellow Card
+203,home,19,Goal
+203,away,51,Yellow Card
+203,away,54,Yellow Card
+203,home,58,Goal
+203,away,62,Substitution
+203,away,65,Goal
+203,home,66,Yellow Card
+203,home,68,Goal
+203,home,74,Substitution
+203,home,74,Substitution
+203,away,86,Substitution
+203,home,90,Substitution
+203,home,90,Substitution
+203,home,97,Substitution
+204,away,47,Yellow Card
+204,away,54,Yellow Card
+204,home,65,Substitution
+204,home,65,Substitution
+204,away,70,Substitution
+204,home,72,Substitution
+204,home,72,Substitution
+204,away,73,Yellow Card
+204,home,82,Yellow Card
+204,away,88,Substitution
+204,home,92,Substitution
+204,away,92,Yellow Card
+205,home,36,Goal
+205,away,64,Substitution
+205,home,74,Substitution
+205,away,74,Substitution
+205,home,83,Substitution
+205,home,84,Substitution
+205,away,86,Substitution
+205,away,92,Goal
+205,home,93,Yellow Card
+205,home,95,Substitution
+206,home,38,Yellow Card
+206,home,49,label.penalty.scored
+206,away,49,Yellow Card
+206,home,58,Yellow Card
+206,away,64,Substitution
+206,away,64,Substitution
+206,home,66,Substitution
+206,home,75,Yellow Card
+206,home,77,Substitution
+206,home,79,Yellow Card
+206,home,79,Yellow Card
+206,away,82,Substitution
+206,away,82,Substitution
+206,home,92,Substitution
+206,home,93,Substitution
+207,away,31,Yellow Card
+207,away,48,Yellow Card
+207,home,63,Substitution
+207,home,63,Substitution
+207,away,64,Substitution
+207,away,64,Substitution
+207,home,73,Yellow Card
+207,away,73,Yellow Card
+207,away,74,Substitution
+207,away,75,Yellow Card
+207,away,89,Substitution
+208,home,3,Goal
+208,away,19,Goal
+208,home,24,Yellow Card
+208,away,25,Yellow Card
+208,home,40,Goal
+208,home,49,Yellow Card
+208,away,46,Goal
+208,home,58,Substitution
+208,home,63,Substitution
+208,away,80,Substitution
+208,away,85,Substitution
+208,home,88,Substitution
+208,away,89,Substitution
+209,away,8,Substitution
+209,home,21,Yellow Card
+209,away,26,Goal
+209,home,35,Goal
+209,home,37,Goal
+209,away,49,Yellow Card
+209,away,55,Yellow Card
+209,away,69,Substitution
+209,away,74,Goal
+209,away,82,Substitution
+209,home,86,Substitution
+209,away,91,Goal
+210,away,28,Goal
+210,home,39,Yellow Card
+210,away,42,Yellow Card
+210,home,44,Goal
+210,home,45,Substitution
+210,home,67,Substitution
+210,home,68,Yellow Card
+210,away,70,Substitution
+210,home,75,Yellow Card
+210,away,79,label.penalty.scored
+210,home,80,Substitution
+210,home,80,Substitution
+210,home,88,Substitution
+210,home,93,Red Card
+210,away,93,Yellow Card
+210,away,96,Substitution
+210,away,97,Second Yellow Card (Red Card)
+210,away,102,Substitution
+210,home,103,label.penalty.scored
+211,away,32,Goal
+211,away,36,Goal
+211,home,39,Yellow Card
+211,away,43,Substitution
+211,away,52,Own Goal
+211,home,62,Substitution
+211,home,63,Substitution
+211,home,63,Substitution
+211,home,71,Goal
+211,home,72,Yellow Card
+211,away,75,Substitution
+211,home,77,Yellow Card
+211,away,94,Yellow Card
+211,home,95,Yellow Card
+211,away,99,Substitution
+212,away,1,Goal
+212,home,17,Goal
+212,away,20,Goal
+212,home,27,Goal
+212,away,40,Yellow Card
+212,away,42,Yellow Card
+212,away,45,Substitution
+212,away,45,Substitution
+212,away,52,Substitution
+212,away,64,Substitution
+212,home,67,Goal
+212,home,69,Substitution
+212,home,77,Substitution
+212,away,82,Substitution
+212,away,87,Substitution
+212,home,91,Substitution
+212,away,95,Yellow Card
+212,home,103,Yellow Card
+212,away,103,Yellow Card
+213,home,26,Yellow Card
+213,away,28,Yellow Card
+213,away,42,Yellow Card
+213,home,45,Substitution
+213,home,75,Substitution
+213,away,81,Substitution
+213,away,81,Substitution
+213,away,90,Substitution
+214,home,1,Goal
+214,home,3,Goal
+214,away,13,Yellow Card
+214,away,20,Substitution
+214,home,25,Yellow Card
+214,home,42,Goal
+214,away,45,Substitution
+214,away,45,Substitution
+214,home,56,Goal
+214,away,61,Substitution
+214,home,65,Yellow Card
+214,home,68,Substitution
+214,home,68,Substitution
+214,home,71,Substitution
+214,away,71,Substitution
+214,away,73,Yellow Card
+214,home,82,Substitution
+214,home,82,Substitution
+215,away,40,Yellow Card
+215,home,45,Substitution
+215,home,64,Substitution
+215,away,65,Goal
+215,home,71,Substitution
+215,away,71,Substitution
+215,away,72,Goal
+215,home,78,Substitution
+215,away,78,Substitution
+215,away,78,Substitution
+215,home,89,Goal
+215,away,92,Substitution
+215,away,92,Substitution
+216,away,15,Goal
+216,away,17,Yellow Card
+216,home,43,Yellow Card
+216,away,43,Yellow Card
+216,home,45,Substitution
+216,home,45,Substitution
+216,home,48,Goal
+216,home,49,Goal
+216,home,56,Goal
+216,away,57,Substitution
+216,away,67,Goal
+216,away,78,Substitution
+216,away,78,Substitution
+216,home,88,Substitution
+216,away,88,Substitution
+216,away,88,Substitution
+216,away,90,Yellow Card
+216,home,92,Substitution
+216,home,96,Yellow Card
+217,away,3,Goal
+217,home,61,label.penalty.scored
+217,away,67,Yellow Card
+217,home,68,Substitution
+217,away,68,Substitution
+217,away,68,Substitution
+217,home,70,Yellow Card
+217,away,78,Substitution
+217,away,83,Yellow Card
+217,away,91,Substitution
+217,home,96,Substitution
+217,away,97,Yellow Card
+218,away,3,Yellow Card
+218,away,5,Goal
+218,away,22,Goal
+218,home,47,Yellow Card
+218,away,48,Yellow Card
+218,home,54,Substitution
+218,home,64,Substitution
+218,home,71,label.penalty.scored
+218,away,73,Substitution
+218,away,73,Substitution
+218,away,75,Goal
+218,away,78,Yellow Card
+218,home,82,Substitution
+218,home,83,Substitution
+218,home,85,Goal
+218,away,86,Substitution
+218,away,86,Substitution
+218,home,89,Yellow Card
+218,away,92,Substitution
+218,home,95,Goal
+218,away,97,Goal
+218,away,98,Yellow Card
+218,away,100,Yellow Card
+219,away,11,Yellow Card
+219,home,23,Goal
+219,away,33,Yellow Card
+219,away,35,Yellow Card
+219,home,39,Goal
+219,away,41,Yellow Card
+219,away,45,Substitution
+219,away,45,Substitution
+219,away,45,Substitution
+219,home,47,Yellow Card
+219,home,65,Goal
+219,away,66,Substitution
+219,home,68,Substitution
+219,home,68,Substitution
+219,home,69,Substitution
+219,home,69,Substitution
+219,away,71,Goal
+219,home,76,Yellow Card
+219,home,79,Goal
+219,home,83,Substitution
+219,away,85,Substitution
+220,home,16,Goal
+220,away,21,Yellow Card
+220,home,22,Goal
+220,home,46,Goal
+220,away,59,Substitution
+220,away,59,Substitution
+220,away,59,Substitution
+220,home,71,Substitution
+220,home,75,Yellow Card
+220,away,75,Yellow Card
+220,home,76,Substitution
+220,away,76,Substitution
+220,home,81,Yellow Card
+220,away,86,Substitution
+220,home,87,Substitution
+220,home,87,Substitution
+220,away,93,Goal
+221,home,14,Goal
+221,away,25,Yellow Card
+221,home,31,Yellow Card
+221,away,48,Own Goal
+221,home,45,Substitution
+221,away,55,Yellow Card
+221,home,57,Yellow Card
+221,away,58,Substitution
+221,away,58,Substitution
+221,away,58,Substitution
+221,home,67,Goal
+221,home,69,Yellow Card
+221,home,74,Substitution
+221,home,79,Substitution
+221,away,85,Substitution
+221,away,88,Second Yellow Card (Red Card)
+221,away,90,Yellow Card
+221,home,91,Yellow Card
+221,home,92,Goal
+221,home,94,Yellow Card
+221,home,95,Yellow Card
+222,home,5,Goal
+222,home,23,Yellow Card
+222,home,35,Yellow Card
+222,away,45,Goal
+222,home,45,Substitution
+222,away,55,Yellow Card
+222,home,56,Substitution
+222,home,56,Substitution
+222,home,71,Substitution
+222,away,72,Substitution
+222,away,73,Yellow Card
+222,away,78,Substitution
+222,away,78,Substitution
+222,home,83,Substitution
+222,home,84,Red Card
+222,home,86,Yellow Card
+222,away,90,Substitution
+223,home,21,Goal
+223,home,31,Yellow Card
+223,away,48,Goal
+223,away,53,Goal
+223,away,70,Goal
+223,away,71,Substitution
+223,home,76,Substitution
+223,home,76,Substitution
+223,home,77,Substitution
+223,home,79,Substitution
+223,away,86,Substitution
+223,home,91,Substitution
+224,home,3,Goal
+224,away,16,Yellow Card
+224,away,28,Substitution
+224,home,33,Goal
+224,home,34,Goal
+224,away,45,Substitution
+224,away,56,Substitution
+224,away,59,Yellow Card
+224,away,62,Yellow Card
+224,home,69,Substitution
+224,away,71,Goal
+224,home,79,Substitution
+224,home,80,Substitution
+224,away,80,Substitution
+224,away,80,Substitution
+224,home,85,Goal
+224,home,88,Substitution
+224,home,88,Substitution
+224,home,92,Yellow Card
+225,away,17,Goal
+225,away,21,Goal
+225,away,43,Yellow Card
+225,away,48,Yellow Card
+225,home,45,Substitution
+225,home,63,Substitution
+225,home,63,Substitution
+225,home,71,Goal
+225,away,74,Substitution
+225,away,75,Substitution
+225,home,84,Yellow Card
+225,away,85,Substitution
+225,home,87,Substitution
+225,home,90,Substitution
+225,home,91,Goal
+225,home,92,Yellow Card
+226,home,19,Goal
+226,away,22,Goal
+226,home,30,Yellow Card
+226,away,38,Yellow Card
+226,away,41,Yellow Card
+226,away,43,Own Goal
+226,home,56,Yellow Card
+226,home,63,Substitution
+226,away,63,Goal
+226,home,72,Substitution
+226,home,72,Substitution
+226,away,72,Substitution
+226,away,72,Substitution
+226,home,78,Yellow Card
+226,home,81,Substitution
+226,home,81,Substitution
+226,away,82,label.penalty.scored
+226,home,86,Goal
+226,away,87,Substitution
+226,away,90,Substitution
+227,away,4,Goal
+227,home,30,Goal
+227,away,41,Goal
+227,home,60,Yellow Card
+227,away,64,Substitution
+227,away,64,Substitution
+227,home,75,Substitution
+227,home,80,Substitution
+227,home,85,Substitution
+227,home,85,Substitution
+227,away,86,Substitution
+227,away,86,Substitution
+227,away,89,Substitution
+227,home,91,Yellow Card
+227,home,94,Goal
+227,home,99,Yellow Card
+228,home,23,Goal
+228,away,37,Yellow Card
+228,away,45,Substitution
+228,home,49,Goal
+228,home,64,Substitution
+228,home,71,Substitution
+228,away,72,Substitution
+228,away,72,Substitution
+228,home,84,Goal
+228,home,87,Substitution
+228,home,88,Substitution
+229,home,7,Goal
+229,away,21,Goal
+229,home,23,Goal
+229,away,40,Goal
+229,home,45,Substitution
+229,home,56,Yellow Card
+229,away,59,label.penalty.scored
+229,away,60,Yellow Card
+229,away,62,Goal
+229,home,63,Substitution
+229,home,64,Substitution
+229,home,67,Goal
+229,away,68,Substitution
+229,home,73,Goal
+229,home,76,Yellow Card
+229,away,79,Substitution
+229,away,79,Substitution
+229,away,87,Substitution
+229,away,90,Yellow Card
+230,away,12,Goal
+230,away,16,Goal
+230,away,20,Goal
+230,away,30,Goal
+230,home,44,Yellow Card
+230,home,45,Substitution
+230,away,45,Substitution
+230,away,47,Goal
+230,home,50,Substitution
+230,home,50,Substitution
+230,away,59,Substitution
+230,away,60,Substitution
+230,home,65,Substitution
+230,away,71,Substitution
+230,home,72,Substitution
+230,away,81,Substitution
+231,away,17,Goal
+231,away,37,Yellow Card
+231,home,49,Yellow Card
+231,away,49,Yellow Card
+231,away,45,Substitution
+231,home,60,Yellow Card
+231,home,65,Substitution
+231,home,67,Goal
+231,home,71,Yellow Card
+231,home,73,Substitution
+231,away,73,Substitution
+231,away,86,Goal
+231,home,87,Substitution
+231,home,87,Substitution
+231,away,92,Substitution
+231,away,92,Substitution
+232,home,30,Goal
+232,away,45,Substitution
+232,away,47,Goal
+232,away,61,Substitution
+232,home,70,Yellow Card
+232,home,79,Substitution
+232,away,79,Substitution
+232,home,80,Yellow Card
+232,home,84,Substitution
+232,away,84,Substitution
+232,away,91,Goal
+232,away,92,Yellow Card
+232,away,94,Goal
+232,away,94,Yellow Card
+233,home,6,Goal
+233,home,36,Goal
+233,away,45,Substitution
+233,away,50,Goal
+233,home,52,Goal
+233,away,62,Yellow Card
+233,home,63,Substitution
+233,home,63,Substitution
+233,away,63,Substitution
+233,away,69,Substitution
+233,away,69,Substitution
+233,home,75,Substitution
+233,away,81,Yellow Card
+233,home,85,Substitution
+233,home,85,Substitution
+233,away,85,Substitution
+233,home,94,Yellow Card
+234,away,14,Yellow Card
+234,home,19,Yellow Card
+234,away,26,Yellow Card
+234,home,31,Goal
+234,home,33,Yellow Card
+234,away,45,Goal
+234,home,45,Substitution
+234,home,52,Goal
+234,home,69,Yellow Card
+234,home,79,Goal
+234,away,80,Substitution
+234,away,81,Substitution
+234,home,82,Substitution
+234,away,86,Substitution
+234,home,97,Substitution
+234,home,97,Substitution
+234,home,97,Substitution
+235,away,5,Substitution
+235,away,10,Yellow Card
+235,away,26,Yellow Card
+235,away,30,Goal
+235,away,36,label.penalty.scored
+235,home,41,Yellow Card
+235,home,52,label.penalty.scored
+235,home,53,Substitution
+235,away,60,Substitution
+235,home,68,Substitution
+235,away,72,Goal
+235,away,81,Substitution
+235,away,81,Substitution
+235,home,87,Substitution
+235,home,87,Substitution
+236,away,54,Yellow Card
+236,away,56,Substitution
+236,home,57,Substitution
+236,home,57,Substitution
+236,home,71,Goal
+236,home,77,Substitution
+236,away,78,Substitution
+236,away,78,Substitution
+236,home,85,Goal
+236,home,87,Substitution
+236,away,88,Substitution
+236,away,89,Substitution
+236,away,97,Yellow Card
+237,away,10,Goal
+237,home,26,Goal
+237,away,43,Goal
+237,home,51,Goal
+237,away,58,Yellow Card
+237,home,59,Yellow Card
+237,away,60,Substitution
+237,away,66,Goal
+237,home,68,Substitution
+237,home,73,Substitution
+237,home,78,Substitution
+237,away,81,Substitution
+237,away,92,Substitution
+237,away,94,Yellow Card
+238,away,17,label.penalty.scored
+238,home,35,Yellow Card
+238,away,57,Substitution
+238,home,61,Goal
+238,home,61,Yellow Card
+238,home,62,Substitution
+238,home,62,Substitution
+238,home,63,Substitution
+238,away,65,Yellow Card
+238,away,79,Yellow Card
+238,home,80,Substitution
+238,home,80,Substitution
+238,away,83,Substitution
+238,away,83,Substitution
+238,away,88,Yellow Card
+238,away,91,Substitution
+238,away,91,Substitution
+238,home,96,Goal
+239,home,9,Yellow Card
+239,away,32,Goal
+239,home,38,Yellow Card
+239,away,41,label.penalty.scored
+239,away,44,Goal
+239,away,47,Goal
+239,home,45,Substitution
+239,home,45,Substitution
+239,away,63,Goal
+239,away,65,Goal
+239,away,67,Substitution
+239,away,67,Substitution
+239,away,67,Substitution
+239,home,76,Yellow Card
+239,home,76,Substitution
+239,away,77,Substitution
+239,away,77,Substitution
+239,home,91,Yellow Card
+240,home,20,Substitution
+240,away,35,Goal
+240,home,45,Substitution
+240,away,60,Yellow Card
+240,home,62,Substitution
+240,away,68,Yellow Card
+240,away,69,Substitution
+240,home,70,Yellow Card
+240,away,76,Substitution
+240,away,77,Goal
+240,away,81,Yellow Card
+240,home,83,Substitution
+240,away,85,Substitution
+240,away,85,Substitution
+240,home,88,Yellow Card
+241,away,34,Substitution
+241,away,35,Goal
+241,away,44,Substitution
+241,home,45,Yellow Card
+241,away,45,Substitution
+241,away,55,Goal
+241,home,63,Substitution
+241,home,63,Substitution
+241,home,63,Substitution
+241,away,67,Yellow Card
+241,away,68,Goal
+241,home,72,Yellow Card
+241,home,74,Substitution
+241,home,75,Goal
+241,away,83,Substitution
+241,away,83,Substitution
+241,home,85,Substitution
+241,away,86,Goal
+242,away,4,Goal
+242,home,7,Yellow Card
+242,home,39,Yellow Card
+242,away,41,label.penalty.scored
+242,away,47,Yellow Card
+242,home,45,Substitution
+242,away,47,Goal
+242,home,62,Substitution
+242,home,63,Substitution
+242,away,66,Goal
+242,away,69,Substitution
+242,away,69,Substitution
+242,away,69,Substitution
+242,away,78,Goal
+242,away,79,Substitution
+242,home,80,Substitution
+242,home,80,Substitution
+242,away,84,Substitution
+243,home,66,Substitution
+243,home,66,Substitution
+243,away,66,Goal
+243,home,72,Substitution
+243,away,72,Substitution
+243,home,84,Goal
+243,away,87,Yellow Card
+243,away,88,Substitution
+243,away,94,Yellow Card
+244,away,23,Goal
+244,away,32,Yellow Card
+244,home,45,Substitution
+244,away,56,Goal
+244,home,63,Goal
+244,home,64,Substitution
+244,away,74,Yellow Card
+244,home,75,Substitution
+244,home,75,Substitution
+244,away,81,Substitution
+244,away,81,Substitution
+244,home,86,Yellow Card
+244,home,89,Yellow Card
+244,home,89,Substitution
+244,home,90,Yellow Card
+244,home,93,Yellow Card
+244,home,94,Yellow Card
+244,away,94,Substitution
+245,away,1,Goal
+245,away,7,Goal
+245,home,14,Goal
+245,home,17,Yellow Card
+245,away,20,Yellow Card
+245,away,34,Yellow Card
+245,away,42,Yellow Card
+245,away,47,Substitution
+245,away,45,Substitution
+245,away,45,Substitution
+245,home,68,Substitution
+245,home,68,Substitution
+245,home,70,Yellow Card
+245,away,75,Yellow Card
+245,away,81,Yellow Card
+245,home,82,Substitution
+245,away,86,Substitution
+245,home,87,Yellow Card
+246,away,35,Yellow Card
+246,away,42,Goal
+246,away,60,Yellow Card
+246,away,62,Yellow Card
+246,home,64,Substitution
+246,away,64,Substitution
+246,away,71,Substitution
+246,away,82,Substitution
+246,home,83,Goal
+246,home,85,Yellow Card
+247,away,44,Yellow Card
+247,away,51,Goal
+247,away,52,Yellow Card
+247,home,58,label.penalty.scored
+247,away,62,Yellow Card
+247,home,67,Substitution
+247,away,69,Goal
+247,home,71,Substitution
+247,away,71,Substitution
+247,away,79,Substitution
+247,home,87,Yellow Card
+247,home,91,Substitution
+247,home,91,Substitution
+247,home,92,Goal
+247,away,93,Substitution
+248,away,8,Yellow Card
+248,home,9,Yellow Card
+248,away,36,Yellow Card
+248,home,50,Goal
+248,home,51,Yellow Card
+248,away,57,Yellow Card
+248,home,60,Yellow Card
+248,home,67,Substitution
+248,home,68,Yellow Card
+248,away,68,Yellow Card
+248,away,68,Yellow Card
+248,away,71,Second Yellow Card (Red Card)
+248,away,75,Substitution
+248,away,76,Substitution
+248,away,83,Substitution
+248,home,86,Substitution
+248,home,93,Substitution
+248,away,93,Substitution
+248,home,94,Goal
+249,home,13,Red Card
+249,away,20,Goal
+249,away,24,Goal
+249,home,30,Substitution
+249,away,51,Yellow Card
+249,away,45,Substitution
+249,away,45,Substitution
+249,away,56,Yellow Card
+249,home,63,Substitution
+249,away,66,Substitution
+249,away,75,Own Goal
+249,away,76,Substitution
+249,away,78,Goal
+249,home,79,Substitution
+249,home,79,Substitution
+249,home,79,Substitution
+249,away,81,Substitution
+249,away,85,Goal
+249,away,90,Yellow Card
+249,home,93,Yellow Card
+249,away,93,Yellow Card
+250,away,42,Goal
+250,home,46,Goal
+250,away,63,Goal
+250,away,67,Yellow Card
+250,home,71,Substitution
+250,home,71,Substitution
+250,home,71,Substitution
+250,away,73,Substitution
+250,home,85,Substitution
+250,home,85,Substitution
+250,away,88,Substitution
+250,away,92,Substitution
+251,home,7,Yellow Card
+251,home,18,Own Goal
+251,home,24,Goal
+251,home,64,Substitution
+251,away,64,Substitution
+251,away,64,Substitution
+251,home,65,Goal
+251,home,69,Goal
+251,away,73,Substitution
+251,away,73,Substitution
+251,away,73,Substitution
+251,home,76,Substitution
+251,home,76,Substitution
+251,home,76,Substitution
+251,away,84,Goal
+251,home,89,Substitution
+252,home,4,Goal
+252,away,15,Yellow Card
+252,home,29,Goal
+252,home,39,Goal
+252,away,45,Yellow Card
+252,away,50,Goal
+252,home,45,Substitution
+252,away,45,Substitution
+252,away,45,Substitution
+252,away,45,Substitution
+252,away,48,Goal
+252,home,57,Yellow Card
+252,home,59,Substitution
+252,home,61,Goal
+252,away,73,Substitution
+252,away,81,Substitution
+252,home,82,Substitution
+252,home,92,Substitution
+252,home,92,Substitution
+253,away,24,Goal
+253,home,38,Yellow Card
+253,away,63,Substitution
+253,home,68,Substitution
+253,home,69,Substitution
+253,home,70,Yellow Card
+253,away,75,Substitution
+253,home,80,Substitution
+253,away,84,Substitution
+253,away,87,Yellow Card
+253,home,88,Substitution
+253,home,88,Substitution
+253,away,96,Yellow Card
+254,away,33,Yellow Card
+254,away,49,Substitution
+254,home,60,Substitution
+254,home,61,Substitution
+254,home,61,Substitution
+254,away,68,Substitution
+254,home,70,Yellow Card
+254,home,72,Substitution
+254,home,73,Yellow Card
+254,away,73,Goal
+254,home,75,Substitution
+254,home,81,Red Card
+254,away,89,Substitution
+254,away,91,Yellow Card
+254,away,92,Yellow Card
+254,home,95,Goal
+255,home,24,Goal
+255,away,63,Substitution
+255,away,63,Substitution
+255,away,63,Substitution
+255,away,67,Yellow Card
+255,home,72,Goal
+255,home,75,Substitution
+255,away,78,Substitution
+255,home,85,Substitution
+255,away,86,Substitution
+255,home,94,Substitution
+256,away,35,Red Card
+256,away,37,Substitution
+256,home,50,Yellow Card
+256,home,66,Substitution
+256,home,66,Substitution
+256,home,68,Goal
+256,home,71,Goal
+256,away,75,Substitution
+256,home,79,label.penalty.scored
+256,away,85,Yellow Card
+256,away,90,Substitution
+256,home,91,Substitution
+256,away,91,Substitution
+256,away,91,Substitution
+256,home,92,Yellow Card
+256,home,97,Yellow Card
+256,home,99,Substitution
+257,away,12,Goal
+257,away,18,Yellow Card
+257,away,42,Yellow Card
+257,away,45,Substitution
+257,home,56,Goal
+257,home,58,Goal
+257,away,58,Substitution
+257,away,63,Substitution
+257,home,68,Substitution
+257,home,71,Goal
+257,away,74,Substitution
+257,away,77,Yellow Card
+257,home,78,Substitution
+257,home,82,Yellow Card
+257,home,89,Substitution
+257,home,89,Substitution
+257,away,89,Yellow Card
+257,home,90,Goal
+258,away,25,Yellow Card
+258,home,36,Yellow Card
+258,away,42,Yellow Card
+258,away,47,Yellow Card
+258,home,53,Substitution
+258,home,53,Substitution
+258,away,65,Goal
+258,away,68,Substitution
+258,away,77,Substitution
+258,home,80,Substitution
+258,away,81,Substitution
+258,home,89,Goal
+258,away,90,Yellow Card
+258,away,97,Goal
+258,home,99,Substitution
+258,home,100,Yellow Card
+258,away,100,Yellow Card
+259,home,5,Goal
+259,home,7,Goal
+259,away,13,Goal
+259,away,23,Yellow Card
+259,away,52,Yellow Card
+259,away,61,Substitution
+259,home,63,Goal
+259,home,69,Goal
+259,away,73,Substitution
+259,away,73,Substitution
+259,away,74,Substitution
+259,home,76,Substitution
+259,away,77,Substitution
+259,away,82,Goal
+259,home,89,Yellow Card
+259,home,94,Substitution
+260,home,30,Goal
+260,home,72,Yellow Card
+260,away,72,Yellow Card
+260,away,72,Substitution
+260,home,77,Substitution
+260,away,82,Substitution
+260,away,82,Substitution
+260,away,82,Substitution
+260,home,85,Substitution
+260,home,90,Substitution
+260,home,96,Yellow Card
+261,away,35,Goal
+261,away,38,Yellow Card
+261,home,50,Goal
+261,home,57,Yellow Card
+261,home,69,Goal
+261,away,71,Substitution
+261,home,73,Yellow Card
+261,home,77,Substitution
+261,away,79,Substitution
+261,away,83,Goal
+261,home,87,Substitution
+261,home,87,Substitution
+261,home,91,Yellow Card
+262,home,1,Yellow Card
+262,away,12,Substitution
+262,away,13,Goal
+262,away,41,Yellow Card
+262,away,44,Yellow Card
+262,away,45,Substitution
+262,home,68,Yellow Card
+262,away,68,Yellow Card
+262,home,69,Substitution
+262,away,73,Substitution
+262,home,77,Substitution
+262,away,84,Yellow Card
+262,away,88,Goal
+262,away,89,Substitution
+262,away,89,Substitution
+262,home,90,Substitution
+262,home,90,Substitution
+263,home,56,Goal
+263,away,62,Goal
+263,away,66,Substitution
+263,home,74,Substitution
+263,home,80,Substitution
+263,away,80,Substitution
+263,away,91,Goal
+263,home,92,Yellow Card
+263,away,92,Yellow Card
+263,home,93,Substitution
+263,home,93,Substitution
+263,away,93,Yellow Card
+263,away,95,Goal
+263,away,97,Substitution
+263,away,97,Substitution
+264,away,8,Yellow Card
+264,home,21,Goal
+264,home,32,Goal
+264,away,45,Substitution
+264,away,45,Substitution
+264,away,57,Yellow Card
+264,away,59,Substitution
+264,away,59,Substitution
+264,home,69,Substitution
+264,home,69,Substitution
+264,away,78,Substitution
+264,home,84,Substitution
+264,home,84,Substitution
+264,home,88,Substitution
+264,home,89,Yellow Card
+264,home,91,Goal
+265,home,5,Substitution
+265,away,24,Goal
+265,away,29,Substitution
+265,home,38,Yellow Card
+265,away,38,Goal
+265,away,45,Yellow Card
+265,away,50,Yellow Card
+265,away,50,Yellow Card
+265,home,53,Substitution
+265,home,66,Goal
+265,home,72,Goal
+265,away,79,Substitution
+265,away,79,Substitution
+265,away,79,Substitution
+265,away,79,Substitution
+265,home,84,Substitution
+265,away,89,Goal
+265,away,92,Yellow Card
+266,away,8,Goal
+266,home,56,Goal
+266,home,59,Substitution
+266,away,68,Yellow Card
+266,away,69,Substitution
+266,away,75,Substitution
+266,home,80,Goal
+266,away,82,Substitution
+266,away,82,Substitution
+266,home,91,Goal
+266,home,96,Substitution
+267,home,14,Goal
+267,home,33,Goal
+267,away,45,Substitution
+267,away,45,Substitution
+267,home,52,Substitution
+267,away,60,Substitution
+267,home,70,Substitution
+267,home,70,Substitution
+267,home,70,Substitution
+267,away,81,Substitution
+267,away,81,Substitution
+267,away,85,Yellow Card
+267,home,92,Goal
+267,home,93,Substitution
+268,away,59,Yellow Card
+268,away,60,Substitution
+268,away,60,Substitution
+268,home,65,Substitution
+268,away,76,Substitution
+268,home,79,Substitution
+268,away,84,Substitution
+268,away,84,Substitution
+268,away,85,Yellow Card
+268,home,93,Yellow Card
+268,home,93,Yellow Card
+268,away,99,Goal
+268,home,101,Yellow Card
+269,away,5,Goal
+269,away,13,Own Goal
+269,away,15,Goal
+269,home,17,Substitution
+269,away,25,Goal
+269,home,29,Yellow Card
+269,away,39,Goal
+269,home,45,Substitution
+269,home,45,Substitution
+269,home,45,Substitution
+269,away,45,Substitution
+269,away,58,Goal
+269,home,64,Substitution
+269,away,64,Substitution
+269,away,65,Substitution
+269,away,65,Substitution
+269,away,74,Substitution
+270,away,50,Yellow Card
+270,home,58,Yellow Card
+270,away,59,Goal
+270,home,63,Substitution
+270,away,66,Substitution
+270,away,71,Substitution
+270,away,71,Substitution
+270,away,75,Yellow Card
+270,home,77,Goal
+270,home,80,Goal
+270,home,82,Substitution
+270,home,82,Substitution
+270,home,88,Goal
+270,home,90,Substitution
+270,home,91,Substitution
+271,away,4,Yellow Card
+271,home,10,Yellow Card
+271,home,19,Goal
+271,away,21,Yellow Card
+271,away,34,Substitution
+271,home,47,Yellow Card
+271,away,49,Goal
+271,home,70,Substitution
+271,away,72,Yellow Card
+271,away,78,Substitution
+271,away,78,Substitution
+271,home,79,Substitution
+271,home,79,Substitution
+271,home,86,Goal
+271,away,90,Substitution
+271,away,90,Substitution
+271,home,95,Substitution
+271,away,99,Yellow Card
+272,away,19,Yellow Card
+272,away,49,Substitution
+272,away,50,Goal
+272,away,53,Goal
+272,home,58,Substitution
+272,home,58,Substitution
+272,home,58,Substitution
+272,away,61,Yellow Card
+272,home,65,Red Card
+272,home,69,Substitution
+272,away,70,Substitution
+272,home,85,Substitution
+272,away,87,Substitution
+272,away,88,Substitution
+272,away,91,Goal
+272,away,94,Goal
+273,home,10,Yellow Card
+273,home,15,Yellow Card
+273,away,27,Goal
+273,away,36,Yellow Card
+273,home,45,Substitution
+273,away,45,Substitution
+273,away,61,Yellow Card
+273,home,62,Substitution
+273,home,62,Substitution
+273,away,64,Goal
+273,away,69,Substitution
+273,away,69,Substitution
+273,away,72,Yellow Card
+273,home,74,Goal
+273,home,74,Substitution
+273,home,74,Substitution
+273,away,80,Substitution
+273,away,80,Substitution
+273,away,81,Yellow Card
+273,home,88,Yellow Card
+273,away,88,Yellow Card
+273,home,91,Goal
+274,away,14,Yellow Card
+274,away,19,Yellow Card
+274,home,29,Own Goal
+274,home,41,Yellow Card
+274,away,55,Yellow Card
+274,home,60,Substitution
+274,home,60,Substitution
+274,away,60,Substitution
+274,away,61,Substitution
+274,home,67,Yellow Card
+274,away,72,Substitution
+274,away,72,Substitution
+274,home,76,Substitution
+274,home,76,Substitution
+274,home,78,Yellow Card
+274,home,80,Substitution
+274,away,87,Substitution
+274,away,95,Yellow Card
+274,home,97,Yellow Card
+275,home,6,Goal
+275,away,36,Substitution
+275,home,39,Yellow Card
+275,away,43,Goal
+275,home,57,Goal
+275,away,69,Substitution
+275,away,69,Substitution
+275,home,71,Yellow Card
+275,home,71,Substitution
+275,home,72,Yellow Card
+275,home,76,Goal
+275,away,80,Substitution
+275,away,81,Substitution
+275,home,86,Substitution
+275,away,90,Goal
+275,home,91,Substitution
+275,away,96,Yellow Card
+276,home,11,Goal
+276,away,27,Yellow Card
+276,home,39,Yellow Card
+276,away,57,Yellow Card
+276,away,62,Substitution
+276,home,70,Substitution
+276,home,81,Substitution
+276,home,81,Substitution
+276,away,81,Substitution
+276,home,86,Yellow Card
+276,away,87,Substitution
+276,away,87,Substitution
+276,away,88,Substitution
+276,away,91,Yellow Card
+276,away,96,Goal
+277,away,23,Goal
+277,away,48,Yellow Card
+277,away,47,Yellow Card
+277,home,50,label.penalty.scored
+277,away,56,Substitution
+277,away,59,Yellow Card
+277,home,61,Substitution
+277,home,61,Substitution
+277,away,69,Substitution
+277,away,69,Substitution
+277,home,76,Substitution
+278,home,12,label.penalty.scored
+278,away,27,Yellow Card
+278,away,34,Yellow Card
+278,home,36,label.penalty.scored
+278,away,61,Substitution
+278,away,61,Substitution
+278,away,61,Substitution
+278,home,69,Yellow Card
+278,away,75,Substitution
+278,home,79,Substitution
+278,home,83,Substitution
+278,away,88,Substitution
+278,home,89,Substitution
+279,away,11,Goal
+279,home,44,Yellow Card
+279,away,46,Own Goal
+279,home,45,Substitution
+279,home,45,Substitution
+279,away,45,Substitution
+279,home,46,Goal
+279,away,64,Yellow Card
+279,away,68,Substitution
+279,away,72,Yellow Card
+279,away,76,Yellow Card
+279,home,82,Substitution
+279,home,83,Yellow Card
+279,away,84,Yellow Card
+279,home,91,Goal
+279,away,93,Substitution
+280,home,11,Substitution
+280,home,45,Yellow Card
+280,home,46,Substitution
+280,away,51,Yellow Card
+280,home,52,Goal
+280,home,57,Yellow Card
+280,away,61,Substitution
+280,away,61,Substitution
+280,home,67,Own Goal
+280,away,69,Substitution
+280,away,70,Substitution
+280,away,72,Yellow Card
+280,home,77,Substitution
+280,away,79,Substitution
+280,away,98,Goal
+281,home,4,Goal
+281,away,42,Yellow Card
+281,away,43,Yellow Card
+281,home,45,Yellow Card
+281,home,52,Goal
+281,home,57,Goal
+281,home,65,Goal
+281,away,66,Substitution
+281,away,67,Substitution
+281,home,70,Goal
+281,home,72,Substitution
+281,home,72,Substitution
+281,home,72,Substitution
+281,home,72,Substitution
+281,home,76,Yellow Card
+281,away,78,Substitution
+281,away,79,Substitution
+281,home,82,Substitution
+282,away,17,Goal
+282,away,26,Goal
+282,away,34,Goal
+282,home,35,Yellow Card
+282,home,45,Substitution
+282,home,45,Substitution
+282,home,56,Substitution
+282,away,62,Goal
+282,away,71,Substitution
+282,away,72,Substitution
+282,home,75,Substitution
+282,home,76,Yellow Card
+282,away,78,Substitution
+282,away,78,Substitution
+282,away,78,Substitution
+283,away,8,Red Card
+283,home,10,label.penalty.scored
+283,away,59,Substitution
+283,away,59,Substitution
+283,home,62,Goal
+283,away,68,Yellow Card
+283,home,69,Substitution
+283,away,79,Substitution
+283,away,80,Substitution
+283,away,80,Substitution
+283,home,81,Yellow Card
+283,away,83,Goal
+283,away,84,Yellow Card
+283,home,88,Substitution
+283,home,91,Yellow Card
+283,home,95,Substitution
+283,away,100,Yellow Card
+283,away,103,Yellow Card
+284,home,41,Yellow Card
+284,home,46,Yellow Card
+284,home,55,Goal
+284,away,60,Yellow Card
+284,away,65,Substitution
+284,away,65,Substitution
+284,home,66,Yellow Card
+284,home,73,Substitution
+284,away,77,Yellow Card
+284,away,80,Yellow Card
+284,home,82,Substitution
+284,home,83,Substitution
+284,home,88,Goal
+284,away,89,Substitution
+284,away,90,Substitution
+284,home,94,Substitution
+285,home,27,Goal
+285,away,37,Yellow Card
+285,home,45,Substitution
+285,home,58,Goal
+285,away,63,Substitution
+285,away,63,Substitution
+285,away,63,Substitution
+285,home,75,Substitution
+285,away,84,Substitution
+285,away,84,Substitution
+285,away,93,Yellow Card
+285,away,93,Yellow Card
+285,home,94,Substitution
+286,home,42,Goal
+286,home,49,Goal
+286,home,55,Yellow Card
+286,home,61,Goal
+286,away,63,Yellow Card
+286,home,64,Substitution
+286,away,66,Substitution
+286,away,66,Substitution
+286,away,66,Substitution
+286,home,72,Substitution
+286,away,79,Yellow Card
+286,away,80,Substitution
+286,home,81,Substitution
+286,home,82,Substitution
+286,home,82,Substitution
+286,away,87,Substitution
+286,home,96,Yellow Card
+286,away,96,Yellow Card
+287,home,30,Yellow Card
+287,away,34,Goal
+287,home,45,Substitution
+287,home,60,Substitution
+287,away,75,Substitution
+287,away,75,Substitution
+287,away,82,Substitution
+287,away,84,Yellow Card
+287,home,85,Substitution
+287,home,89,Goal
+287,away,90,Yellow Card
+288,away,35,Goal
+288,away,37,Yellow Card
+288,home,42,Goal
+288,away,45,Substitution
+288,away,50,Goal
+288,home,55,Substitution
+288,home,61,label.penalty.scored
+288,away,62,Substitution
+288,home,64,Substitution
+288,away,78,Substitution
+288,home,81,Goal
+288,home,85,Goal
+288,away,87,Substitution
+288,home,91,Substitution
+288,home,91,Substitution
+289,home,29,Goal
+289,away,45,Substitution
+289,away,45,Substitution
+289,away,63,Substitution
+289,away,63,Substitution
+289,home,66,Substitution
+289,away,70,Yellow Card
+289,away,79,Goal
+289,home,83,Yellow Card
+289,away,83,Yellow Card
+289,home,84,Substitution
+289,home,84,Substitution
+289,home,86,Yellow Card
+289,away,86,Yellow Card
+289,home,87,Yellow Card
+290,home,23,Yellow Card
+290,away,37,Goal
+290,home,44,Yellow Card
+290,home,45,Substitution
+290,home,55,Substitution
+290,home,61,Yellow Card
+290,home,64,Substitution
+290,home,64,Substitution
+290,home,69,Yellow Card
+290,away,74,Substitution
+290,away,79,Red Card
+290,away,81,Substitution
+290,away,87,Substitution
+290,away,87,Substitution
+290,away,92,Yellow Card
+290,home,93,Substitution
+291,away,19,Yellow Card
+291,home,30,Yellow Card
+291,home,36,Goal
+291,home,45,Substitution
+291,home,63,Substitution
+291,home,63,Substitution
+291,away,64,Substitution
+291,home,65,Goal
+291,away,71,Substitution
+291,away,81,Yellow Card
+291,home,84,Yellow Card
+291,away,84,Yellow Card
+291,away,84,Substitution
+291,away,84,Substitution
+291,away,84,Substitution
+291,home,88,Substitution
+291,away,91,Yellow Card
+291,home,96,Yellow Card
+291,home,97,Substitution
+292,home,30,Yellow Card
+292,away,42,Yellow Card
+292,home,63,Substitution
+292,home,64,Goal
+292,away,72,Substitution
+292,away,72,Substitution
+292,home,73,Substitution
+292,home,74,Substitution
+292,away,76,Yellow Card
+292,away,79,Substitution
+292,home,85,Substitution
+292,away,87,Goal
+292,home,91,Own Goal
+293,away,39,Yellow Card
+293,home,45,Yellow Card
+293,away,45,Substitution
+293,away,59,Substitution
+293,away,69,Substitution
+293,home,71,Substitution
+293,home,71,Substitution
+293,away,80,Substitution
+293,away,80,Substitution
+293,home,83,Yellow Card
+293,home,86,Substitution
+293,home,87,Substitution
+293,away,96,Goal
+293,home,99,Goal
+293,home,102,Yellow Card
+293,away,102,Yellow Card
+294,away,16,Yellow Card
+294,home,35,Yellow Card
+294,away,40,Second Yellow Card (Red Card)
+294,home,44,label.penalty.scored
+294,away,45,Substitution
+294,home,46,Yellow Card
+294,away,48,Yellow Card
+294,away,45,Substitution
+294,away,47,Goal
+294,home,62,Substitution
+294,away,69,Substitution
+294,away,70,Substitution
+294,home,73,Substitution
+294,home,78,Goal
+294,away,81,Goal
+294,home,87,Substitution
+294,away,92,Yellow Card
+295,away,2,Goal
+295,home,14,Yellow Card
+295,away,20,Yellow Card
+295,home,27,Goal
+295,away,48,Yellow Card
+295,home,50,Yellow Card
+295,home,58,Yellow Card
+295,home,65,Goal
+295,away,70,Substitution
+295,away,71,Yellow Card
+295,home,83,Substitution
+295,away,83,Substitution
+295,away,83,Substitution
+295,home,88,Yellow Card
+295,home,89,Substitution
+295,away,92,Substitution
+295,home,94,Substitution
+295,home,95,Yellow Card
+296,home,27,Substitution
+296,home,61,Substitution
+296,home,61,Substitution
+296,away,66,Substitution
+296,away,66,Substitution
+296,away,67,Yellow Card
+296,away,72,Substitution
+296,away,78,Substitution
+296,away,79,Yellow Card
+297,home,6,label.penalty.scored
+297,home,17,Substitution
+297,away,21,Goal
+297,away,40,Yellow Card
+297,away,54,Goal
+297,away,45,Substitution
+297,away,48,Goal
+297,home,56,Substitution
+297,home,57,Substitution
+297,home,57,Substitution
+297,home,67,Substitution
+297,away,69,Substitution
+297,home,77,label.penalty.scored
+297,home,80,Yellow Card
+297,home,83,Goal
+297,away,84,Substitution
+297,home,90,Goal
+297,home,91,Yellow Card
+297,away,93,Substitution
+297,home,94,Second Yellow Card (Red Card)
+298,away,11,Goal
+298,home,45,Substitution
+298,home,49,Yellow Card
+298,home,60,Substitution
+298,home,61,Goal
+298,away,66,Substitution
+298,away,70,Yellow Card
+298,away,80,Substitution
+298,home,84,Substitution
+298,away,94,Substitution
+299,home,58,Goal
+299,home,61,Yellow Card
+299,away,62,Goal
+299,away,63,Substitution
+299,home,68,Goal
+299,home,70,Goal
+299,away,74,Substitution
+299,home,85,Substitution
+299,home,85,Substitution
+299,away,85,Substitution
+299,away,85,Substitution
+299,away,85,Substitution
+299,away,86,Goal
+299,home,90,Substitution
+299,away,93,Goal
+299,home,99,Yellow Card
+299,home,100,Yellow Card
+299,away,100,Yellow Card
+299,home,102,Yellow Card
+300,away,3,Goal
+300,away,31,Yellow Card
+300,away,36,Yellow Card
+300,home,45,Substitution
+300,away,45,Substitution
+300,away,46,Yellow Card
+300,home,51,Own Goal
+300,away,63,Substitution
+300,home,68,Substitution
+300,home,68,Substitution
+300,away,74,Substitution
+300,away,83,Substitution
+300,home,85,Substitution
+300,home,86,Goal
+300,home,87,Yellow Card
+300,home,88,Substitution
+300,away,90,Yellow Card
+300,home,95,Yellow Card
+300,home,96,Yellow Card
+301,home,24,Goal
+301,home,44,Own Goal
+301,away,53,Substitution
+301,home,66,Yellow Card
+301,home,67,Substitution
+301,home,67,Substitution
+301,home,74,Substitution
+301,away,74,Yellow Card
+301,home,75,Substitution
+301,away,75,Substitution
+301,away,81,Substitution
+301,home,85,Substitution
+302,away,35,Yellow Card
+302,home,45,Substitution
+302,away,59,Yellow Card
+302,home,63,Yellow Card
+302,home,63,Substitution
+302,home,64,Substitution
+302,home,68,Yellow Card
+302,away,70,Substitution
+302,away,70,Substitution
+302,home,79,Goal
+302,away,86,Substitution
+302,home,90,Substitution
+302,home,90,Substitution
+302,home,93,Yellow Card
+303,away,53,Yellow Card
+303,home,64,Substitution
+303,away,64,Substitution
+303,home,73,Substitution
+303,home,73,Substitution
+303,away,73,Substitution
+303,away,74,Substitution
+303,home,76,Yellow Card
+303,home,86,Substitution
+303,away,86,Substitution
+304,home,37,Goal
+304,away,48,Goal
+304,away,54,Yellow Card
+304,away,68,Substitution
+304,home,73,Substitution
+304,away,76,Substitution
+304,away,83,Substitution
+304,home,86,Substitution
+304,away,93,Yellow Card
+305,home,9,Goal
+305,home,19,Goal
+305,away,33,Substitution
+305,away,33,Substitution
+305,away,33,Substitution
+305,home,48,Goal
+305,away,49,Goal
+305,home,63,Yellow Card
+305,home,69,Substitution
+305,away,71,Substitution
+305,away,71,Substitution
+305,home,77,Substitution
+305,home,83,Substitution
+305,home,83,Substitution
+306,away,5,Goal
+306,home,19,Goal
+306,away,44,Yellow Card
+306,home,53,Yellow Card
+306,away,61,Yellow Card
+306,away,70,Substitution
+306,away,70,Substitution
+306,away,74,Yellow Card
+306,away,82,Substitution
+306,away,82,Substitution
+306,away,89,Yellow Card
+306,away,90,Substitution
+307,home,4,Goal
+307,home,19,label.penalty.scored
+307,home,32,Yellow Card
+307,away,34,Goal
+307,home,35,Yellow Card
+307,away,39,Goal
+307,away,45,Substitution
+307,away,66,Substitution
+307,away,66,Substitution
+307,away,67,Goal
+307,home,71,Substitution
+307,home,71,Substitution
+307,home,75,Substitution
+307,home,75,Substitution
+307,away,75,Substitution
+307,away,86,Substitution
+307,home,89,Substitution
+307,home,100,label.penalty.scored
+307,home,101,Goal
+307,home,102,Yellow Card
+307,away,103,Yellow Card
+308,home,17,Goal
+308,away,58,Own Goal
+308,home,60,Substitution
+308,home,60,Substitution
+308,away,62,Substitution
+308,away,63,Substitution
+308,away,63,Substitution
+308,home,72,Substitution
+308,home,73,Substitution
+308,home,76,Goal
+308,away,78,Substitution
+308,away,87,Yellow Card
+308,away,87,Substitution
+308,home,90,Goal
+309,home,11,Goal
+309,away,20,Goal
+309,home,32,Yellow Card
+309,away,38,Yellow Card
+309,home,46,Goal
+309,home,62,Goal
+309,away,63,Substitution
+309,away,63,Substitution
+309,away,64,Substitution
+309,home,69,Goal
+309,away,71,Substitution
+309,home,75,Substitution
+309,home,75,Substitution
+309,away,77,Substitution
+309,home,80,Substitution
+309,home,80,Substitution
+309,away,94,Yellow Card
+310,home,15,Goal
+310,away,60,Substitution
+310,away,61,Substitution
+310,away,61,Substitution
+310,home,71,Substitution
+310,home,79,Substitution
+310,away,81,Yellow Card
+310,away,82,Substitution
+310,away,88,label.penalty.scored
+310,away,90,Substitution
+310,away,98,Yellow Card
+310,away,98,Yellow Card
+311,home,38,Goal
+311,away,42,Yellow Card
+311,home,46,Goal
+311,away,53,Yellow Card
+311,away,59,Goal
+311,away,61,Goal
+311,home,68,Substitution
+311,away,68,Goal
+311,away,76,Substitution
+311,home,80,Goal
+311,away,81,Substitution
+311,away,81,Substitution
+311,home,84,Yellow Card
+311,away,86,Substitution
+311,away,86,Substitution
+311,home,91,Substitution
+311,home,91,Substitution
+311,home,91,Substitution
+311,home,97,Yellow Card
+312,away,33,label.penalty.scored
+312,away,62,Goal
+312,home,63,Substitution
+312,home,63,Substitution
+312,away,64,Substitution
+312,away,64,Substitution
+312,away,72,Substitution
+312,home,76,Yellow Card
+312,home,76,Substitution
+312,away,79,Yellow Card
+312,away,86,Goal
+312,away,89,Substitution
+312,away,89,Substitution
+312,away,95,Yellow Card
+313,home,4,Goal
+313,away,13,Goal
+313,away,47,Yellow Card
+313,away,45,Substitution
+313,away,47,Goal
+313,home,63,Yellow Card
+313,home,64,Substitution
+313,away,66,Goal
+313,away,70,Goal
+313,home,74,Substitution
+313,home,74,Substitution
+313,away,74,Substitution
+313,away,74,Substitution
+313,home,75,Substitution
+313,home,82,Substitution
+313,home,86,Goal
+313,away,93,Substitution
+314,home,34,Yellow Card
+314,home,45,Yellow Card
+314,home,47,Goal
+314,away,61,Substitution
+314,away,67,Red Card
+314,away,69,Substitution
+314,home,83,Substitution
+314,home,84,Substitution
+314,away,84,Substitution
+314,away,84,Substitution
+314,away,84,Substitution
+314,away,90,Yellow Card
+315,away,19,Yellow Card
+315,away,40,Substitution
+315,away,51,Yellow Card
+315,home,65,Substitution
+315,home,65,Substitution
+315,home,65,Substitution
+315,away,65,Substitution
+315,home,68,Yellow Card
+315,away,81,Goal
+315,home,85,Substitution
+315,home,85,Substitution
+315,away,95,Substitution
+315,away,95,Substitution
+316,away,52,Goal
+316,away,58,Substitution
+316,home,62,Substitution
+316,home,62,Substitution
+316,away,68,Substitution
+316,away,68,Substitution
+316,home,73,Goal
+316,home,80,Substitution
+316,away,86,Substitution
+316,away,87,Substitution
+316,home,90,Goal
+317,away,7,Yellow Card
+317,away,23,Goal
+317,home,50,Goal
+317,home,66,Substitution
+317,away,66,Substitution
+317,away,66,Substitution
+317,home,67,Goal
+317,away,69,Substitution
+317,away,69,Substitution
+317,home,74,Yellow Card
+317,home,80,Yellow Card
+317,home,80,Substitution
+317,away,84,label.penalty.scored
+317,home,85,Substitution
+317,away,89,Yellow Card
+317,home,93,Yellow Card
+317,home,94,Yellow Card
+317,home,97,Yellow Card
+318,away,11,Goal
+318,home,32,Goal
+318,away,41,Yellow Card
+318,home,52,Yellow Card
+318,home,58,Yellow Card
+318,away,66,Goal
+318,away,74,Substitution
+318,home,76,Substitution
+318,away,82,Substitution
+318,away,86,Yellow Card
+318,home,87,Substitution
+318,home,89,Yellow Card
+318,home,91,Substitution
+318,home,93,Goal
+318,away,93,Substitution
+318,away,93,Substitution
+318,home,98,Yellow Card
+319,away,14,Yellow Card
+319,home,15,Own Goal
+319,home,25,Yellow Card
+319,away,27,Goal
+319,home,45,Substitution
+319,home,45,Substitution
+319,home,52,Goal
+319,away,56,Yellow Card
+319,home,58,Goal
+319,home,60,Yellow Card
+319,away,68,Substitution
+319,away,68,Substitution
+319,away,71,Yellow Card
+319,home,76,Substitution
+319,home,76,Substitution
+319,away,78,Yellow Card
+319,away,81,Substitution
+319,away,81,Substitution
+319,away,87,Substitution
+319,home,89,Substitution
+320,away,30,Yellow Card
+320,home,33,label.penalty.scored
+320,home,43,Yellow Card
+320,away,45,Substitution
+320,away,45,Substitution
+320,away,54,Substitution
+320,home,55,Substitution
+320,away,73,label.penalty.scored
+320,home,75,Substitution
+320,home,75,Substitution
+320,home,78,Yellow Card
+320,away,84,Goal
+320,home,87,Substitution
+320,home,87,Substitution
+320,home,88,Yellow Card
+320,away,90,Yellow Card
+320,home,102,Yellow Card
+320,home,104,Yellow Card
+321,away,14,Yellow Card
+321,home,36,Yellow Card
+321,home,45,Yellow Card
+321,away,61,Substitution
+321,home,63,Yellow Card
+321,home,67,Substitution
+321,home,67,Substitution
+321,home,79,Substitution
+321,home,79,Substitution
+321,away,79,Substitution
+321,away,84,Goal
+321,home,87,Substitution
+321,away,87,Goal
+322,home,16,Goal
+322,away,31,Goal
+322,home,33,Yellow Card
+322,home,36,Goal
+322,home,39,Substitution
+322,away,45,Substitution
+322,away,65,label.penalty.scored
+322,home,70,Substitution
+322,home,70,Substitution
+322,home,76,Substitution
+322,away,78,Substitution
+322,home,86,Yellow Card
+322,home,86,Yellow Card
+322,home,91,Yellow Card
+323,home,7,Yellow Card
+323,home,41,Yellow Card
+323,away,45,Yellow Card
+323,away,57,Substitution
+323,home,63,Own Goal
+323,away,76,Substitution
+323,home,79,Substitution
+323,home,79,Substitution
+323,home,88,Yellow Card
+323,home,90,Substitution
+323,home,90,Substitution
+323,home,91,Substitution
+323,away,91,Substitution
+323,home,93,Goal
+324,away,13,Substitution
+324,home,28,Yellow Card
+324,home,45,Substitution
+324,home,62,Substitution
+324,home,67,Substitution
+324,home,74,Goal
+324,away,77,Substitution
+324,away,77,Substitution
+324,away,77,Substitution
+324,away,79,Own Goal
+324,home,86,Substitution
+324,away,89,Substitution
+324,away,91,Yellow Card
+324,away,97,Yellow Card
+325,home,13,Goal
+325,home,18,Goal
+325,away,28,Yellow Card
+325,home,29,Goal
+325,away,36,Yellow Card
+325,home,40,Yellow Card
+325,home,44,Goal
+325,away,45,Substitution
+325,away,45,Substitution
+325,away,45,Substitution
+325,away,53,Yellow Card
+325,away,57,Substitution
+325,home,64,label.penalty.scored
+325,away,66,Yellow Card
+325,home,72,Substitution
+325,home,80,Substitution
+325,home,80,Substitution
+325,home,88,Substitution
+325,home,88,Substitution
+325,home,90,Goal
+325,away,92,Substitution
+326,away,14,Goal
+326,home,45,Substitution
+326,home,48,Substitution
+326,home,66,Substitution
+326,home,66,Substitution
+326,away,68,Substitution
+326,home,71,Yellow Card
+326,away,77,Substitution
+326,away,77,Substitution
+326,away,77,Substitution
+326,home,82,Substitution
+326,away,90,Substitution
+326,away,97,Yellow Card
+327,home,2,Own Goal
+327,home,43,Yellow Card
+327,away,59,Substitution
+327,home,64,Goal
+327,home,76,label.penalty.scored
+327,away,77,Substitution
+327,home,81,Substitution
+327,home,81,Substitution
+327,away,81,Goal
+327,home,87,Goal
+327,away,88,Substitution
+327,away,88,Substitution
+327,home,93,Goal
+328,away,27,Yellow Card
+328,home,30,Goal
+328,home,32,Goal
+328,away,47,Yellow Card
+328,away,49,Substitution
+328,home,51,Goal
+328,away,56,Yellow Card
+328,away,57,Substitution
+328,away,57,Substitution
+328,away,58,Substitution
+328,away,61,Yellow Card
+328,home,78,Substitution
+328,away,81,Substitution
+328,home,87,Goal
+328,home,88,Substitution
+328,home,89,Substitution
+328,home,93,Substitution
+328,home,93,Substitution
+329,away,30,Yellow Card
+329,away,40,Goal
+329,home,46,Goal
+329,away,47,Yellow Card
+329,away,52,Yellow Card
+329,home,57,Goal
+329,away,59,Substitution
+329,away,59,Substitution
+329,away,62,Goal
+329,home,66,Substitution
+329,home,71,Substitution
+329,away,76,Substitution
+329,home,77,Yellow Card
+329,away,88,Substitution
+329,away,88,Substitution
+329,home,89,Substitution
+329,home,89,Substitution
+329,home,95,Yellow Card
+330,away,9,Goal
+330,home,60,Substitution
+330,away,61,Yellow Card
+330,home,69,Substitution
+330,home,69,Substitution
+330,away,72,Goal
+330,away,74,Substitution
+330,away,74,Substitution
+330,home,82,Substitution
+330,away,82,Yellow Card
+330,home,91,Substitution
+330,away,92,Substitution
+330,away,92,Substitution
+330,home,97,Yellow Card
+330,away,98,Substitution
+331,away,21,Yellow Card
+331,away,31,label.penalty.scored
+331,away,37,Yellow Card
+331,home,46,Goal
+331,away,45,Substitution
+331,away,55,Yellow Card
+331,home,57,Goal
+331,away,63,Substitution
+331,away,76,Substitution
+331,away,76,Substitution
+331,home,78,Goal
+331,away,82,Substitution
+331,home,87,Yellow Card
+331,home,87,Substitution
+331,home,93,Substitution
+331,home,95,Substitution
+332,home,29,Yellow Card
+332,away,34,Goal
+332,away,42,Substitution
+332,home,45,Substitution
+332,away,64,Goal
+332,away,69,Substitution
+332,away,69,Substitution
+332,home,70,Substitution
+332,home,70,Substitution
+332,away,77,Yellow Card
+332,away,79,Yellow Card
+332,home,81,Yellow Card
+332,home,85,Substitution
+332,home,85,Substitution
+332,away,88,Red Card
+332,away,90,Substitution
+332,home,97,Goal
+332,away,99,Substitution
+332,away,99,Substitution
+333,home,7,Goal
+333,home,16,Goal
+333,home,20,Own Goal
+333,away,27,Yellow Card
+333,home,31,Goal
+333,home,39,Yellow Card
+333,away,40,Goal
+333,home,53,Yellow Card
+333,away,53,Yellow Card
+333,away,45,Substitution
+333,away,45,Substitution
+333,home,61,Substitution
+333,home,64,Goal
+333,home,66,Yellow Card
+333,home,68,Substitution
+333,home,68,Substitution
+333,away,75,Substitution
+333,away,75,Substitution
+333,home,81,Substitution
+333,home,81,Substitution
+333,away,85,Substitution
+333,away,89,Own Goal
+334,home,29,Goal
+334,away,53,Substitution
+334,home,67,Substitution
+334,home,67,Substitution
+334,home,74,Yellow Card
+334,home,76,Goal
+334,home,80,Yellow Card
+334,away,80,Substitution
+334,away,80,Substitution
+334,away,80,Substitution
+334,away,81,Yellow Card
+334,home,82,Yellow Card
+334,home,100,Substitution
+334,away,101,Yellow Card
+334,home,106,Yellow Card
+335,home,30,Yellow Card
+335,away,32,Goal
+335,home,39,Yellow Card
+335,home,47,Goal
+335,away,53,Goal
+335,home,71,Substitution
+335,home,71,Substitution
+335,away,72,Goal
+335,away,74,Substitution
+335,away,74,Substitution
+335,away,74,Substitution
+335,home,79,Yellow Card
+335,away,80,Substitution
+335,home,85,Substitution
+335,away,86,Substitution
+336,away,24,Goal
+336,home,35,Substitution
+336,away,38,Yellow Card
+336,away,46,Goal
+336,home,45,Substitution
+336,away,48,Yellow Card
+336,away,62,Goal
+336,away,64,Goal
+336,home,71,Substitution
+336,home,71,Substitution
+336,away,71,Substitution
+336,away,71,Substitution
+336,away,76,Substitution
+336,home,81,Substitution
+336,away,82,Substitution
+336,away,82,Substitution
+336,away,86,Goal
+336,home,88,Yellow Card
+336,home,92,Goal
+337,home,31,Goal
+337,away,37,Yellow Card
+337,away,49,Goal
+337,home,57,Goal
+337,home,62,Yellow Card
+337,away,62,Substitution
+337,away,62,Substitution
+337,away,63,Substitution
+337,away,68,Yellow Card
+337,away,77,Substitution
+337,away,78,Yellow Card
+337,home,81,Yellow Card
+337,home,82,Substitution
+337,home,83,Substitution
+337,home,83,Substitution
+337,home,84,Goal
+337,home,87,Yellow Card
+337,home,90,Substitution
+337,away,92,Goal
+338,away,38,Goal
+338,away,40,Goal
+338,home,52,Goal
+338,away,58,Goal
+338,away,59,Substitution
+338,home,68,Substitution
+338,away,70,Substitution
+338,away,71,Goal
+338,home,76,Yellow Card
+338,home,78,Substitution
+338,home,78,Substitution
+338,away,84,Substitution
+338,away,85,Substitution
+339,home,36,Yellow Card
+339,away,51,Goal
+339,home,55,Substitution
+339,home,57,Yellow Card
+339,home,63,Yellow Card
+339,away,69,Substitution
+339,away,69,Substitution
+339,away,70,Yellow Card
+339,home,85,Substitution
+339,home,85,Substitution
+339,away,88,Yellow Card
+339,away,91,label.penalty.scored
+339,home,92,Substitution
+339,away,95,Substitution
+339,away,100,Yellow Card
+340,away,29,Yellow Card
+340,home,32,Yellow Card
+340,home,35,Yellow Card
+340,away,35,Yellow Card
+340,away,45,Goal
+340,home,51,Yellow Card
+340,home,51,Substitution
+340,away,72,Substitution
+340,home,75,Substitution
+340,home,75,Substitution
+340,away,80,Substitution
+340,away,95,Goal
+341,home,4,Own Goal
+341,home,27,Substitution
+341,home,42,Goal
+341,home,45,Substitution
+341,home,49,Yellow Card
+341,away,49,Yellow Card
+341,away,62,Goal
+341,home,64,Yellow Card
+341,home,66,Yellow Card
+341,home,75,Substitution
+341,home,75,Substitution
+341,away,81,Goal
+341,away,82,Yellow Card
+341,home,83,Substitution
+341,away,87,Yellow Card
+341,away,90,Substitution
+341,away,90,Substitution
+341,away,100,Yellow Card
+341,away,100,Yellow Card
+342,home,8,Yellow Card
+342,home,13,Goal
+342,away,45,Substitution
+342,home,52,Goal
+342,home,56,Yellow Card
+342,away,58,Yellow Card
+342,away,66,Yellow Card
+342,away,66,Substitution
+342,home,67,Substitution
+342,away,74,Substitution
+342,away,74,Substitution
+342,home,77,Substitution
+342,home,87,Goal
+342,away,88,Substitution
+342,home,91,Substitution
+342,home,92,Substitution
+342,home,97,Substitution Off
+343,away,43,Yellow Card
+343,home,60,Goal
+343,away,67,Substitution
+343,away,68,Substitution
+343,home,74,Yellow Card
+343,away,77,Substitution
+343,away,77,Substitution
+343,home,78,Substitution
+343,away,84,Substitution
+343,away,91,Yellow Card
+343,home,95,Substitution
+344,home,52,Goal
+344,home,68,Substitution
+344,home,69,Substitution
+344,away,69,Substitution
+344,away,76,Substitution
+344,away,83,Yellow Card
+344,home,85,Substitution
+344,home,85,Substitution
+344,home,85,Substitution
+344,away,85,Substitution
+344,away,87,Goal
+344,away,91,Yellow Card
+345,away,42,Yellow Card
+345,home,43,Yellow Card
+345,away,57,Substitution
+345,away,60,Yellow Card
+345,home,65,Substitution
+345,home,65,Substitution
+345,away,72,Substitution
+345,home,79,Goal
+345,home,81,Substitution
+345,away,87,label.penalty.scored
+345,home,92,Substitution
+345,away,92,Yellow Card
+346,away,5,Goal
+346,home,26,Goal
+346,home,45,Substitution
+346,home,54,Goal
+346,home,61,label.penalty.scored
+346,home,65,Own Goal
+346,home,66,Substitution
+346,home,66,Substitution
+346,away,67,Substitution
+346,away,67,Substitution
+346,away,70,Substitution
+346,home,72,Goal
+346,away,79,Substitution
+346,home,82,Substitution
+346,home,82,Substitution
+347,away,32,Goal
+347,home,35,Substitution
+347,away,45,Substitution
+347,away,45,Substitution
+347,away,62,Substitution
+347,away,71,Goal
+347,home,74,Substitution
+347,home,74,Substitution
+347,home,74,Substitution
+347,home,84,Substitution
+347,away,89,Substitution
+347,away,89,Substitution
+348,away,15,Own Goal
+348,away,27,Goal
+348,home,31,Substitution
+348,away,38,Goal
+348,home,45,Substitution
+348,away,63,Substitution
+348,home,64,Goal
+348,home,64,Substitution
+348,home,64,Substitution
+348,home,77,Yellow Card
+348,home,81,Yellow Card
+348,away,83,Yellow Card
+348,home,87,label.penalty.scored
+348,home,87,Substitution
+348,away,89,Substitution
+349,away,30,Yellow Card
+349,home,43,Goal
+349,away,48,Goal
+349,away,65,Own Goal
+349,home,74,Substitution
+349,home,77,Goal
+349,away,78,Substitution
+349,away,79,Substitution
+349,away,79,Substitution
+349,away,91,Substitution
+349,away,95,Yellow Card
+350,home,11,Yellow Card
+350,home,39,Goal
+350,home,50,Goal
+350,away,58,Yellow Card
+350,away,66,Substitution
+350,away,66,Substitution
+350,home,76,Substitution
+350,away,78,Substitution
+350,away,80,Goal
+350,home,81,Yellow Card
+350,home,85,Substitution
+350,away,88,Substitution
+350,home,95,Yellow Card
+351,away,21,Yellow Card
+351,home,45,label.penalty.scored
+351,home,59,Yellow Card
+351,home,60,Yellow Card
+351,home,70,Goal
+351,away,71,Substitution
+351,away,80,Substitution
+351,home,81,Substitution
+351,away,84,Yellow Card
+351,home,86,Substitution
+351,away,89,Substitution
+351,away,89,Substitution
+351,away,95,Yellow Card
+351,home,97,Goal
+352,home,48,Substitution
+352,away,64,Substitution
+352,away,64,Substitution
+352,home,66,Substitution
+352,home,66,Substitution
+352,home,67,Yellow Card
+352,away,75,Substitution
+352,away,75,Substitution
+352,home,82,Substitution
+352,home,82,Substitution
+352,away,89,Yellow Card
+352,away,92,Substitution
+353,away,26,Substitution
+353,home,49,Yellow Card
+353,home,61,Substitution
+353,home,63,Yellow Card
+353,away,73,Substitution
+353,home,87,Goal
+353,home,88,Substitution
+353,home,88,Substitution
+353,away,90,Substitution
+353,away,90,Substitution
+353,home,93,Substitution
+353,away,99,Yellow Card
+354,away,18,Yellow Card
+354,away,19,Goal
+354,away,35,Goal
+354,home,37,Yellow Card
+354,away,40,Goal
+354,home,45,Substitution
+354,home,51,Yellow Card
+354,away,55,Goal
+354,home,62,Substitution
+354,away,69,Substitution
+354,away,69,Substitution
+354,away,72,Yellow Card
+354,away,77,Substitution
+354,away,77,Substitution
+354,home,85,Substitution
+354,home,85,Substitution
+354,away,85,Substitution
+354,home,86,Goal
+355,home,15,Goal
+355,home,30,Goal
+355,away,34,Yellow Card
+355,home,36,Goal
+355,home,38,Yellow Card
+355,away,44,Yellow Card
+355,away,47,Yellow Card
+355,away,45,Substitution
+355,home,48,Goal
+355,away,70,Substitution
+355,away,76,Substitution
+355,home,77,Substitution
+355,home,77,Substitution
+355,home,80,Goal
+355,home,82,Substitution
+355,home,83,Substitution
+355,home,89,Substitution
+356,home,12,Goal
+356,home,40,Goal
+356,home,58,Goal
+356,away,60,Substitution
+356,home,66,Goal
+356,home,68,Substitution
+356,home,68,Substitution
+356,away,69,Yellow Card
+356,home,78,Substitution
+356,away,80,Substitution
+356,away,80,Substitution
+356,home,85,Substitution
+356,home,85,Substitution
+356,home,88,Yellow Card
+357,home,16,Goal
+357,away,44,Yellow Card
+357,home,45,Goal
+357,away,47,Yellow Card
+357,home,50,Goal
+357,away,57,Yellow Card
+357,home,59,Goal
+357,away,61,Substitution
+357,away,61,Substitution
+357,away,61,Substitution
+357,away,63,Yellow Card
+357,home,64,Substitution
+357,home,64,Substitution
+357,away,72,Goal
+357,home,75,Substitution
+357,home,75,Substitution
+357,away,75,Substitution
+357,away,77,Goal
+357,home,83,Substitution
+357,home,92,Yellow Card
+358,away,9,Yellow Card
+358,away,24,label.penalty.scored
+358,home,31,Goal
+358,home,43,Yellow Card
+358,away,53,Yellow Card
+358,away,54,Substitution
+358,away,55,Substitution
+358,away,67,Substitution
+358,home,70,Substitution
+358,home,80,Substitution
+358,away,80,Substitution
+358,away,80,Substitution
+358,home,87,Substitution
+358,away,93,Yellow Card
+359,home,12,label.penalty.scored
+359,home,35,Goal
+359,away,41,Yellow Card
+359,away,47,Yellow Card
+359,home,48,label.penalty.scored
+359,away,45,Substitution
+359,away,53,Goal
+359,home,54,Goal
+359,away,64,Yellow Card
+359,away,66,Yellow Card
+359,home,69,Substitution
+359,away,71,Substitution
+359,away,76,Substitution
+359,home,79,Substitution
+359,home,80,Substitution
+359,home,80,Substitution
+359,home,82,Substitution
+359,home,85,Goal
+359,away,87,Substitution
+360,away,16,Yellow Card
+360,home,17,label.penalty.scored
+360,away,27,Goal
+360,away,51,Goal
+360,away,65,Goal
+360,home,66,Substitution
+360,away,67,Substitution
+360,home,74,Substitution
+360,home,75,Yellow Card
+360,away,83,Substitution
+360,away,90,Substitution
+360,away,90,Substitution
+360,home,96,Second Yellow Card (Red Card)
+361,away,2,Own Goal
+361,home,12,Goal
+361,away,23,Goal
+361,away,38,Yellow Card
+361,away,48,Goal
+361,home,65,Substitution
+361,home,69,Yellow Card
+361,away,75,Substitution
+361,away,75,Substitution
+361,away,75,Substitution
+361,away,76,Substitution
+361,away,76,Substitution
+361,home,79,Substitution
+361,home,80,Substitution
+361,home,85,Goal
+361,home,88,Goal
+362,home,46,Yellow Card
+362,home,56,Yellow Card
+362,away,62,Substitution
+362,away,63,Substitution
+362,away,63,Substitution
+362,home,67,Substitution
+362,home,67,Substitution
+362,away,74,Substitution
+362,home,80,Substitution
+362,home,81,Substitution
+362,away,83,Substitution
+362,away,85,Yellow Card
+362,away,86,Goal
+362,home,89,Goal
+362,away,95,Goal
+362,away,98,Yellow Card
+362,away,101,Substitution Off
+363,home,31,Goal
+363,home,36,Yellow Card
+363,away,36,Yellow Card
+363,away,54,Yellow Card
+363,away,55,Substitution
+363,away,55,Substitution
+363,away,63,Substitution
+363,home,69,Substitution
+363,home,69,Substitution
+363,home,79,Substitution
+363,away,81,Substitution
+363,home,93,Substitution
+364,away,13,Goal
+364,away,22,Substitution
+364,home,45,Substitution
+364,home,45,Substitution
+364,away,59,Goal
+364,home,67,Substitution
+364,away,71,Goal
+364,home,74,Substitution
+364,away,75,Substitution
+364,home,78,Yellow Card
+364,away,82,Substitution
+364,away,82,Substitution
+364,away,82,Substitution
+364,home,90,Yellow Card
+364,home,95,Second Yellow Card (Red Card)
+364,away,96,label.penalty.scored
+365,away,20,Goal
+365,away,66,Substitution
+365,home,70,Substitution
+365,away,71,Yellow Card
+365,home,75,Substitution
+365,away,82,Substitution
+365,home,87,Substitution
+365,home,87,Substitution
+365,home,88,Substitution
+365,away,92,Substitution
+365,away,93,Substitution
+365,away,94,Yellow Card
+366,away,18,Goal
+366,away,40,Substitution
+366,away,49,Yellow Card
+366,home,50,Goal
+366,away,54,Yellow Card
+366,away,67,Substitution
+366,away,67,Substitution
+366,home,68,Substitution
+366,home,68,Substitution
+366,home,68,Substitution
+366,away,77,Yellow Card
+366,home,79,Yellow Card
+366,away,87,Substitution
+366,away,87,Substitution
+366,home,88,Yellow Card
+366,home,92,Substitution
+366,home,93,Yellow Card
+366,away,95,Yellow Card
+367,away,8,Goal
+367,away,15,Yellow Card
+367,home,16,Goal
+367,away,34,Yellow Card
+367,away,58,Substitution
+367,away,58,Substitution
+367,home,72,Substitution
+367,home,72,Substitution
+367,away,73,Substitution
+367,home,74,Goal
+367,home,77,Yellow Card
+367,away,79,Substitution
+367,away,80,Goal
+367,away,82,Goal
+367,away,82,Yellow Card
+367,home,86,Substitution
+367,home,86,Substitution
+367,home,92,Yellow Card
+368,away,11,Yellow Card
+368,away,25,Goal
+368,home,32,Goal
+368,away,46,Yellow Card
+368,home,47,Yellow Card
+368,home,55,Yellow Card
+368,away,65,Yellow Card
+368,away,67,Yellow Card
+368,away,72,Substitution
+368,home,75,Substitution
+368,home,75,Substitution
+368,home,75,Substitution
+368,away,81,Substitution
+368,home,82,Goal
+368,home,87,Yellow Card
+368,away,87,Substitution
+368,home,88,Substitution
+368,home,88,Substitution
+368,away,88,Substitution
+368,away,91,Yellow Card
+369,away,6,Goal
+369,away,10,Yellow Card
+369,away,39,Substitution
+369,home,52,Yellow Card
+369,home,54,Goal
+369,home,65,Goal
+369,away,73,Substitution
+369,home,75,Substitution
+369,home,76,Goal
+369,away,79,Yellow Card
+369,away,83,Yellow Card
+369,home,84,Substitution
+369,home,84,Substitution
+369,away,87,Substitution
+369,away,87,Substitution
+369,home,93,Substitution
+370,away,14,Substitution
+370,away,26,Goal
+370,away,28,Goal
+370,home,40,Yellow Card
+370,away,40,Yellow Card
+370,home,45,Substitution
+370,home,61,Substitution
+370,home,66,Goal
+370,away,69,Substitution
+370,away,70,Substitution
+370,home,71,Yellow Card
+370,away,73,Goal
+370,home,77,Yellow Card
+370,home,79,Substitution
+370,away,82,Yellow Card
+370,away,83,Yellow Card
+370,away,85,Second Yellow Card (Red Card)
+370,away,88,Substitution
+370,away,88,Substitution
+370,home,90,Substitution
+371,home,39,Yellow Card
+371,away,40,Goal
+371,home,43,Goal
+371,away,50,Yellow Card
+371,away,54,Yellow Card
+371,home,59,Substitution
+371,home,68,Yellow Card
+371,home,69,Substitution
+371,home,69,Substitution
+371,home,73,Yellow Card
+371,away,75,Substitution
+371,home,78,Substitution
+371,home,83,Yellow Card
+371,away,83,Yellow Card
+371,home,89,Goal
+371,away,92,Substitution
+372,away,21,Goal
+372,away,28,Yellow Card
+372,away,36,Goal
+372,away,38,Goal
+372,home,44,Yellow Card
+372,home,50,Yellow Card
+372,home,48,Goal
+372,home,51,Yellow Card
+372,away,53,Yellow Card
+372,home,63,Substitution
+372,home,64,Substitution
+372,away,66,Yellow Card
+372,away,68,Substitution
+372,away,68,Substitution
+372,home,70,Goal
+372,home,74,Substitution
+372,home,74,Substitution
+372,away,77,Goal
+372,away,81,Substitution
+372,away,81,Substitution
+372,home,84,Substitution
+372,away,92,Substitution
+372,home,95,Yellow Card
+372,away,95,Yellow Card
+373,away,22,Yellow Card
+373,away,46,Yellow Card
+373,home,56,Substitution
+373,away,59,Substitution
+373,away,60,Substitution
+373,away,69,Substitution
+373,away,73,Goal
+373,away,75,Substitution
+373,away,75,Substitution
+373,home,81,Substitution
+373,home,81,Substitution
+373,home,81,Substitution
+373,home,87,Yellow Card
+373,away,88,Goal
+373,away,94,Yellow Card
+374,away,2,Goal
+374,away,14,Goal
+374,home,45,Substitution
+374,home,45,Substitution
+374,away,58,Substitution
+374,home,65,Yellow Card
+374,home,72,Goal
+374,home,74,Substitution
+374,home,75,Substitution
+374,away,79,Substitution
+374,away,80,Substitution
+374,home,83,Substitution
+374,away,88,Substitution
+374,away,88,Substitution
+375,home,17,Goal
+375,home,27,Yellow Card
+375,away,27,Yellow Card
+375,away,30,Yellow Card
+375,home,48,Goal
+375,away,49,Own Goal
+375,away,59,Substitution
+375,away,60,Substitution
+375,home,64,Substitution
+375,home,64,Substitution
+375,home,64,Substitution
+375,away,69,Substitution
+375,away,70,Substitution
+375,home,78,Yellow Card
+375,away,80,Yellow Card
+375,away,84,Substitution
+375,home,89,Substitution
+376,home,9,Goal
+376,away,18,Yellow Card
+376,home,24,Yellow Card
+376,home,39,Goal
+376,home,54,Goal
+376,away,58,Yellow Card
+376,home,63,Goal
+376,away,68,Substitution
+376,away,68,Substitution
+376,home,69,Goal
+376,away,73,Yellow Card
+376,home,76,Substitution
+376,home,76,Substitution
+376,home,87,Substitution
+376,away,87,Substitution
+376,away,87,Substitution
+376,home,88,Substitution
+376,home,88,Substitution
+376,away,92,Yellow Card
+377,away,28,Red Card
+377,home,34,Goal
+377,home,40,Goal
+377,away,46,Yellow Card
+377,home,60,Yellow Card
+377,away,62,Substitution
+377,away,63,Substitution
+377,home,70,Substitution
+377,home,70,Substitution
+377,home,71,Substitution
+377,away,78,Substitution
+377,away,78,Substitution
+377,home,81,Substitution
+377,home,81,Substitution
+377,away,84,Substitution
+378,home,17,Substitution
+378,away,22,Yellow Card
+378,home,34,Yellow Card
+378,away,43,Goal
+378,home,46,label.penalty.scored
+378,away,48,Goal
+378,home,48,Yellow Card
+378,away,49,Goal
+378,away,54,Yellow Card
+378,home,55,Goal
+378,home,59,Yellow Card
+378,away,69,Goal
+378,home,70,Substitution
+378,home,73,Yellow Card
+378,away,73,Yellow Card
+378,home,75,Yellow Card
+378,away,75,Substitution
+378,home,76,Substitution
+378,home,76,Substitution
+378,home,76,Substitution
+378,away,78,Substitution
+378,away,79,Substitution
+378,away,88,Yellow Card
+378,away,91,Substitution
+378,away,91,Substitution
+379,home,2,Goal
+379,home,18,Goal
+379,away,42,Goal
+379,home,59,Goal
+379,home,71,Substitution
+379,away,71,Substitution
+379,away,76,Yellow Card
+379,away,81,Substitution
+379,away,86,Substitution
+379,home,91,Substitution
+380,home,5,Substitution
+380,away,14,Goal
+380,home,37,Yellow Card
+380,away,59,Goal
+380,home,62,Substitution
+380,home,62,Substitution
+380,away,65,Goal
+380,away,66,Substitution
+380,home,69,Substitution
+380,home,70,Substitution
+380,away,76,Substitution
+380,away,76,Substitution
+380,away,88,Substitution
+380,away,88,Substitution
+380,home,93,Yellow Card
