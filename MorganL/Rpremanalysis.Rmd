@@ -1,3 +1,9 @@
+---
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
 The author doesn't explicitly state a research question but based on his datasets and wrangling, sequence of analyses and confidence intervals generated, he seems to be answering: why were more goals scored in the 2023–24 Premier League season, and was the increase associated with longer added time and more goals being scored after 90 minutes?
 
 I perform the same data wrangling and analyses as well as extending the investigation to see if any other match characteristics can be associated with the change, and how might a changing scoring environment affect bookmaker goal-market probabilities and predictions for future seasons?
@@ -6,13 +12,18 @@ This will be especially relevant to markets such as over/under 2.5 goals and bot
 
 ```{r}
 library(tidyverse)
+library(BSDA)
 library(dplyr)
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE
+)
 ```
 
 ```{r}
-MatchData_2021_22 <- read_csv("~/Data Science Toolbox/21-22.csv")
-MatchData_2022_23 <- read_csv("~/Data Science Toolbox/22-23.csv")
-MatchData_2023_24 <- read_csv("~/Data Science Toolbox/23-24.csv")
+MatchData_2021_22 <- read_csv("~/Data Science Toolbox/21-22.csv", show_col_types = FALSE)
+MatchData_2022_23 <- read_csv("~/Data Science Toolbox/22-23.csv", show_col_types = FALSE)
+MatchData_2023_24 <- read_csv("~/Data Science Toolbox/23-24.csv", show_col_types = FALSE)
 ```
 
 ```{r}
@@ -285,7 +296,7 @@ goals_after_90_per_match <- combined_matchevents %>%
   group_by(Season, Match_Id) %>%
   summarise(goals_after_90 = n())
 
-goals_after_90
+#goals_after_90
 head(goals_after_90_per_match)
 ```
 ```{r}
@@ -307,7 +318,7 @@ ggplot(
   theme_minimal()
 ```
 
-not a meanignful plot so we create a bar graph instead
+This boxplot is not particularly informative because most matches containing a post-90 goal record only one such goal. A more useful comparison is therefore the percentage of matches in each season containing at least one goal after the 90th minute.
 ```{r}
 late_goal_percentage <- combined_matchevents %>%
   filter(
@@ -712,7 +723,7 @@ Mean_of_goals_2021_2022
 Std_of_goals_2021_2022
 ```
 
-95% CI
+A 95% confidence interval is calculated for the mean number of goals per match across the 2021–22 and 2022–23 seasons.
 ```{r}
 CI_of_21_23 <- t.test(
   combined_summary_2122$goal_count,
@@ -732,7 +743,7 @@ Mean_of_goals_2023_24 <- mean(
 
 Mean_of_goals_2023_24
 ```
-above CI
+The 2023–24 mean of 3.28 goals per match lies above this confidence interval, indicating that the season had a substantially higher average scoring rate than the previous two seasons.
 
 ```{r}
 late_goals_21_23 <- summary_count_90_complete %>%
@@ -754,10 +765,6 @@ sd(late_goals_23_24$goal_count)
 
 
 
-```{r}
-install.packages("BSDA")
-library(BSDA)
-```
 
 ```{r}
 X_value_goals_after_90_23 <- late_goals_23_24$goal_count
@@ -775,8 +782,7 @@ z.test(
   alternative = "greater"
 )
 ```
-since variance isn't known a better test than z-test is Welch's two-sample t-test
-
+The original analysis uses a two-sample z-test with standard deviations estimated from the sample data. Since the population variances are unknown, Welch’s two-sample t-test is more appropriate.
 ```{r}
 t.test(
   X_value_goals_after_90_23,
@@ -784,9 +790,9 @@ t.test(
   alternative = "greater"
 )
 ```
-so we reproduced his result but with a more appropriate test!
+The conclusion is unchanged: the mean number of post-90 goals per match in 2023–24 is significantly higher than across the previous two seasons. The Welch test therefore reproduces the original conclusion using a more appropriate inferential method.
 
-pooled mean and sd for cards 21/22 and 22/23
+Summary statistics for cards across 21/22 and 22/23
 ```{r}
 cards_21_23 <- summary_by_match %>%
   filter(Season %in% c("2021-22", "2022-23"))
@@ -826,7 +832,7 @@ mean(subs_22_23$substitution_count)
 sd(subs_22_23$substitution_count)
 ```
 
-CI
+A 95% confidence interval is calculated for the 2022–23 substitution rate.
 ```{r}
 t.test(
   subs_22_23$substitution_count,
@@ -834,7 +840,7 @@ t.test(
 )
 ```
 
-mean and SD of post-90 substitutions for 22/23 and 23/24
+Mean and standard deviation of post-90 substitutions for 22/23 and 23/24
 ```{r}
 subs_90_23_24 <- summary_count_90_complete %>%
   filter(Season == "2023-24")
@@ -859,7 +865,7 @@ t.test(
 )
 ```
 
-further plots: all three season late goal distribution
+To compare the timing of late goals across all three seasons, the post-90 goal distributions are plotted together and separately by season.
 ```{r}
 goals_after_90_all <- combined_matchevents %>%
   filter(
@@ -920,19 +926,31 @@ ggplot(
 ```
 
 ```{r}
+# Count goals scored after 90 minutes by season
+goals_after_90_summary <- combined_matchevents %>%
+  filter(
+    Event_Minute > 90,
+    Event_Type %in% c("Goal", "Own Goal", "label.penalty.scored")
+  ) %>%
+  count(Season, name = "goals_after_90") %>%
+  rename(season = Season)
+
+# Calculate goals per 100 minutes of second-half added time
 late_goal_rate <- combined_matchdata %>%
   group_by(season) %>%
   summarise(
-    total_added_minutes = sum(`90+`)
+    total_added_minutes = sum(`90+`),
+    .groups = "drop"
   ) %>%
   left_join(
-    goals_after_90 %>%
-      rename(season = Season),
+    goals_after_90_summary,
     by = "season"
   ) %>%
   mutate(
-    goals_per_added_minute = goals_after_90 / total_added_minutes,
-    goals_per_100_added_minutes = 100 * goals_per_added_minute
+    goals_per_added_minute =
+      goals_after_90 / total_added_minutes,
+    goals_per_100_added_minutes =
+      100 * goals_per_added_minute
   )
 
 late_goal_rate
@@ -962,107 +980,8 @@ ggplot(
   theme_minimal()
 ```
 
-correlation heatmap
-```{r}
-correlation_data <- combined_matchdata %>%
-  select(
-    Match_Id,
-    season,
-    total_goals,
-    `45+`,
-    `90+`
-  ) %>%
-  left_join(
-    summary_table_count %>%
-      ungroup() %>%
-      select(
-        Match_Id,
-        Season,
-        yellow_card_count,
-        red_card_count,
-        substitution_count
-      ),
-    by = c(
-      "Match_Id" = "Match_Id",
-      "season" = "Season"
-    )
-  ) %>%
-  left_join(
-    summary_count_90_complete %>%
-      select(
-        Match_Id,
-        Season,
-        goal_count,
-        yellow_card_count,
-        red_card_count,
-        substitution_count
-      ) %>%
-      rename(
-        goals_after_90 = goal_count,
-        yellow_cards_after_90 = yellow_card_count,
-        red_cards_after_90 = red_card_count,
-        subs_after_90 = substitution_count
-      ),
-    by = c(
-      "Match_Id" = "Match_Id",
-      "season" = "Season"
-    )
-  )
-```
 
-lots of discretevariables so spearman correlation not pearson
-```{r}
-cor_matrix <- correlation_data %>%
-  select(
-    total_goals,
-    `45+`,
-    `90+`,
-    yellow_card_count,
-    red_card_count,
-    substitution_count,
-    goals_after_90,
-    yellow_cards_after_90,
-    red_cards_after_90,
-    subs_after_90
-  ) %>%
-  cor(
-    use = "complete.obs",
-    method = "spearman"
-  )
-
-round(cor_matrix, 2)
-```
-The correlation analysis found only weak-to-moderate relationships between added time, cards, substitutions and scoring, suggesting that the rise in goals in 23/24 cannot be attributed to one simple match-level factor
-
-```{r}
-ggplot(
-  correlation_data,
-  aes(
-    x = `90+`,
-    y = goals_after_90,
-    colour = season
-  )
-) +
-  geom_jitter(
-    width = 0.15,
-    height = 0.05,
-    alpha = 0.5
-  ) +
-  scale_colour_manual(values = c(
-    "2021-22" = "blue",
-    "2022-23" = "green",
-    "2023-24" = "red"
-  )) +
-  labs(
-    title = "Second-Half Added Time and Post-90 Goals",
-    x = "Second-Half Added Time (Minutes)",
-    y = "Goals After 90 Minutes",
-    colour = "Season"
-  ) +
-  theme_minimal()
-```
-
-relating back to the bookmaker question: proportion of matches going Over 2.5 goals in each season
+To relate the scoring changes to betting markets, I first calculate the proportion of matches finishing with more than 2.5 total goals in each season.
 ```{r}
 over_25_summary <- combined_matchdata %>%
   group_by(season) %>%
@@ -1094,7 +1013,7 @@ ggplot(
   theme_minimal()
 ```
 
-both teams to score
+I also calculate the proportion of matches in which both teams scored (BTTS).
 ```{r}
 btts_summary <- combined_matchdata %>%
   group_by(season) %>%
@@ -1128,8 +1047,7 @@ ggplot(
   ) +
   theme_minimal()
 ```
-We note that both teams to score rose in line with ovreall scoring increase, suggesting that the change wasn't just caused by one-sided high-scoring matches
-From a betting perspective, this is a clear increase in frequency of the BTTS outcome and would be relevant when estimating BTTS market for future seasons
+The proportion of matches in which both teams scored also increased substantially in 2023–24. This suggests that the rise in total scoring was not limited to a small number of one-sided, high-scoring matches. From a betting perspective, the increase in BTTS frequency is relevant when estimating probabilities for this market in later seasons.
 
 ```{r}
 betting_summary <- combined_matchdata %>%
@@ -1181,11 +1099,11 @@ betting_summary_long <- betting_summary_long %>%
 ```
 
 
-The longer match durations observed in 2023–24 appear to have contributed to the rise in scoring, post-90 goals became substantially more common, both in total and across individual matches. However, longer added time cannot fully explain the higher-scoring season: only around one-third of the increase in goals from 2022–23 to 2023–24 occurred after the 90th minute. The simultaneous rise in Over 2.5 and BTTS outcomes therefore suggests a broader change in the scoring environment, rather than an effect driven solely by longer matches.
+The longer match durations observed in 2023–24 appear to have contributed to the rise in scoring, post-90 goals became substantially more common, both in total and across individual matches. However, longer added time cannot fully explain the higher-scoring season: only around one-third of the increase in goals from 2022–23 to 2023–24 occurred after the 90th minute. The simultaneous rise in Over 2.5 and BTTS outcomes therefore suggests a broader change in the scoring environment, rather than an effect explained solely by additional stoppage time.
 
 From a betting perspective, such a change would be relevant to markets including Over 2.5 Goals and Both Teams to Score. Predictive models or bookmaker probabilities based primarily on older seasons may underestimate these outcomes if changes in the underlying scoring environment persist. However, with only three seasons of event-level data, the analysis identifies an important shift rather than establishing that the change will continue into future seasons.
 
-extending to future seasons
+Extension to 24/25 and 25/26 with consistent datasets
 ```{r}
 raw_2021_22 <- read_csv("2122.csv")
 raw_2022_23 <- read_csv("2223.csv")
@@ -1194,7 +1112,7 @@ raw_2024_25 <- read_csv("2425.csv")
 raw_2025_26 <- read_csv("2526.csv")
 ```
 
-reading betting odds from raw football-data.com sheets
+The Football-Data match files are used to extract match results and Bet365 Over/Under 2.5 goal odds consistently across all five seasons.
 ```{r}
 odds2024_25 <- raw_2024_25 %>%
   transmute(
@@ -1377,7 +1295,7 @@ The Premier League supply their own match length data:
 
 ref: https://www.premierleague.com/en/news/4271974? https://www.premierleague.com/en/news/4580269/why-more-late-goals-are-being-scored-in-2025-26-premier-league-season?
 
-this tells us that matches didn't keep getting longer, 23/24 was unusually long, which is consistent with the goals scored stats pattern we have found (over 2.5 goals being highest in this season as well). This is consistent with the hypothesis that longer matches explain general rise in scoring, but this is still only an association, and in 25/26 we see match length increase from the drop in the previous season, but a drop in percentage of matches with over 2.5 goals. We can say that there is some evidence in favour of the original hypothesis being investigated, longer matches contributed to the exceptional number of late goals in 23/24. Unfortunately due to the event data the original author used not being readily available for 24/25 and 25/26 seasons, we could not extend the analyses further.
+This tells us that matches didn't keep getting longer, 23/24 was unusually long, which is consistent with the goals scored stats pattern we have found (over 2.5 goals being highest in this season as well). This is consistent with the hypothesis that longer matches explain general rise in scoring, but this is still only an association, and in 25/26 we see match length increase from the drop in the previous season, but a drop in percentage of matches with over 2.5 goals. We can say that there is some evidence in favour of the original hypothesis being investigated, longer matches contributed to the exceptional number of late goals in 23/24. Unfortunately due to the event data the original author used not being readily available for 24/25 and 25/26 seasons, we could not extend the analyses further.
 
 It is worth stating that the datasets used were suitable for the investigation into correlation between post90 goals and increased stoppage time, although it is unclear where the datasets came from, and extensions into later seasons would have been helpful.
 
