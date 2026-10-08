@@ -16,7 +16,7 @@ The final model was a conditional logit with race fixed effects. Each race has e
 
 $$P(i \text{ wins race } r) = \frac{\exp(x_{ir}^\top \beta)}{\sum_{j \in r}\exp(x_{jr}^\top \beta)}.$$
 
-Any race-level term added to every driver's score cancels in the ratio. That is why this model absorbs race effects without estimating a parameter per race. Each $\exp(\beta_k)$ is an odds ratio for beating the others in the same race (McFadden, 1974). I consulted Claude Opus 5.5 when choosing this model, then ran and adapted the notebook myself. The adaptations were mainly to cope with rate limits and the data scope.
+Any race-level term added to every driver's score cancels in the ratio. That is why this model absorbs race effects without estimating a parameter per race. Each $\exp(\beta_k)$ is an odds ratio for beating the others in the same race (McFadden, 1974).
 
 **Weaknesses.** The model has no driver or car effect, and car performance is the obvious unmeasured confounder. Grid position partly proxies it, so the grid coefficient is not a causal effect. Wins are rare events, so power is low. Teams must use at least two dry compounds in a race, which constrains the strategy variables. My executed output also covered 38 races rather than the 22 of 2022, because an old multi-season CSV was still in my data folder. I found this after running the analysis and should have checked the data scope before interpreting anything. Next time I would validate the data size and date range first, and add driver and constructor effects or use finishing position rather than just wins.
 
