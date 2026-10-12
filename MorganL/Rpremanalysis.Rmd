@@ -21,19 +21,19 @@ knitr::opts_chunk$set(
 ```
 
 ```{r}
-MatchData_2021_22 <- read_csv("~/Data Science Toolbox/21-22.csv", show_col_types = FALSE)
-MatchData_2022_23 <- read_csv("~/Data Science Toolbox/22-23.csv", show_col_types = FALSE)
-MatchData_2023_24 <- read_csv("~/Data Science Toolbox/23-24.csv", show_col_types = FALSE)
+MatchData_2021_22 <- read_csv("21-22.csv", show_col_types = FALSE)
+MatchData_2022_23 <- read_csv("22-23.csv", show_col_types = FALSE)
+MatchData_2023_24 <- read_csv("23-24.csv", show_col_types = FALSE)
 ```
 
 ```{r}
-MatchEvents_2021 <- read_csv("~/Data Science Toolbox/2021-22_match id home away and event type.csv") %>%
+MatchEvents_2021 <- read_csv("2021-22_match id home away and event type.csv") %>%
   mutate(Season = "2021-22")
 
-MatchEvents_2022 <- read_csv("~/Data Science Toolbox/2022-23_match id home away and event type.csv") %>%
+MatchEvents_2022 <- read_csv("2022-23_match id home away and event type.csv") %>%
   mutate(Season = "2022-23")
 
-MatchEvents_2023 <- read_csv("~/Data Science Toolbox/2023-24_match id home away and event type.csv") %>%
+MatchEvents_2023 <- read_csv("2023-24_match id home away and event type.csv") %>%
   mutate(Season = "2023-24")
 
 ```
